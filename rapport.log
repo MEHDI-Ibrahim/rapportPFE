@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.13)  3 JUN 2023 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.13)  3 JUN 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,26 +652,26 @@ File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
 ) (rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Info: Redefining \degres on input line 65.
-LaTeX Info: Redefining \up on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Info: Redefining \degres on input line 55.
+LaTeX Info: Redefining \up on input line 55.
 
 (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -715,7 +715,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 55.
 
 (rapport.out) (rapport.out)
 \@outlinefile=\write9
@@ -756,14 +756,14 @@ Package hyperref Info: Link coloring ON on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logos/ump.png, id=103, 752.8125pt x 749.80125pt>
+<logos/ump.png, id=75, 752.8125pt x 749.80125pt>
 File: logos/ump.png Graphic file (type png)
 <use logos/ump.png>
-Package pdftex.def Info: logos/ump.png  used on input line 74.
+Package pdftex.def Info: logos/ump.png  used on input line 62.
 (pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
 File: logos/ump.png Graphic file (type png)
 <use logos/ump.png>
-Package pdftex.def Info: logos/ump.png  used on input line 76.
+Package pdftex.def Info: logos/ump.png  used on input line 64.
 (pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
 [1
 
@@ -775,14 +775,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137    \end {abstract}
-                         [1]
+l.119 \end{abstract}
+                     [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143     \end {abstract}
-                          [1] (rapport.toc)
+l.125 \end{abstract}
+                     [1] (rapport.toc)
 \tf@toc=\write10
 \openout10 = `rapport.toc'.
 
@@ -791,7 +791,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.157 \newpage
+l.135 \newpage
                [2
 
 ] (rapport.lof)
@@ -803,7 +803,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165 \newpage
+l.143 \newpage
                [3
 
 ] (rapport.lot)
@@ -814,127 +814,63 @@ l.165 \newpage
 No file rapport.acr.
 [4
 
-]
-
-LaTeX Warning: Citation `mitchell1997machine' on page 5 undefined on input line
- 225.
-
-[5
+] [5
 
 ]
 Chapitre 1.
 [6
 
 ]
-
-LaTeX Warning: Citation `lecun2015deep' on page 7 undefined on input line 313.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[8]
 Chapitre 2.
-[9
+[7
 
 ]
-<logos/cisco.png, id=204, 1204.5pt x 635.37375pt>
-File: logos/cisco.png Graphic file (type png)
-<use logos/cisco.png>
-Package pdftex.def Info: logos/cisco.png  used on input line 381.
-(pdftex.def)             Requested size: 240.89574pt x 127.0725pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[10 <./logos/cisco.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[11]
 Chapitre 3.
-[12
+[8
 
 ]
 Chapitre 4.
 No file rapport.gls.
 No file rapport.bbl.
-[13
+[9
 
-] [14
+] [10
 
 ]
 Annexe A.
-[15
+[11
 
 ]
 Annexe B.
 No file rapport.ind.
-[16
+[12
 
 ] (rapport.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: AB681457955E24B69037895E1BEB5AC6;4978.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 391 ({)
-### simple group (level 1) entered at line 388 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: DB049C3ADAAEA92EDAAE05F4B8B8BD9D;3159.
+ ) 
 Here is how much of TeX's memory you used:
- 20431 strings out of 475389
- 355945 string characters out of 2776999
- 748573 words of memory out of 3000000
- 41423 multiletter control sequences out of 15000+600000
- 485611 words of font info for 57 fonts, out of 8000000 for 9000
+ 20363 strings out of 475389
+ 355057 string characters out of 2776999
+ 745482 words of memory out of 3000000
+ 41379 multiletter control sequences out of 15000+600000
+ 481003 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,12n,91p,2259b,629s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm1000.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecrm0800.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecsl0600.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\Ibra_\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Ibra_\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ibra_\AppD
-ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ibra
-_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\User
-s\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C
-:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.
-pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
-x1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecbx1728.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecrm1728.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecrm2074.pk>
-Output written on rapport.pdf (20 pages, 359679 bytes).
+ 91i,5n,91p,2259b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+2488.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1200.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecti1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Ibra_\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Ibra_\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Ibra_\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on rapport.pdf (16 pages, 260457 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
