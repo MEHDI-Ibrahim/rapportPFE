@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.13)  3 JUN 2023 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.13)  3 JUN 2023 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,19 +817,19 @@ No file rapport.acr.
 ] [5
 
 ]
-Chapitre 1.
+Chapter 1.
 [6
 
 ]
-Chapitre 2.
+Chapter 2.
 [7
 
 ]
-Chapitre 3.
+Chapter 3.
 [8
 
 ]
-Chapitre 4.
+Chapter 4.
 No file rapport.gls.
 No file rapport.bbl.
 [9
@@ -837,11 +837,11 @@ No file rapport.bbl.
 ] [10
 
 ]
-Annexe A.
+Appendix A.
 [11
 
 ]
-Annexe B.
+Appendix B.
 No file rapport.ind.
 [12
 
@@ -868,9 +868,9 @@ ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Ibra_\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Ibra_\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Ibra_\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on rapport.pdf (16 pages, 261296 bytes).
+Output written on rapport.pdf (16 pages, 260486 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
+ 462 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
