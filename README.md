@@ -12,27 +12,25 @@ The structure of the report is as follows:
 ## Introduction
 
 - Presentation of the host company
+- Organizational framework
 - Internship objectives
-- Report context
-- Context and organizational framework
 
 ## Description of the company
 
-- Organizational structure
 - Business field
-- Methodology
+- Methodology (soft)
 
 ## Description of the methods and tools used during the internship
 
 - Explanation of the approach adopted to achieve the objectives
 - Activities carried out
 
-## Presentation of tasks and projects you participated in
+## Presentation of tasks and projects
 
 - Details of responsibilities and tasks accomplished
-- Results and achievements
+- Results and achievements 
 
-## Presentation of results obtained through your contributions
+## Presentation of results obtained 
 
 - Significant accomplishments during the internship
 - Learnings and acquired skills

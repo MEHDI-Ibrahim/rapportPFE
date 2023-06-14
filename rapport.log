@@ -1,15 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.13)  3 JUN 2023 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.7)  13 JUN 2023 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./rapport.tex
 (rapport.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-08-30>
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-15>
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.c
+ls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.c
+lo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -20,29 +23,33 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count191
 \c@figure=\count192
 \c@table=\count193
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/08/29 3.79 The Babel package
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel
+.sty
+Package: babel 2023/05/11 v3.89 The Babel package
 \babel@savecnt=\count194
-\U@D=\dimen139
+\U@D=\dimen141
 \l@unhyphenated=\language79
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtba
+bel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts
+.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/babel-english
+\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -51,8 +58,8 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
-df
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel-frenc
+h\french.ldf
 Language: french 2023/03/08 v3.5q French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language22). Reported on input line 91.
@@ -65,79 +72,89 @@ Package babel Info: Making ! an active character on input line 397.
 Package babel Info: Making ? an active character on input line 398.
 \FBguill@level=\count197
 \FBold@everypar=\toks16
-\FB@Mht=\dimen140
+\FB@Mht=\dimen142
 \mc@charclass=\count198
 \mc@charfam=\count199
 \mc@charslot=\count266
 \std@mcc=\count267
 \dec@mcc=\count268
-\FB@parskip=\dimen141
-\listindentFB=\dimen142
-\descindentFB=\dimen143
-\labelindentFB=\dimen144
-\labelwidthFB=\dimen145
-\leftmarginFB=\dimen146
-\parindentFFN=\dimen147
-\FBfnindent=\dimen148
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
 ))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
--french.tex
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel/local
+e/fr\babel-french.tex
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel/local
+e/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scal
+efnt.sty)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
+al.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc
+.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.
+sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fanc
+yhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip49
-\f@nch@O@elh=\skip50
-\f@nch@O@erh=\skip51
-\f@nch@O@olh=\skip52
-\f@nch@O@orh=\skip53
-\f@nch@O@elf=\skip54
-\f@nch@O@erf=\skip55
-\f@nch@O@olf=\skip56
-\f@nch@O@orf=\skip57
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig
+.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\
+pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/changebar\changebar.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/changebar\cha
+ngebar.sty
 Package: changebar 2022-05-06 v3.6d Indicate changes with marginal bars
 \cb@nextpoint=\count269
 \cb@topleft=\count270
@@ -146,55 +163,60 @@ Package: changebar 2022-05-06 v3.6d Indicate changes with marginal bars
 \cb@botright=\count273
 \cb@cnta=\count274
 \cb@cntb=\count275
-\cb@dima=\dimen151
-\cb@curbarwd=\dimen152
+\cb@dima=\dimen153
+\cb@curbarwd=\dimen154
 \cb@page=\count276
 \cb@pagecount=\count277
-\cb@odd@left=\dimen153
-\cb@odd@right=\dimen154
-\cb@even@left=\dimen155
-\cb@even@right=\dimen156
+\cb@odd@left=\dimen155
+\cb@odd@right=\dimen156
+\cb@even@left=\dimen157
+\cb@even@right=\dimen158
 \cb@writexy=\write3
 \cb@readxy=\read3
 \openout3 = `rapport.cb2'.
 
-\changebarwidth=\skip58
-\deletebarwidth=\skip59
-\changebarsep=\skip60
+\changebarwidth=\skip59
+\deletebarwidth=\skip60
+\changebarsep=\skip61
 \c@changebargrey=\count278
 \cb@write=\write4
 \cb@read=\read4
 \openout4 = `rapport.cb'.
 
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/caption\capti
+on.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen157
-\captionmargin=\dimen158
-\caption@leftmargin=\dimen159
-\caption@rightmargin=\dimen160
-\caption@width=\dimen161
-\caption@indent=\dimen162
-\caption@parindent=\dimen163
-\caption@hangindent=\dimen164
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/caption\capti
+on3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
 \c@caption@flags=\count279
 \c@continuedfloat=\count280
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor
+.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
-ltx)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\math
+color.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -204,495 +226,632 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multico
+l.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count281
+\mult@box=\box51
+\multicol@leftmargin=\dimen167
+\c@unbalance=\count282
+\c@collectmore=\count283
+\doublecol@number=\count284
+\multicoltolerance=\count285
+\multicolpretolerance=\count286
+\full@width=\dimen168
+\page@free=\dimen169
+\premulticols=\dimen170
+\postmulticols=\dimen171
+\multicolsep=\skip62
+\multicolbaselineskip=\skip63
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen172
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count287
+\c@columnbadness=\count288
+\c@finalcolumnbadness=\count289
+\last@try=\dimen173
+\multicolovershoot=\dimen174
+\multicolundershoot=\dimen175
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count290
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enum
+item.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen176
+\enit@toks=\toks20
+\enit@inbox=\box96
+\enit@count@id=\count291
+\enitdp@description=\count292
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.
+sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hype
+rref.sty
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltx
+cmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex
+.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\
+pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\i
+nfwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvs
+etkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekey
+s\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\p
+dfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycol
+or.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
-.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\l
+etltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxho
+ok.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\name
+ref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refc
+ount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestr
+ing\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvo
+ptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count281
+\c@section@level=\count293
 )
-\@linkdim=\dimen165
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
- (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoo
+lbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count294
+)
+\@linkdim=\dimen177
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1e
+nc.def
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\int
+calc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count284
- (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count297
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puen
+c.def
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count285
+Package hyperref Info: Bookmarks ON on input line 4449.
+\c@Hy@tempcnt=\count298
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen178
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen166
-
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bits
+et.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\
+bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
-\Field@Width=\dimen167
-\Fld@charsize=\dimen168
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring ON on input line 6042.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Fld@menulength=\count299
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring ON on input line 6084.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi
+-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count300
+\c@Item=\count301
+\c@Hfootnote=\count302
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdf
+tex.def
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryen
+d-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
+\Fld@listcount=\count303
+\c@bookmark@seq@number=\count304
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilechec
+k\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecount
+er\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip65
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
-ies.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/ba
+se\glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
- (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.s
+ty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyv
+al.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks20
-\XKV@tempa@toks=\toks21
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xke
+yval.tex
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkv
+utils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
-\XKV@depth=\count292
+\XKV@depth=\count305
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfir
+stuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count293
+\@glsmfirst=\toks23
+\@glsmrest=\toks24
 )
-\@glsmfirst=\toks22
-\@glsmrest=\toks23
-) (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
-sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\data
+tool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
- (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsma
+th.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip62
+\@mathmargin=\skip66
+
 For additional information on amsmath, use the `?' option.
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amste
+xt.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsge
+n.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen169
+\@emptytoks=\toks25
+\ex@=\dimen181
 ))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbs
+y.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen170
+\pmbraise@=\dimen182
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsop
+n.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count294
+\inf@bad=\count306
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count295
-\leftroot@=\count296
+\uproot@=\count307
+\leftroot@=\count308
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count297
-\DOTSCASE@=\count298
+\classnum@=\count309
+\DOTSCASE@=\count310
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box97
+\strutbox@=\box98
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen171
+\big@size=\dimen183
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count299
+\macc@depth=\count311
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count300
+\c@MaxMatrixCols=\count312
 \dotsspace@=\muskip17
-\c@parentequation=\count301
-\dspbrk@lvl=\count302
-\tag@help=\toks25
-\row@=\count303
-\column@=\count304
-\maxfields@=\count305
-\andhelp@=\toks26
-\eqnshift@=\dimen172
-\alignsep@=\dimen173
-\tagshift@=\dimen174
-\tagwidth@=\dimen175
-\totwidth@=\dimen176
-\lineht@=\dimen177
-\@envbody=\toks27
-\multlinegap=\skip63
-\multlinetaggap=\skip64
-\mathdisplay@stack=\toks28
+\c@parentequation=\count313
+\dspbrk@lvl=\count314
+\tag@help=\toks26
+\row@=\count315
+\column@=\count316
+\maxfields@=\count317
+\andhelp@=\toks27
+\eqnshift@=\dimen184
+\alignsep@=\dimen185
+\tagshift@=\dimen186
+\tagwidth@=\dimen187
+\totwidth@=\dimen188
+\lineht@=\dimen189
+\@envbody=\toks28
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr
+.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count306
+\c@su@anzahl=\count318
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.st
-y
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\data
+tool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
- (C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern
+.sty
 Package: defpattern 1994/10/12
-\actioncount=\count307
+\actioncount=\count319
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.s
+ty
 Package: fp-basic 1996/05/13
-\FP@xs=\count308
-\FP@xia=\count309
-\FP@xib=\count310
-\FP@xfa=\count311
-\FP@xfb=\count312
-\FP@rega=\count313
-\FP@regb=\count314
-\FP@regs=\count315
-\FP@times=\count316
+\FP@xs=\count320
+\FP@xia=\count321
+\FP@xib=\count322
+\FP@xfa=\count323
+\FP@xfb=\count324
+\FP@rega=\count325
+\FP@regb=\count326
+\FP@regs=\count327
+\FP@times=\count328
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.
+sty
 Package: fp-addons 1995/03/15
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.st
+y
 Package: fp-snap 1995/04/05
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.s
+ty
 Package: fp-trigo 1995/04/14
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.
+sty
 Package: fp-random 1995/02/23
-\FPseed=\count317
+\FPseed=\count329
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.st
+y
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks29
-\@dtl@tmpcount=\count318
-\dtl@tmplength=\skip65
-\dtl@sortresult=\count319
-\@dtl@numgrpsepcount=\count320
-\@dtl@datatype=\count321
-\dtl@codeA=\count322
-\dtl@codeB=\count323
-\@dtl@foreach@level=\count324
+\@dtl@toks=\toks30
+\@dtl@tmpcount=\count330
+\dtl@tmplength=\skip69
+\dtl@sortresult=\count331
+\@dtl@numgrpsepcount=\count332
+\@dtl@datatype=\count333
+\dtl@codeA=\count334
+\dtl@codeB=\count335
+\@dtl@foreach@level=\count336
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tra
+cklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
-ex))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\t
+racklang.tex))
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/translator\tr
+anslator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-french\gloss
-aries-french.ldf
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-fr
+ench\glossaries-french.ldf
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
-saries-english.ldf
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-en
+glish\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count325
-\@gls@tmpb=\toks30
-\gls@tmplen=\skip66
-\glskeylisttok=\toks31
-\glslabeltok=\toks32
-\glsshorttok=\toks33
-\glslongtok=\toks34
+\gls@level=\count337
+\@gls@tmpb=\toks31
+\gls@tmplen=\skip70
+\glskeylisttok=\toks32
+\glslabeltok=\toks33
+\glsshorttok=\toks34
+\glslongtok=\toks35
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-hypernav.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
+yles\glossary-hypernav.sty
 Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-list.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
+yles\glossary-list.sty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
-\glslistdottedwidth=\skip67
+\glslistdottedwidth=\skip71
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-long.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
+yles\glossary-long.sty
 Package: glossary-long 2022/11/03 v4.52 (NLCT)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtab
+le.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count326
-\LTcapwidth=\dimen178
-\LT@head=\box53
-\LT@firsthead=\box54
-\LT@foot=\box55
-\LT@lastfoot=\box56
-\LT@gbox=\box57
-\LT@cols=\count327
-\LT@rows=\count328
-\c@LT@tables=\count329
-\c@LT@chunks=\count330
-\LT@p@ftn=\toks35
+\LTleft=\skip72
+\LTright=\skip73
+\LTpre=\skip74
+\LTpost=\skip75
+\LTchunksize=\count338
+\LTcapwidth=\dimen190
+\LT@head=\box99
+\LT@firsthead=\box100
+\LT@foot=\box101
+\LT@lastfoot=\box102
+\LT@gbox=\box103
+\LT@cols=\count339
+\LT@rows=\count340
+\c@LT@tables=\count341
+\c@LT@chunks=\count342
+\LT@p@ftn=\toks36
 )
-\glsdescwidth=\skip72
-\glspagelistwidth=\skip73
+\glsdescwidth=\skip76
+\glspagelistwidth=\skip77
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-super.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
+yles\glossary-super.sty
 Package: glossary-super 2022/11/03 v4.52 (NLCT)
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
-ar.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\
+supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count331
-\ST@wd=\dimen179
-\ST@rightskip=\skip74
-\ST@leftskip=\skip75
-\ST@parfillskip=\skip76
-\ST@pageleft=\dimen180
-\ST@headht=\dimen181
-\ST@tailht=\dimen182
-\ST@pagesofar=\dimen183
-\ST@pboxht=\dimen184
-\ST@lineht=\dimen185
-\ST@prevht=\dimen186
-\ST@toadd=\dimen187
-\ST@dimen=\dimen188
-\ST@pbox=\box58
+\c@tracingst=\count343
+\ST@wd=\dimen191
+\ST@rightskip=\skip78
+\ST@leftskip=\skip79
+\ST@parfillskip=\skip80
+\ST@pageleft=\dimen192
+\ST@headht=\dimen193
+\ST@tailht=\dimen194
+\ST@pagesofar=\dimen195
+\ST@pboxht=\dimen196
+\ST@lineht=\dimen197
+\ST@prevht=\dimen198
+\ST@toadd=\dimen199
+\ST@dimen=\dimen256
+\ST@pbox=\box104
 ))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
-ary-tree.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
+yles\glossary-tree.sty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
-\glstreeindent=\skip77
+\glstreeindent=\skip81
 ))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geom
+etry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvte
+x.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count332
-\Gm@cntv=\count333
-\c@Gm@tempcnt=\count334
-\Gm@bindingoffset=\dimen189
-\Gm@wd@mp=\dimen190
-\Gm@odd@mp=\dimen191
-\Gm@even@mp=\dimen192
-\Gm@layoutwidth=\dimen193
-\Gm@layoutheight=\dimen194
-\Gm@layouthoffset=\dimen195
-\Gm@layoutvoffset=\dimen196
-\Gm@dimlist=\toks36
+\Gm@cnth=\count344
+\Gm@cntv=\count345
+\c@Gm@tempcnt=\count346
+\Gm@bindingoffset=\dimen257
+\Gm@wd@mp=\dimen258
+\Gm@odd@mp=\dimen259
+\Gm@even@mp=\dimen260
+\Gm@layoutwidth=\dimen261
+\Gm@layoutheight=\dimen262
+\Gm@layouthoffset=\dimen263
+\Gm@layoutvoffset=\dimen264
+\Gm@dimlist=\toks37
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geom
+etry.cfg))
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appe
+ndix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count335
-\c@@ppsavesec=\count336
-\c@@ppsaveapp=\count337
+\c@@pps=\count347
+\c@@ppsavesec=\count348
+\c@@ppsaveapp=\count349
 )
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `rapport.glo'.
 
-Package glossaries Info: Writing glossary file rapport.glo on input line 18.
+Package glossaries Info: Writing glossary file rapport.glo on input line 22.
 \glo@acronym@file=\write7
 \openout7 = `rapport.acn'.
 
-Package glossaries Info: Writing glossary file rapport.acn on input line 18.
+Package glossaries Info: Writing glossary file rapport.acn on input line 22.
 \@indexfile=\write8
 \openout8 = `rapport.idx'.
 
 
 Writing index file rapport.idx
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
-\l__pdf_internal_box=\box59
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3b
+ackend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count350
+\l__pdf_internal_box=\box105
 ) (rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Info: Redefining \degres on input line 55.
-LaTeX Info: Redefining \up on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Info: Redefining \degres on input line 61.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 61.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 61.
+LaTeX Info: Redefining \up on input line 61.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\s
+upp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen197
-\scratchbox=\box60
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen198
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count351
+\scratchdimen=\dimen265
+\scratchbox=\box106
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen266
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks39
 )
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\
+epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext
+.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -702,22 +861,22 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epst
+opdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\Ibra_\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcap
+tion.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 55.
-
-(rapport.out) (rapport.out)
+Package hyperref Info: Link coloring ON on input line 61.
+ (rapport.out) (rapport.out)
 \@outlinefile=\write9
 \openout9 = `rapport.out'.
 
@@ -756,32 +915,41 @@ Package hyperref Info: Link coloring ON on input line 55.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logos/ump.png, id=75, 752.8125pt x 749.80125pt>
-File: logos/ump.png Graphic file (type png)
-<use logos/ump.png>
-Package pdftex.def Info: logos/ump.png  used on input line 62.
+<images/ump.png, id=3, 752.8125pt x 749.80125pt>
+File: images/ump.png Graphic file (type png)
+<use images/ump.png>
+Package pdftex.def Info: images/ump.png  used on input line 68.
 (pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
-File: logos/ump.png Graphic file (type png)
-<use logos/ump.png>
-Package pdftex.def Info: logos/ump.png  used on input line 64.
+File: images/ump.png Graphic file (type png)
+<use images/ump.png>
+Package pdftex.def Info: images/ump.png  used on input line 70.
 (pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
 [1
 
 \openout5 = `rapport.ist'.
 
-{C:/Users/Ibra_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/ump.
-png>] [2] [3]
+{C:/Users/imehdi_ecomundo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./
+images/ump.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 \end{abstract}
+l.161 \end{abstract}
                      [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \end{abstract}
+l.167 \end{abstract}
                      [1] (rapport.toc)
 \tf@toc=\write10
 \openout10 = `rapport.toc'.
@@ -791,7 +959,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.135 \newpage
+l.177 \newpage
                [2
 
 ] (rapport.lof)
@@ -803,7 +971,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \newpage
+l.185 \newpage
                [3
 
 ] (rapport.lot)
@@ -814,13 +982,33 @@ l.143 \newpage
 No file rapport.acr.
 [4
 
-] [5
-
 ]
 Chapter 1.
-[6
 
-]
+LaTeX Warning: Citation `ecomundo' on page 5 undefined on input line 201.
+
+<images/pierre.png, id=51, 370.38374pt x 392.21532pt>
+File: images/pierre.png Graphic file (type png)
+<use images/pierre.png>
+Package pdftex.def Info: images/pierre.png  used on input line 212.
+(pdftex.def)             Requested size: 185.1914pt x 196.10718pt.
+[5
+
+ <./images/pierre.png>]
+Overfull \hbox (1.58273pt too wide) in paragraph at lines 218--219
+\T1/cmr/m/n/12 dé-fis avec, en-tre autres, le développe-ment de nos dif-férente
+s fil-iales au Canada,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
 Chapter 2.
 [7
 
@@ -830,47 +1018,69 @@ Chapter 3.
 
 ]
 Chapter 4.
-No file rapport.gls.
-No file rapport.bbl.
 [9
 
-] [10
+]
+Chapter 5.
+No file rapport.gls.
+(rapport.bbl [10
+
+]) [11
+
+] [12
 
 ]
 Appendix A.
-[11
+[13
 
 ]
 Appendix B.
-No file rapport.ind.
-[12
+(rapport.ind) [14
 
 ] (rapport.aux)
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: DB049C3ADAAEA92EDAAE05F4B8B8BD9D;3159.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  87994A8E37EE3F99BDFA5DD76CA4B17B;4195.
  ) 
 Here is how much of TeX's memory you used:
- 20363 strings out of 475389
- 355057 string characters out of 2776999
- 745482 words of memory out of 3000000
- 41379 multiletter control sequences out of 15000+600000
- 481003 words of font info for 51 fonts, out of 8000000 for 9000
+ 21001 strings out of 476410
+ 369766 string characters out of 5784394
+ 1858845 words of memory out of 5000000
+ 40980 multiletter control sequences out of 15000+600000
+ 526774 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,5n,91p,2259b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-2488.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1200.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Ibra_\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Ibra_\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Ibra_\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Ibra_\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on rapport.pdf (16 pages, 260020 bytes).
+ 94i,11n,90p,2259b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecsl1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl0600.pk> <C:\Users\imehdi_ecomundo\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\im
+ehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.
+pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecbx1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\imehdi_ecomundo\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\i
+mehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440
+.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1728.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\imehdi_ecomundo\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/imehdi_ecomundo/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on rapport.pdf (18 pages, 504712 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
