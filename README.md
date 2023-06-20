@@ -14,13 +14,9 @@ The structure of the report is as follows:
 - Presentation of the host company
 - Organizational framework
 - Internship objectives
+- Software
 
-## Description of the company
-
-- Business field
-- Methodology (soft)
-
-## Description of the methods and tools used during the internship
+## Methods and tools
 
 - Explanation of the approach adopted to achieve the objectives
 - Activities carried out
