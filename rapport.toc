@@ -1,30 +1,48 @@
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{List of Figures}{3}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{4}{chapter*.3}%
-\contentsline {chapter}{Acronyms}{4}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Presentation of the host company}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}A word from the chairman}{5}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Organizational framework}{6}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Internship objectives}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Context of the report}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Title of the First Chapter}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Title of the First Section}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Title of the First Subsection}{7}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Title of the Subsection of the Subsection}{7}{subsubsection.2.1.1.1}%
-\contentsline {paragraph}{Title of the First Paragraph}{7}{section*.4}%
-\contentsline {subsection}{\numberline {2.1.2}Title of the Second Subsection}{7}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Title of the Second Section}{7}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Title of the Second Chapter}{8}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Title of the Third Chapter}{9}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Title of the Fourth Chapter}{10}{chapter.5}%
-\contentsline {chapter}{Glossary}{10}{chapter.5}%
-\contentsline {chapter}{Bibliography}{11}{chapter*.5}%
-\contentsline {chapter}{Appendices}{13}{section*.6}%
-\contentsline {chapter}{\numberline {A}Title of the First Appendix}{13}{appendix.A}%
-\contentsline {section}{\numberline {A.1}First Section of the First Appendix}{13}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Title of the Second Appendix}{14}{appendix.B}%
-\contentsline {section}{\numberline {B.1}First Section of the Second Appendix}{14}{section.B.1}%
-\contentsline {chapter}{Index}{14}{section.B.1}%
+\contentsline {chapter}{List of Figures}{4}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{5}{chapter*.3}%
+\contentsline {chapter}{Acronyms}{5}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Presentation of the host company}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}A word from the founder}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}History}{7}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Organizational framework}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Human Resources}{8}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Corporate Communication}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Scientific Expertise}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Regulatory Affairs}{9}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Sales}{9}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Innovation \& Software}{9}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}IT}{10}{subsection.1.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.7.1}DevOps}{10}{subsubsection.1.2.7.1}%
+\contentsline {subsubsection}{\numberline {1.2.7.2}R\&D (Research \& Development)}{10}{subsubsection.1.2.7.2}%
+\contentsline {subsubsection}{\numberline {1.2.7.3}Quality}{10}{subsubsection.1.2.7.3}%
+\contentsline {subsubsection}{\numberline {1.2.7.4}Data}{11}{subsubsection.1.2.7.4}%
+\contentsline {subsubsection}{\numberline {1.2.7.5}Dev}{11}{subsubsection.1.2.7.5}%
+\contentsline {subsubsection}{\numberline {1.2.7.6}LAB}{11}{subsubsection.1.2.7.6}%
+\contentsline {subsubsection}{\numberline {1.2.7.7}Product}{11}{subsubsection.1.2.7.7}%
+\contentsline {subsection}{\numberline {1.2.8}My position}{11}{subsection.1.2.8}%
+\contentsline {section}{\numberline {1.3}Internship objectives}{12}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Description of the Company}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Business Field}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Chemistry and Toxicology}{13}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Title of the Subsection of the Subsection}{13}{subsubsection.2.1.1.1}%
+\contentsline {paragraph}{Title of the First Paragraph}{13}{section*.4}%
+\contentsline {subsection}{\numberline {2.1.2}Title of the Second Subsection}{13}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}Methods and tools}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Transformers}{14}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Encoder-Decoder Architecture}{14}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Encoder}{14}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Decoder}{14}{subsubsection.3.1.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Attention}{14}{subsection.3.1.2}%
+\contentsline {chapter}{\numberline {4}Title of the Fourth Chapter}{15}{chapter.4}%
+\contentsline {chapter}{Glossary}{15}{chapter.4}%
+\contentsline {chapter}{Bibliography}{16}{chapter*.5}%
+\contentsline {chapter}{Appendices}{18}{section*.6}%
+\contentsline {chapter}{\numberline {A}Title of the First Appendix}{18}{appendix.A}%
+\contentsline {section}{\numberline {A.1}First Section of the First Appendix}{18}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Title of the Second Appendix}{19}{appendix.B}%
+\contentsline {section}{\numberline {B.1}First Section of the Second Appendix}{19}{section.B.1}%
+\contentsline {chapter}{Index}{19}{section.B.1}%

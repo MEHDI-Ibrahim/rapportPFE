@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.7)  13 JUN 2023 17:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.7)  20 JUN 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,7 +915,7 @@ Package hyperref Info: Link coloring ON on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/ump.png, id=3, 752.8125pt x 749.80125pt>
+<images/ump.png, id=136, 752.8125pt x 749.80125pt>
 File: images/ump.png Graphic file (type png)
 <use images/ump.png>
 Package pdftex.def Info: images/ump.png  used on input line 68.
@@ -950,29 +950,29 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.167 \end{abstract}
-                     [1] (rapport.toc)
-\tf@toc=\write10
-\openout10 = `rapport.toc'.
-
-
+                     [1] (rapport.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \newpage
-               [2
+l.44 ...tle of the First Appendix}{18}{appendix.A}
+                                                  % [2
 
-] (rapport.lof)
-\tf@lof=\write11
-\openout11 = `rapport.lof'.
+])
+\tf@toc=\write10
+\openout10 = `rapport.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 \newpage
-               [3
+l.177 \newpage
+               [3] (rapport.lof)
+\tf@lof=\write11
+\openout11 = `rapport.lof'.
+
+ [4
 
 ] (rapport.lot)
 \tf@lot=\write12
@@ -980,19 +980,16 @@ l.185 \newpage
 
 
 No file rapport.acr.
-[4
+[5
 
 ]
 Chapter 1.
-
-LaTeX Warning: Citation `ecomundo' on page 5 undefined on input line 201.
-
-<images/pierre.png, id=51, 370.38374pt x 392.21532pt>
+<images/pierre.png, id=221, 370.38374pt x 392.21532pt>
 File: images/pierre.png Graphic file (type png)
 <use images/pierre.png>
 Package pdftex.def Info: images/pierre.png  used on input line 212.
 (pdftex.def)             Requested size: 185.1914pt x 196.10718pt.
-[5
+[6
 
  <./images/pierre.png>]
 Overfull \hbox (1.58273pt too wide) in paragraph at lines 218--219
@@ -1008,79 +1005,118 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 Chapter 2.
-[7
-
-]
-Chapter 3.
-[8
-
-]
-Chapter 4.
-[9
-
-]
-Chapter 5.
-No file rapport.gls.
-(rapport.bbl [10
-
-]) [11
-
-] [12
-
-]
-Appendix A.
 [13
 
 ]
+Chapter 3.
+[14
+
+]
+Chapter 4.
+No file rapport.gls.
+(rapport.bbl [15
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+.
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.f
+d
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)) [16
+
+] [17
+
+]
+Appendix A.
+[18
+
+]
 Appendix B.
-(rapport.ind) [14
+(rapport.ind) [19
 
 ] (rapport.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `rapport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `rapport.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  87994A8E37EE3F99BDFA5DD76CA4B17B;4195.
+Package rerunfilecheck Info: File `rapport.out' has not changed.
+(rerunfilecheck)             Checksum: BAAA3248C1762353AAF969C6D4E04B46;5093.
  ) 
 Here is how much of TeX's memory you used:
- 21001 strings out of 476410
- 369766 string characters out of 5784394
- 1858845 words of memory out of 5000000
- 40980 multiletter control sequences out of 15000+600000
- 526774 words of font info for 59 fonts, out of 8000000 for 9000
+ 21080 strings out of 476410
+ 371081 string characters out of 5784394
+ 1862845 words of memory out of 5000000
+ 41030 multiletter control sequences out of 15000+600000
+ 527771 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,90p,2259b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,90p,2259b,750s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecsl1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl0600.pk> <C:\Users\imehdi_ecomundo\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\im
-ehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.
+pi600\ecti1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\imehdi_ecomundo\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\im
+ehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl0600.
 pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiK
-TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\imehdi_ecomundo\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\i
-mehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440
+dpi600\tcrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiK
+TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\imehdi_ecomundo\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\i
+mehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440
 .pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1728.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\imehdi_ecomundo\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/imehdi_ecomundo/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (18 pages, 504712 bytes).
+/dpi600\ecrm1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\imehdi_ecomundo\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\
+imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm207
+4.pk><C:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb>
+Output written on rapport.pdf (23 pages, 578440 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

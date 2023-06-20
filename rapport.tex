@@ -48,11 +48,11 @@
 \fancyhead[LO]{\thepage}
 \pagestyle{fancy}
 
-\lfoot{\tiny\textsl{IDSCC - ENSAO}}
+\lfoot{\tiny\textsl{IDSCC5 - ENSAO}}
 
 \cfoot{\tiny\textsl{Academic Year 2022 - 2023}}
 
-\rfoot{\tiny\textsl{Internship Report}}
+\rfoot{\tiny\textsl{Rapport PFE}}
 
 \addto\captionsfrench{
 \renewcommand{\listfigurename}{List of Figures}%
@@ -66,7 +66,7 @@
 
 \begin{center}
     \includegraphics[scale=0.1]{images/ump}\hfill
-    \LARGE Mohammed First University\hfill
+    \LARGE Université Mohammed Premier\hfill
     \includegraphics[scale=0.1]{images/ump}\par
     \Large Ecole Nationale des Sciences Appliquées\par
     \Large Oujda\vfill
@@ -338,29 +338,53 @@ During my internship at Ecomundo, I was assigned as an AI Engineer Intern inside
 \section{Internship objectives}
 The main objectives of this internship are to design, develop, test and document innovative solutions that adress business and R\&D challenges. The area of focus includes designing and improving rule-based expert systems that leverage knowledge and logic to provide answers to complex tasks that are traditionally done by a human. Additionally, developping AI solutions in different areas using Natural language processing and Machine/Deep Learning. Once these AI solutions are designed and developped, the next crucial step is to deploy them effectively. This envolves ensuring their quality and integrating them into the existing technical infrastructure of the organization. Rigourous testing procedures, such as unit testing, integration testing and performance testing are employed to validate the reliability and efficiency of the solutions. And to keep the projects well defined for future references, we worked on writing well documenting our work in order to provide clear intructions and guidelines for the code, deployment steps, maintenance and error handling.
 
-\chapter{Description of the Company}
+\section{Software}
+\subsection{Cosmetic Factory}
+\subsection{SDS Factory}
+\chapter{Methods and tools}
 \thispagestyle{empty}
+\section{Transformers}
+Transformers\cite{NIPS2017_3f5ee243} have been introduced in 2017 to replace the Recurrent Neural Networks architectures using self-attention mechanisms and the encoder-decoder architecture that hugely improved the performance of such models.
 
-\section{Business Field}
-Ecomundo's expertise spans across the fields of chemistly/toxicology, regulations, and software development. They offer support in assessing the risks associated with chemical substances, ensuring compliance with international regulations, and develop software solutions to facilitate the management of chemical risks and regulatory compliance for their clients.
+\subsection{Word Embedding}
+Word embedding is the approach that allows computers to understand words by converting them into numeric vectors. In this space of vectors, words with similar meanings have close or similar representation. One famous algorithm frequently used is Word2Vec\cite{mikolov2013efficient}. The basic idea is that two words are considered similar if they are often used in similar context.
 
-\subsection{Chemistry and Toxicology}
+\subsection{Attention}
+The attention mechanism allows the model to effectively capture relevancy between words in a sentence by calculation attention scores. The scores are calculated using the dot product between each word and the target word of interest. Softmax function is then used to transform the scores into `meaningful` weights that help the model emphasis important words while de-emphasising less significant ones. This mechanism gives the model the superpower of understanding the contextual nuances and relationships between words, which is the ideal goal for Natual Language processing tasks.
 
-\subsubsection{Title of the Subsection of the Subsection}
 
-\paragraph{Title of the First Paragraph}\par
+\subsection{Encoder-Decoder Architecture}
+\subsubsection{Encoder}
+In the encoder, the input words are first embedded into a high-dimentional vector space. then we add to these embeddings to capture the position of the token in the sequence. Each token is transformed into three vectors: Query (Q), Key (K) and Value (V). This transformation is performed using learnable weight matrices:
+$$Q = X . W_{Q}$$
+$$K = X . W_{K}$$
+$$V = X . W_{V}$$
+Self attention scores are then calculated as the dot product. For query vector $q_{i}$ and a key vector $k_{j}$, the attention is: 
+$$Attention(q_{i},k_{j}) = q_{i} . k_{j} / \sqrt{d}$$ 
+With d the dimention of the key vectors.
 
-\subsection{Title of the Second Subsection}
+Attention weights are simply the softmax of the attention weights: $$\alpha_{ij} = softmax(Attention(q_{i},k_{j})$$
 
-\section{Title of the Second Section}
+The final output of the attention mechanism is obtained by taking the weighted sum of the value vectors V.
+$$AttentionOutput(q_{i}) = \sum_{j}\alpha_{ij} V_{j} $$
+\subsubsection{Decoder}
+At the decoder level on the other hand, attention is used in two ways, a self-attention and an encoder-decider attention. The first one works by doing the exact same thing as the encoder, however it employs masking that prevents the decoder from accessing future positions. The Second allows the decoder to attend relevant parts of the input while generating the output. The encoder's output serve as as the key value vectors, and the query vectors are derived from the state of the decoder.
 
-\chapter{Title of the Second Chapter}
-\thispagestyle{empty}
+\section{HuggingFace}
+Huggingface\cite{huggingface} is an opensource known for their contributions for the transformers library, one of the most used libraries for NLP and AI tasks in general. 
+Transfomers library provides a wide range of pre-trained models for multiple purposes such as text classification, NER, text generation, translation, etc... It is build on top of the PyTorch and TensorFlow frameworks.
+Huggingface has played an important role in democratising NLP and making it more accessible, they provide really powerful language models such as BERT, GPT and RoBERTa that can either be used directly, or for transfer learning. They also provide a large range of datasets that can be used for model fine-tuning for various specific tasks.
 
-\chapter{Title of the Third Chapter}
-\thispagestyle{empty}
-
-\chapter{Title of the Fourth Chapter}
+\section{GPT-3}
+\subsection{Generative Pretrained Transformers}
+GPT models are Language models that have been trained on huge amounts of data such as books, web data and human conversations for the purpose of developping a general understanding of the language. 
+\subsubsection{GPT-1}
+It all started with GPT the first release by OpenAI\cite{openai} in 2018. It had 117 million parameters. It was mainly trained to be able to correctly predict the next word in a sentence. It suffered from the lack of understanding when given a longer context which resulted in incoherent outputs.
+\subsubsection{GPT-2}
+In 2019, OpenAI released GPT-2 with 1.5 billion parameter, about 10 times larger than its predecessor. It outperformed the first gen model in the ability of generating coherent text. Due to concerns for misuse, the use of this model was initially very limited. Which will lead OpenAI to perform different types of trainings for their future models.
+\subsubsection{GPT-3}
+In their paper ``Language Models are Few Shot learners''\cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
+\chapter{}
 \thispagestyle{empty}
 
 \printglossary[title=Glossary]
