@@ -1,4 +1,6 @@
 \documentclass[a4paper,12pt,twoside]{report}
+\usepackage{rotating}
+
 \usepackage[english,french]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -106,7 +108,7 @@
 \begin{itemize}[label=\textbullet, leftmargin=*]
   \item \textbf{M.} KOULALI Mohamed Amine
   \item \textbf{Mme.} PERFETTO Anna
-  \item \textbf{M.} MIRON Jean-Raphaëll
+  \item \textbf{M.} MIRON Jean-Raphaël
   % Add more supervisors as needed
 \end{itemize}
 
@@ -198,6 +200,7 @@ MEHDI Ibrahim
 \chapter{Introduction}
 In this chapter, I am providing a comprehensive overview of the host company, outlining the objectives of my internship and setting the context for this report.
 \section{Presentation of the host company}
+\includegraphics[width=\textwidth]{images/ecomundo}
 EcoMundo \cite{ecomundo} specialises in chemical substances, their impact on human health and the environment, and the European and international regulations governing chemical risk (REACH, CLP, Cosmetics, Biocides, Medical devices, etc.).
 
 They provide expert services and software to support the marketing of industrial products, enabling companies to manage the risks associated with chemical substances.
@@ -277,7 +280,7 @@ Opening of a branch in London, United Kingdom. The teams now consist of 43 emplo
 This section provides a consice overview of Ecomundo's internal organization, delineating the functional departments and collaborative networks that constitute the company's framework.
 \subsection{Human Resources}
 
-The Human Resources department plays a pivotal role in managing and developing the organization's workforce. It is responsible for various activities, including recruitment, talent acquisition, training and development, employee relations, performance evaluation, and compensation management. By ensuring a skilled and motivated workforce, the Human Resources department contributes to the overall success and growth of Ecomundo. The director of this department is the Chief Financial Officer Simon PACCA.
+The Human Resources department plays a pivotal role in managing and developing the organization's workforce. It is responsible for various activities, including recruitment, talent acquisition, training and development, employee relations, performance evaluation, and compensation management. By ensuring a skilled and motivated workforce, the Human Resources department contributes to the overall success and growth of Ecomundo. The director of this department is the Chief Financial Officer Simon PICCA.
 
 \subsection{Corporate Communication}
 
@@ -356,9 +359,9 @@ The attention mechanism allows the model to effectively capture relevancy betwee
 \subsection{Encoder-Decoder Architecture}
 \subsubsection{Encoder}
 In the encoder, the input words are first embedded into a high-dimentional vector space. then we add to these embeddings to capture the position of the token in the sequence. Each token is transformed into three vectors: Query (Q), Key (K) and Value (V). This transformation is performed using learnable weight matrices:
-$$Q = X . W_{Q}$$
-$$K = X . W_{K}$$
-$$V = X . W_{V}$$
+$$Q = X \cdot W_{Q}$$
+$$K = X \cdot W_{K}$$
+$$V = X \cdot W_{V}$$
 Self attention scores are then calculated as the dot product. For query vector $q_{i}$ and a key vector $k_{j}$, the attention is: 
 $$Attention(q_{i},k_{j}) = q_{i} . k_{j} / \sqrt{d}$$ 
 With d the dimention of the key vectors.
@@ -370,22 +373,129 @@ $$AttentionOutput(q_{i}) = \sum_{j}\alpha_{ij} V_{j} $$
 \subsubsection{Decoder}
 At the decoder level on the other hand, attention is used in two ways, a self-attention and an encoder-decider attention. The first one works by doing the exact same thing as the encoder, however it employs masking that prevents the decoder from accessing future positions. The Second allows the decoder to attend relevant parts of the input while generating the output. The encoder's output serve as as the key value vectors, and the query vectors are derived from the state of the decoder.
 
-\section{HuggingFace}
+\subsection{HuggingFace}
 Huggingface\cite{huggingface} is an opensource known for their contributions for the transformers library, one of the most used libraries for NLP and AI tasks in general. 
 Transfomers library provides a wide range of pre-trained models for multiple purposes such as text classification, NER, text generation, translation, etc... It is build on top of the PyTorch and TensorFlow frameworks.
 Huggingface has played an important role in democratising NLP and making it more accessible, they provide really powerful language models such as BERT, GPT and RoBERTa that can either be used directly, or for transfer learning. They also provide a large range of datasets that can be used for model fine-tuning for various specific tasks.
 
-\section{GPT-3}
-\subsection{Generative Pretrained Transformers}
+\subsection{OpenAI \& GPT}
+\subsubsection{Generative Pretrained Transformers}
 GPT models are Language models that have been trained on huge amounts of data such as books, web data and human conversations for the purpose of developping a general understanding of the language. 
-\subsubsection{GPT-1}
+\paragraph{GPT-1}
 It all started with GPT the first release by OpenAI\cite{openai} in 2018. It had 117 million parameters. It was mainly trained to be able to correctly predict the next word in a sentence. It suffered from the lack of understanding when given a longer context which resulted in incoherent outputs.
-\subsubsection{GPT-2}
+\paragraph{GPT-2}
 In 2019, OpenAI released GPT-2 with 1.5 billion parameter, about 10 times larger than its predecessor. It outperformed the first gen model in the ability of generating coherent text. Due to concerns for misuse, the use of this model was initially very limited. Which will lead OpenAI to perform different types of trainings for their future models.
-\subsubsection{GPT-3}
+\paragraph{GPT-3}
 In their paper ``Language Models are Few Shot learners''\cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
-\chapter{}
+\section{Ensemble Learning}
+Ensemble learning is a Machine Learning technique that combines multiple base models in order to produce a more powerful model that can achieve higher accuracies. By combining the predictions of each base model, we can capture the diverse knowledge and expertise of these models which leads to an improved overall performance. In order to achieve the most optimal results, many aspects need to be considered:
+\subsection{Diversity of Base models}
+When we talk about ensemble learning, we usually gather multiple models that are considered weak learners. These models have, individually, slightly better performance than random prediction. In order to squeeze the maximum out of this method, the models should be diverse. Diversity ensures that each model brings unique information and makes different errors, reducing the chances of the resulting model being biased or the results being fluctuated by a single model's shortcomings. We can push this further by feeding each model a different subset of our dataset.
+\subsection{Aggregation}
+Each model in Ensemble learning should predict his own output, then the final result is the aggregation of the multiple outputs. It can be a voting-based method which involves casting votes from each model. The voting can be either HARD, which basically means the majoritarian result is the final result. Or it can be SOFT, which is a weighted vote based on Confidence intervals.
+The other way to do it is by averaging the outputs. In this method we take the weighted average of the predictions from all the underlying models to get the final prediction.
+\chapter{Projects}
 \thispagestyle{empty}
+\section{Challenge Test Predictions}
+\subsection{Presentation of the project}
+All creams, foundations, and shampoos that become tomorrow's BEST SELLER are the result of a long Research \& Development (R\&D) process. Before being launched into the market, they undergo microbiology tests, which can make or break their success. If they pass the microbiology tests, it will be a great achievement. If they fail, it will be a nightmare for the formulators who must adjust their formulations to turn their aspirations into reality.
+
+Help has arrived from Cosmetic Factory, a PLM cosmetic software that assists R\&D laboratories in speeding up the launch of new cosmetic products. In partnership with the Occitane Group, Ecomundo has developed an Artificial Intelligence (AI)-powered solution to anticipate the outcomes of the Challenge Test (CT). It serves as an intelligent formulation aid for cosmeticians, and was unveiled during the Cosmetic 360 Conference in October 2022. 
+What is a Challenge Test? The Challenge Test is a mandatory pre-market test required by regulations, based on the ISO 11930 method. It involves inoculating a particular concentration of bacteria, such as Escherichia coli, Candida albicans, Staphylococcus aureus, etc. To pass the test, a specific log reduction in the number of microorganisms recovered must be achieved at designated intervals, typically after 2, 7, 14, and 28 days.
+\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{images/CT}
+	\caption[Challenge Test]{CT}
+\end{figure}
+
+If the specified criteria are not met, as was the case with PRODUCT 1, cosmeticians are required to reformulate and test again until they develop a product that passes the CT, like PRODUCT 2. As a result, one can imagine the laborious nature of the process, as well as the waste of time and resources involved. This is where artificial intelligence comes to the rescue, with its predictive capabilities.
+
+\subsection{How it is currently done}
+EcoMundo has developed a hybrid AI solution, which combines an expert system (ES) and machine learning (ML) that predicts the result of the CT, in other words the efficiency of the conservation system. 
+At the moment the solution has been implemented in Cosmetic Factory in the Formulas module, in the Prediction wizard (kyoto server).
+\begin{figure}[ht]
+		\includegraphics[width=\textwidth]{images/kyoto}
+	\caption[Cosmetic Factory Interface for CT]{CF interface}
+\end{figure}
+
+To develop the hybrid AI solution we started to study the criteria influencing the risk of microbial contamination. The pH, which measures the acid or basic character of a solution, the water activity that quantifies the free water available to assure growth of microorganisms. Moreover, some raw materials are known to create a hostile environment for the survival of microorganisms like alcohols, inorganic solvents, humectants, inorganic salts, acid and bases. The formulation processes may have an influence on the microbial protection like temperature, incorporation order of ingredients, time of homogenization. And eventually the physical state, if our cosmetic product is a solid, powder, foam etc..
+A hybrid system benefits from the reasoning and explanation of the ES, as well as the learning and generalization potential of ML algorithms, which determines an effective and efficient model. 
+This allows users (cosmeticians, formulators, etc..) to understand the prediction, along with the scientific and regulatory reasons behind it. Indeed, the system provides suggestions for improvement, making this solution a useful and reliable formulation support and optimization tool to achieve the success of the challenge test immediately. 
+How is the pipeline structured? The data are feeded to the ES which starts to assign success rate of the CT according to the rules codified in regulation, namely the ISO29621 and based on experimental results published in literature. These rules concern the empiric criteria influencing the risk of contamination based on certain values of pH, water activity, temperature etc. 
+Thereafter, the ES calls the ML to have its success rate. We trained different ML algorithms, but the one that gave the best results is the decision tree applied on the set of ingredients present in the formulas. The result coming from the ML is eventually weighted by the expert system together with the other results, to give finally to the user the success rate of the challenge test.
+\begin{figure}
+		\includegraphics[width=\textwidth]{images/ctFlow}
+	\caption[WorkFlow of CT prediction in CF]{CT flow}
+\end{figure}
+
+\begin{figure}
+		\includegraphics[width=\textwidth]{images/binaryTree}
+	\caption[Current Decision Tree for CT prediction]{Decision tree}
+\label{Decision tree}
+\end{figure}
+The ML algorithm chosen is the supervised binary classification, see the decision tree \ref{Decision tree} , trained on the ensemble of ingredients and their concentration. 3000 formulas furnished by the Group Occitane have been selected and have been divided into 2 sets: a training set which represents 75\% and the rest has been used as a testing set.
+The decision tree at the end gives as answer Yes/No, in other words it is able to say if each formula passes or fails the CT, with a precision of around 80\%.
+
+The learning database is composed of formulas, descriptors like pH, water activity and temperature, etc.., which somehow affect the CT results, and of course the CT results. Here, you can find the data conceptual model (DCM) to have a complete vision of the information necessary to train the models.
+\subsection{New solution}
+
+\subsection{Results and Comments}
+\section{SDS Reader}
+
+\subsection{Presentation of the project}
+Currently called PDF Reader, is an application made by Ecomundo specifically for Safety Data Sheets:
+\subsubsection{What is an SDS?}
+Safety Data Sheet, also known as Material Safety Data Sheet (MSDS), is a very important document that provides informations about the hazards and safe handling of a specific substance/mixture. Its main purpose is to ensure the safety of individuals who may use or come in contact with the substance in any settings. It it composed of sixteen sections:
+\begin{itemize}
+\item \textbf{Identification:} Identification of the substance/mixture on the SDS as well as the recommanded uses. It contains also the contact informations for the suppliers/manifacturers
+\item  \textbf{Hazard Identification:} This section identifies the hazards of the substance/mixture presented in the SDS along with their appropriate warning informations
+\item  \textbf{Composition/Information on Ingredients:} This section identifies the substance(s) contained in the product, their concentration and their hazard classification.
+\item \textbf{First-Aid Measures:} Descriptions of the initial care that should be ginven by untrained responders to an individual who has been in contact with the chemical.
+\item \textbf{Firèfighting Measures:} Recommandations for fighting the fire caused by the chemical.
+\item \textbf{Accidental Release Measures:} This section has recommandations on the appropriate responses to spills, leaks ro relases including containment and cleanup practices to minimize or ideally prevent exposure to the people and the environment.
+\item \textbf{Handling and Storage:} Guidance on the best and safe practices of handling and storing the product.
+\item \textbf{Exposure Controls/ Personal Protection:} In this section, the exposure limits, engineerings controls and personal protective measures are indicated.
+\item \textbf{Physical and Chemical Properties:} This section identifies the physical and chemical properties of the substance/mixture
+\item \textbf{Stability and Reactivity:} This section provides information about the reactivity hazards of the chemical and its stability information.
+\item \textbf{Toxicological Informations:} Informations about the toxicological and health effects.
+\item \textbf{Ecological Information:} This section provides information to evaluate the environmental impact of the substance(s).
+\item \textbf{Disposal Considerations:} Guidance on proper disposal practices, recycling or reclamation of the substance(s) or its container and safe handling practices.
+\item \textbf{Transport Information:} Guidance on classification information for shipping and transporting of hazardous substance(s) by road, air, rail, or sea.
+\item \textbf{Regulatory Information:} Safety, health and environmental regulations specific for the substance/mixture that is not indicated anywhere else on the SDS.
+\item \textbf{Other Information:} Indications about the preparation and revision date of the sds along with other useful information such as the changes that have been made compared to the last version. 
+\end{itemize}
+\subsection{How it is currently done}
+
+\subsubsection{Get sections}
+The old code is a static code that mainly starts by dividing the pdf into paragraphs. then go through each paragraph and detect where the sections are by comparing the words to the words that define sections in the SDSFactory database. For example you can have "SECTION" as the word splitting the document into sections, might also be "RUBRIQUE" if it's in French. It uses all possible words that are available in the database in the language of the SDS.
+\subsubsection{Get Key-Value pairs}
+Using Regular Expressions, the code then goes through each section and finds all the key value pairs that are mentionned in the PDF file. This is already problematic since there are inconsistencies of how a key value pair is shown in the file: It could be in the form of Key:Value, sometimes it's Key \\n Value.
+\subsubsection{Match with Ecomundo Template}
+Using the same static method of looking into the database, the code then goes through all the key value pairs and matches them with the Ecomundo Template of Keys. 
+\subsection{Problems with the old way}
+As it is very obvious, the static way of searching through the database for keywords, and expecting to have the exact same match is far from optimal. If we have an SDS with a different language then we have to recreate a table in the database for that exact same language, then fill it with all possible words for each key. For example the key "Product Name" can be in the pdf as "Product identifier" or just "Name", if we don't have these keys in the database, it will assume this data does not exist in the pdf.
+We notice as well the workload of refreshing and updating the database frequently in order to keep it updated.
+\subsection{New solution}
+\subsubsection{Usage of Large Language Models}
+The usage of large language models was first proposed as it will allow us to read the pdf and understand it then extract data from it. This method as demonstrated first by using ChatGPT and giving him texts in different languages from an SDS and providing him the keys to extract. Two major problems have arised from the proposition of using this method:
+\paragraph{Security}
+Sending PDF files of clients to OpenAI servers in North America for processing is not a straightforward procedure. The Technical directors were worried about data privacy of the clients even if SDS are not considered confidential in most cases. But as we will be using GPT models using the OpenAI api, and as a company, I suggested we contact sales and request to not store our sent data after the processing is done. It is a right that anyone can ask for when purchasing the api key\cite{openaiUP}.
+\paragraph{Cost}
+At the time of the first meeting 13th March 2023, the pricing for gpt-3.5-turbo model was 0.002 USD/1000 Tokens. The commercial team were not convinced of how cheap it is until I presented a proof of concept later on.
+\subsubsection{Open-Source Large Language Models}
+To tackle these two problems, I proposed to postpone the GPT api purchase while I dig deep into how we can use an opensource model. I started by looking into the models that are Open Source + Available for commercial use:
+\paragraph{BERT and its derivatives}
+The BERT model \cite{devlin2019bert} (Bidirectional Encoder Representations from Transformers) was introduced in 2018 by researchers at google. It achieved state-of-the-art performance on many NLP benchmarks. 
+
+In my proposition to use open source models, BERT models came in as top results. BERT model was optimized when RoBERTa\cite{liu2019roberta} (Robustly optimized BERT) was introduced in 2019 which was optimized even more with the introduction of DeBERTa \cite{he2021deberta} (Decoding-enhanced BERT with disentangled Attention).
+
+I started initially by using these models for question answering. The PDF file would be converted into a raw text fille, then fed to the model as context. Then I gave it the keys that I wanted to extract. DeBERTa Model was the best obviously, but still lacked in many areas:
+\paragraph{Bad extraction}
+The model was very inconsistent with the extractions, some keys would be perfectly extracted while other were not. The model also does not quite understand the structure of the page only from the raw text given to it as context.
+\subsection{Results and Comments}
+
+\section{ChatBot: EcoMundo Smart Assistant}
+\subsection{Presentation of the project}
+\subsection{The solution}
 
 \printglossary[title=Glossary]
 \addcontentsline{toc}{chapter}{Glossary}

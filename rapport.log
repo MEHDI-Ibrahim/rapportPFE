@@ -1,18 +1,19 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.7)  20 JUN 2023 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.21)  23 JUN 2023 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./rapport.tex
 (rapport.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-05-15>
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-16>
+
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.c
 ls
-Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.c
 lo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -27,17 +28,61 @@ File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rota
+ting.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
+al.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig
+.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\
+pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.s
+ty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count194
+\rotFPtop=\skip50
+\rotFPbot=\skip51
+\rot@float@box=\box51
+\rot@mess@toks=\toks18
+)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel
 .sty
 Package: babel 2023/05/11 v3.89 The Babel package
-\babel@savecnt=\count194
-\U@D=\dimen141
+\babel@savecnt=\count195
+\U@D=\dimen143
 \l@unhyphenated=\language79
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtba
 bel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count195
+\bbl@dirlevel=\count196
 
 *************************************
 * Local config file bblopts.cfg used
@@ -65,27 +110,27 @@ Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language22). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
 (babel)             (\language22). Reported on input line 92.
-\FB@nonchar=\count196
+\FB@nonchar=\count197
 Package babel Info: Making : an active character on input line 395.
 Package babel Info: Making ; an active character on input line 396.
 Package babel Info: Making ! an active character on input line 397.
 Package babel Info: Making ? an active character on input line 398.
-\FBguill@level=\count197
-\FBold@everypar=\toks16
-\FB@Mht=\dimen142
-\mc@charclass=\count198
-\mc@charfam=\count199
-\mc@charslot=\count266
-\std@mcc=\count267
-\dec@mcc=\count268
-\FB@parskip=\dimen143
-\listindentFB=\dimen144
-\descindentFB=\dimen145
-\labelindentFB=\dimen146
-\labelwidthFB=\dimen147
-\leftmarginFB=\dimen148
-\parindentFFN=\dimen149
-\FBfnindent=\dimen150
+\FBguill@level=\count198
+\FBold@everypar=\toks19
+\FB@Mht=\dimen144
+\mc@charclass=\count199
+\mc@charfam=\count266
+\mc@charslot=\count267
+\std@mcc=\count268
+\dec@mcc=\count269
+\FB@parskip=\dimen145
+\listindentFB=\dimen146
+\descindentFB=\dimen147
+\labelindentFB=\dimen148
+\labelwidthFB=\dimen149
+\leftmarginFB=\dimen150
+\parindentFFN=\dimen151
+\FBfnindent=\dimen152
 ))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/babel/local
 e/fr\babel-french.tex
@@ -99,16 +144,11 @@ Package babel Info: Importing font and identification data for english
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scal
 efnt.sty)
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
-al.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc
 .sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.
 sty
@@ -118,55 +158,30 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 yhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
-)
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
-hicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
-hics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig
-.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
-graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\
-pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen151
-\Gin@req@width=\dimen152
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/changebar\cha
 ngebar.sty
 Package: changebar 2022-05-06 v3.6d Indicate changes with marginal bars
-\cb@nextpoint=\count269
-\cb@topleft=\count270
-\cb@topright=\count271
-\cb@botleft=\count272
-\cb@botright=\count273
-\cb@cnta=\count274
-\cb@cntb=\count275
+\cb@nextpoint=\count270
+\cb@topleft=\count271
+\cb@topright=\count272
+\cb@botleft=\count273
+\cb@botright=\count274
+\cb@cnta=\count275
+\cb@cntb=\count276
 \cb@dima=\dimen153
 \cb@curbarwd=\dimen154
-\cb@page=\count276
-\cb@pagecount=\count277
+\cb@page=\count277
+\cb@pagecount=\count278
 \cb@odd@left=\dimen155
 \cb@odd@right=\dimen156
 \cb@even@left=\dimen157
@@ -175,10 +190,10 @@ Package: changebar 2022-05-06 v3.6d Indicate changes with marginal bars
 \cb@readxy=\read3
 \openout3 = `rapport.cb2'.
 
-\changebarwidth=\skip59
-\deletebarwidth=\skip60
-\changebarsep=\skip61
-\c@changebargrey=\count278
+\changebarwidth=\skip61
+\deletebarwidth=\skip62
+\changebarsep=\skip63
+\c@changebargrey=\count279
 \cb@write=\write4
 \cb@read=\read4
 \openout4 = `rapport.cb'.
@@ -202,8 +217,9 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+Package caption Info: rotating package is loaded.
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor
 .sty
@@ -233,30 +249,29 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multico
 l.sty
-Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count281
-\mult@box=\box51
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count282
+\mult@box=\box52
 \multicol@leftmargin=\dimen167
-\c@unbalance=\count282
-\c@collectmore=\count283
-\doublecol@number=\count284
-\multicoltolerance=\count285
-\multicolpretolerance=\count286
+\c@unbalance=\count283
+\c@collectmore=\count284
+\doublecol@number=\count285
+\multicoltolerance=\count286
+\multicolpretolerance=\count287
 \full@width=\dimen168
 \page@free=\dimen169
 \premulticols=\dimen170
 \postmulticols=\dimen171
-\multicolsep=\skip62
-\multicolbaselineskip=\skip63
-\partial@page=\box52
-\last@line=\box53
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box53
+\last@line=\box54
+\mc@boxedresult=\box55
 \maxbalancingoverflow=\dimen172
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@firstbox=\box56
-\mult@gfirstbox=\box57
-\@tempa=\box58
-\@tempa=\box59
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
 \@tempa=\box60
 \@tempa=\box61
 \@tempa=\box62
@@ -291,25 +306,27 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
-\c@minrows=\count287
-\c@columnbadness=\count288
-\c@finalcolumnbadness=\count289
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count288
+\c@columnbadness=\count289
+\c@finalcolumnbadness=\count290
 \last@try=\dimen173
 \multicolovershoot=\dimen174
 \multicolundershoot=\dimen175
-\mult@nat@firstbox=\box94
-\colbreak@box=\box95
-\mc@col@check@num=\count290
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count291
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enum
 item.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip64
+\labelindent=\skip66
 \enit@outerparindent=\dimen176
-\enit@toks=\toks20
-\enit@inbox=\box96
-\enit@count@id=\count291
-\enitdp@description=\count292
+\enit@toks=\toks22
+\enit@inbox=\box98
+\enit@count@id=\count292
+\enitdp@description=\count293
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.
 sty
@@ -317,7 +334,7 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hype
 rref.sty
-Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
+Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltx
 cmds.sty
@@ -366,7 +383,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\name
 ref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refc
 ount.sty
@@ -380,20 +397,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 ptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count293
+\c@section@level=\count294
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoo
 lbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
+\etb@tempcnta=\count295
 )
 \@linkdim=\dimen177
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\Hy@linkcounter=\count296
+\Hy@pagecounter=\count297
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1e
 nc.def
-File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -401,24 +418,24 @@ Now handling font encoding PD1 ...
 calc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count298
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puen
 c.def
-File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
-Package hyperref Info: Hyper figures OFF on input line 4182.
-Package hyperref Info: Link nesting OFF on input line 4187.
-Package hyperref Info: Hyper index ON on input line 4190.
-Package hyperref Info: Plain pages OFF on input line 4197.
-Package hyperref Info: Backreferencing OFF on input line 4202.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4449.
-\c@Hy@tempcnt=\count298
-LaTeX Info: Redefining \url on input line 4787.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count299
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen178
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bits
@@ -430,31 +447,31 @@ bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count299
+\Fld@menulength=\count300
 \Field@Width=\dimen179
 \Fld@charsize=\dimen180
-Package hyperref Info: Hyper figures OFF on input line 6066.
-Package hyperref Info: Link nesting OFF on input line 6071.
-Package hyperref Info: Hyper index ON on input line 6074.
-Package hyperref Info: backreferencing OFF on input line 6081.
-Package hyperref Info: Link coloring ON on input line 6084.
-Package hyperref Info: Link coloring with OCG OFF on input line 6091.
-Package hyperref Info: PDF/A mode OFF on input line 6096.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring ON on input line 6069.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi
 -ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count301
+\c@Item=\count302
+\c@Hfootnote=\count303
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdf
 tex.def
-File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
+File: hpdftex.def 2023-05-16 v7.00y Hyperref driver for pdfTeX
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryen
 d-ltx.sty
@@ -462,8 +479,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilechec
 k\rerunfilecheck.sty
@@ -476,16 +493,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip67
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/ba
 se\glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
 
-(C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.s
-ty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyv
 al.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
@@ -494,17 +507,17 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 yval.tex
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkv
 utils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count305
+\XKV@depth=\count306
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfir
 stuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks23
-\@glsmrest=\toks24
+\@glsmfirst=\toks25
+\@glsmrest=\toks26
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
@@ -515,8 +528,8 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsma
 th.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip66
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip68
 
 For additional information on amsmath, use the `?' option.
 
@@ -527,7 +540,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsge
 n.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
+\@emptytoks=\toks27
 \ex@=\dimen181
 ))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbs
@@ -539,19 +552,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 n.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count306
+\inf@bad=\count307
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count307
-\leftroot@=\count308
+\uproot@=\count308
+\leftroot@=\count309
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count309
-\DOTSCASE@=\count310
+\classnum@=\count310
+\DOTSCASE@=\count311
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box97
-\strutbox@=\box98
+\Mathstrutbox@=\box99
+\strutbox@=\box100
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
@@ -559,38 +572,38 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen183
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count311
+\macc@depth=\count312
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count312
+\c@MaxMatrixCols=\count313
 \dotsspace@=\muskip17
-\c@parentequation=\count313
-\dspbrk@lvl=\count314
-\tag@help=\toks26
-\row@=\count315
-\column@=\count316
-\maxfields@=\count317
-\andhelp@=\toks27
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
+\tag@help=\toks28
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
+\andhelp@=\toks29
 \eqnshift@=\dimen184
 \alignsep@=\dimen185
 \tagshift@=\dimen186
 \tagwidth@=\dimen187
 \totwidth@=\dimen188
 \lineht@=\dimen189
-\@envbody=\toks28
-\multlinegap=\skip67
-\multlinetaggap=\skip68
-\mathdisplay@stack=\toks29
+\@envbody=\toks30
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr
 .sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count318
+\c@su@anzahl=\count319
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/datatool\data
 tool-fp.sty
@@ -603,20 +616,20 @@ Package: fp 1995/04/02
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern
 .sty
 Package: defpattern 1994/10/12
-\actioncount=\count319
+\actioncount=\count320
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.s
 ty
 Package: fp-basic 1996/05/13
-\FP@xs=\count320
-\FP@xia=\count321
-\FP@xib=\count322
-\FP@xfa=\count323
-\FP@xfb=\count324
-\FP@rega=\count325
-\FP@regb=\count326
-\FP@regs=\count327
-\FP@times=\count328
+\FP@xs=\count321
+\FP@xia=\count322
+\FP@xib=\count323
+\FP@xfa=\count324
+\FP@xfb=\count325
+\FP@rega=\count326
+\FP@regb=\count327
+\FP@regs=\count328
+\FP@times=\count329
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.
 sty
@@ -639,7 +652,7 @@ Package: fp-pas 1994/08/29
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.
 sty
 Package: fp-random 1995/02/23
-\FPseed=\count329
+\FPseed=\count330
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -651,15 +664,15 @@ Package: fp-upn 1996/10/21
 y
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks30
-\@dtl@tmpcount=\count330
-\dtl@tmplength=\skip69
-\dtl@sortresult=\count331
-\@dtl@numgrpsepcount=\count332
-\@dtl@datatype=\count333
-\dtl@codeA=\count334
-\dtl@codeB=\count335
-\@dtl@foreach@level=\count336
+\@dtl@toks=\toks32
+\@dtl@tmpcount=\count331
+\dtl@tmplength=\skip71
+\dtl@sortresult=\count332
+\@dtl@numgrpsepcount=\count333
+\@dtl@datatype=\count334
+\dtl@codeA=\count335
+\dtl@codeB=\count336
+\@dtl@foreach@level=\count337
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tra
 cklang.sty
@@ -679,13 +692,13 @@ File: glossaries-french.ldf 2016/12/12 v1.1
 glish\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count337
-\@gls@tmpb=\toks31
-\gls@tmplen=\skip70
-\glskeylisttok=\toks32
-\glslabeltok=\toks33
-\glsshorttok=\toks34
-\glslongtok=\toks35
+\gls@level=\count338
+\@gls@tmpb=\toks33
+\gls@tmplen=\skip72
+\glskeylisttok=\toks34
+\glslabeltok=\toks35
+\glsshorttok=\toks36
+\glslongtok=\toks37
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
 yles\glossary-hypernav.sty
@@ -694,7 +707,7 @@ Package: glossary-hypernav 2022/11/03 v4.52 (NLCT)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
 yles\glossary-list.sty
 Package: glossary-list 2022/11/03 v4.52 (NLCT)
-\glslistdottedwidth=\skip71
+\glslistdottedwidth=\skip73
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
 yles\glossary-long.sty
@@ -703,25 +716,25 @@ Package: glossary-long 2022/11/03 v4.52 (NLCT)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtab
 le.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip72
-\LTright=\skip73
-\LTpre=\skip74
-\LTpost=\skip75
-\LTchunksize=\count338
+\LTleft=\skip74
+\LTright=\skip75
+\LTpre=\skip76
+\LTpost=\skip77
+\LTchunksize=\count339
 \LTcapwidth=\dimen190
-\LT@head=\box99
-\LT@firsthead=\box100
-\LT@foot=\box101
-\LT@lastfoot=\box102
-\LT@gbox=\box103
-\LT@cols=\count339
-\LT@rows=\count340
-\c@LT@tables=\count341
-\c@LT@chunks=\count342
-\LT@p@ftn=\toks36
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count340
+\LT@rows=\count341
+\c@LT@tables=\count342
+\c@LT@chunks=\count343
+\LT@p@ftn=\toks38
 )
-\glsdescwidth=\skip76
-\glspagelistwidth=\skip77
+\glsdescwidth=\skip78
+\glspagelistwidth=\skip79
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
 yles\glossary-super.sty
@@ -730,11 +743,11 @@ Package: glossary-super 2022/11/03 v4.52 (NLCT)
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\
 supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count343
+\c@tracingst=\count344
 \ST@wd=\dimen191
-\ST@rightskip=\skip78
-\ST@leftskip=\skip79
-\ST@parfillskip=\skip80
+\ST@rightskip=\skip80
+\ST@leftskip=\skip81
+\ST@parfillskip=\skip82
 \ST@pageleft=\dimen192
 \ST@headht=\dimen193
 \ST@tailht=\dimen194
@@ -744,12 +757,12 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@prevht=\dimen198
 \ST@toadd=\dimen199
 \ST@dimen=\dimen256
-\ST@pbox=\box104
+\ST@pbox=\box106
 ))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/st
 yles\glossary-tree.sty
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
-\glstreeindent=\skip81
+\glstreeindent=\skip83
 ))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geom
 etry.sty
@@ -759,9 +772,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 x.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count344
-\Gm@cntv=\count345
-\c@Gm@tempcnt=\count346
+\Gm@cnth=\count345
+\Gm@cntv=\count346
+\c@Gm@tempcnt=\count347
 \Gm@bindingoffset=\dimen257
 \Gm@wd@mp=\dimen258
 \Gm@odd@mp=\dimen259
@@ -770,26 +783,26 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen262
 \Gm@layouthoffset=\dimen263
 \Gm@layoutvoffset=\dimen264
-\Gm@dimlist=\toks37
+\Gm@dimlist=\toks39
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geom
 etry.cfg))
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appe
 ndix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count347
-\c@@ppsavesec=\count348
-\c@@ppsaveapp=\count349
+\c@@pps=\count348
+\c@@ppsavesec=\count349
+\c@@ppsaveapp=\count350
 )
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `rapport.glo'.
 
-Package glossaries Info: Writing glossary file rapport.glo on input line 22.
+Package glossaries Info: Writing glossary file rapport.glo on input line 24.
 \glo@acronym@file=\write7
 \openout7 = `rapport.acn'.
 
-Package glossaries Info: Writing glossary file rapport.acn on input line 22.
+Package glossaries Info: Writing glossary file rapport.acn on input line 24.
 \@indexfile=\write8
 \openout8 = `rapport.idx'.
 
@@ -799,52 +812,44 @@ Writing index file rapport.idx
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3b
 ackend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count350
-\l__pdf_internal_box=\box105
+\l__color_backend_stack_int=\count351
+\l__pdf_internal_box=\box107
 ) (rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Info: Redefining \degres on input line 61.
-Package french.ldf Info: Setting StandardItemizeEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 61.
-Package french.ldf Info: Setting StandardEnumerateEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 61.
-LaTeX Info: Redefining \up on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\s
 upp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
+\scratchcounter=\count352
 \scratchdimen=\dimen265
-\scratchbox=\box106
-\nofMPsegments=\count352
-\nofMParguments=\count353
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count354
+\scratchbox=\box108
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count355
 \MPscratchDim=\dimen266
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks41
 )
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\
 epstopdf-base.sty
@@ -865,6 +870,14 @@ G,.JBIG2,.JB2,.eps]
 opdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+LaTeX Info: Redefining \degres on input line 63.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 63.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 63.
+LaTeX Info: Redefining \up on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -875,7 +888,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 61.
+Package hyperref Info: Link coloring ON on input line 63.
  (rapport.out) (rapport.out)
 \@outlinefile=\write9
 \openout9 = `rapport.out'.
@@ -915,14 +928,14 @@ Package hyperref Info: Link coloring ON on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/ump.png, id=136, 752.8125pt x 749.80125pt>
-File: images/ump.png Graphic file (type png)
-<use images/ump.png>
-Package pdftex.def Info: images/ump.png  used on input line 68.
-(pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
+<images/ump.png, id=212, 752.8125pt x 749.80125pt>
 File: images/ump.png Graphic file (type png)
 <use images/ump.png>
 Package pdftex.def Info: images/ump.png  used on input line 70.
+(pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
+File: images/ump.png Graphic file (type png)
+<use images/ump.png>
+Package pdftex.def Info: images/ump.png  used on input line 72.
 (pdftex.def)             Requested size: 75.28566pt x 74.98451pt.
 [1
 
@@ -943,19 +956,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \end{abstract}
+l.163 \end{abstract}
                      [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.167 \end{abstract}
+l.169 \end{abstract}
                      [1] (rapport.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 ...tle of the First Appendix}{18}{appendix.A}
+l.50 ...t is currently done}{18}{subsection.3.1.2}
                                                   % [2
 
 ])
@@ -967,7 +980,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \newpage
+l.179 \newpage
                [3] (rapport.lof)
 \tf@lof=\write11
 \openout11 = `rapport.lof'.
@@ -984,15 +997,32 @@ No file rapport.acr.
 
 ]
 Chapter 1.
-<images/pierre.png, id=221, 370.38374pt x 392.21532pt>
+
+
+pdfTeX warning: pdflatex.exe (file ./images/ecomundo.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<images/ecomundo.pdf, id=323, 565.15138pt x 155.6214pt>
+File: images/ecomundo.pdf Graphic file (type pdf)
+<use images/ecomundo.pdf>
+Package pdftex.def Info: images/ecomundo.pdf  used on input line 203.
+(pdftex.def)             Requested size: 418.25368pt x 115.17464pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 203--205
+[][]
+ []
+
+<images/pierre.png, id=325, 370.38374pt x 392.21532pt>
 File: images/pierre.png Graphic file (type png)
 <use images/pierre.png>
-Package pdftex.def Info: images/pierre.png  used on input line 212.
+Package pdftex.def Info: images/pierre.png  used on input line 215.
 (pdftex.def)             Requested size: 185.1914pt x 196.10718pt.
-[6
 
- <./images/pierre.png>]
-Overfull \hbox (1.58273pt too wide) in paragraph at lines 218--219
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+ <./images/ecomundo.pdf>]
+Overfull \hbox (1.58273pt too wide) in paragraph at lines 221--222
 \T1/cmr/m/n/12 dé-fis avec, en-tre autres, le développe-ment de nos dif-férente
 s fil-iales au Canada,
  []
@@ -1005,7 +1035,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[7 <./images/pierre.png>]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1052,71 +1085,222 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 Chapter 2.
+
+LaTeX Warning: Citation `mikolov2013efficient' on page 13 undefined on input li
+ne 353.
+
 [13
 
 ]
+
+LaTeX Warning: Citation `huggingface' on page 14 undefined on input line 377.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+
+LaTeX Warning: Citation `openai' on page 15 undefined on input line 385.
+
+
+LaTeX Warning: Citation `brown2020language' on page 15 undefined on input line 
+389.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
 Chapter 3.
-[14
 
-]
-Chapter 4.
+Overfull \hbox (15.43063pt too wide) in paragraph at lines 401--402
+[]\T1/cmr/m/n/12 All creams, foun-da-tions, and sham-poos that be-come to-mor-r
+ow's BEST SELLER
+ []
+
+<images/CT.png, id=398, 1047.16219pt x 283.0575pt>
+File: images/CT.png Graphic file (type png)
+<use images/CT.png>
+Package pdftex.def Info: images/CT.png  used on input line 406.
+(pdftex.def)             Requested size: 418.25368pt x 113.05685pt.
+[17
+
+ <./images/CT.png>]
+<images/kyoto.png, id=404, 1428.83812pt x 683.55376pt>
+File: images/kyoto.png Graphic file (type png)
+<use images/kyoto.png>
+Package pdftex.def Info: images/kyoto.png  used on input line 416.
+(pdftex.def)             Requested size: 418.25368pt x 200.09251pt.
+<images/ctFlow.png, id=405, 591.71063pt x 408.02437pt>
+File: images/ctFlow.png Graphic file (type png)
+<use images/ctFlow.png>
+Package pdftex.def Info: images/ctFlow.png  used on input line 426.
+(pdftex.def)             Requested size: 418.25368pt x 288.423pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./images/kyoto.png>]
+<images/binaryTree.png, id=411, 489.32813pt x 395.22656pt>
+File: images/binaryTree.png Graphic file (type png)
+<use images/binaryTree.png>
+Package pdftex.def Info: images/binaryTree.png  used on input line 431.
+(pdftex.def)             Requested size: 418.25368pt x 337.82571pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./images/ctFlow.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./images/binaryTree.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+LaTeX Warning: Citation `openaiUP' on page 23 undefined on input line 481.
+
 No file rapport.gls.
-(rapport.bbl [15
+(rapport.bbl
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
 (C:\Users\imehdi_ecomundo\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.f
 d
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)) [16
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)) [24
 
-] [17
+] [25
 
 ]
 Appendix A.
-[18
+[26
 
 ]
 Appendix B.
-(rapport.ind) [19
+No file rapport.ind.
+[27
 
 ] (rapport.aux)
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: BAAA3248C1762353AAF969C6D4E04B46;5093.
+ ***********
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-16>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `rapport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport.out':
+(rerunfilecheck)             Before: 3B04DD37AF82F14160A0D69A134E6666;7910
+(rerunfilecheck)             After:  1E3D30BB718CA4D0A624A501964FB920;7910.
  ) 
 Here is how much of TeX's memory you used:
- 21080 strings out of 476410
- 371081 string characters out of 5784394
- 1862845 words of memory out of 5000000
- 41030 multiletter control sequences out of 15000+600000
- 527771 words of font info for 61 fonts, out of 8000000 for 9000
+ 20972 strings out of 476037
+ 363292 string characters out of 5775131
+ 1865749 words of memory out of 5000000
+ 41269 multiletter control sequences out of 15000+600000
+ 528871 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,90p,2259b,750s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecti1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\imehdi_ecomundo\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\im
-ehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl0600.
-pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\tcrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljf
-our/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiK
-TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\imehdi_ecomundo\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\i
-mehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440
-.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\imehdi_ecomundo\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\
-imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm207
-4.pk><C:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (23 pages, 578440 bytes).
+ 94i,11n,93p,2259b,725s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.11} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecti1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\imehdi_ecomundo\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\imeh
+di_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl0600.pk
+> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\tcrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\imehdi_ecomundo\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\ime
+hdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.p
+k> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecrm1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\imehdi_ecomundo\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\imehdi_ecomundo\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\im
+ehdi_ecomundo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.
+pk><C:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmex10.pfb><C:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/imehdi_ecomundo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/imehdi_eco
+mundo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb>
+Output written on rapport.pdf (31 pages, 1369741 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
