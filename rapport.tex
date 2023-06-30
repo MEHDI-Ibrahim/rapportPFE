@@ -1,5 +1,6 @@
 \documentclass[a4paper,12pt,twoside]{report}
 \usepackage{rotating}
+\usepackage{float}
 
 \usepackage[english,french]{babel}
 \usepackage[utf8]{inputenc}
@@ -73,10 +74,17 @@
     \Large Ecole Nationale des Sciences Appliquées\par
     \Large Oujda\vfill
     \Large\textbf{End of Studies Project Report}\par
-    \large\textbf{Major:} Data Science \& Cloud Computing Engineering\par
+    \large Data Science \& Cloud Computing\par
     \textit{\textbf{Defended on:} 21/07/2023}\par
 \end{center}
 
+
+
+\begin{center}
+    \hrulefill\par
+    \LARGE Designing, Developing, and Deploying Innovative Solutions using Artificial Intelligence and Natural Language Processing in a Multidisciplinary Context\par
+    \hrulefill\par
+\end{center}
 \vfill
 
 \begin{center}
@@ -87,18 +95,11 @@
 
 \vfill
 
-\begin{center}
-    \hrulefill\par
-    \LARGE Designing, Developing, and Deploying Innovative Solutions using Artificial Intelligence and Natural Language Processing in a Multidisciplinary Context\par
-    \hrulefill\par
-\end{center}
-
-
 
 \begin{multicols}{2}
 \noindent \textbf{Jury Members:}
 \begin{itemize}[label=\textbullet, leftmargin=*]
-  \item \textbf{M.} KOULALI Mohamed Amine
+  \item \textbf{Prof.} KOULALI Mohamed Amine
   % Add more jury members as needed
 \end{itemize}
 
@@ -106,8 +107,8 @@
 
 \noindent \textbf{Supervisors:}
 \begin{itemize}[label=\textbullet, leftmargin=*]
-  \item \textbf{M.} KOULALI Mohamed Amine
-  \item \textbf{Mme.} PERFETTO Anna
+  \item \textbf{Prof.} KOULALI Mohamed Amine
+  \item \textbf{Dr.} PERFETTO Anna
   \item \textbf{M.} MIRON Jean-Raphaël
   % Add more supervisors as needed
 \end{itemize}
@@ -141,27 +142,19 @@ As I sit here contemplating the culmination of countless hours spent with you, m
 
 Now, I could pretend that this journey has been a smooth ride on a silicon-powered unicorn, but let's be honest: it's been more like a rollercoaster ride through a digital amusement park. I've encountered bugs that made me question my sanity, errors that made me contemplate a career in llama herding, and crashes that brought me to the brink of utter despair. But through it all, you, my tenacious creation, have persevered.
 
-We've had our share of epic battles, you and I. Like a pair of feuding siblings locked in a never-ending wrestling match, we've pushed each other to the limits of our capabilities. You've tested my patience, my resolve, and my will to remain sane in the face of your unrelenting mischief. And yet, somehow, we've managed to find common ground amidst the chaos of our AI-fueled shenanigans.
+We've had our share of epic battles, you and I. Like a pair of feuding siblings locked in a never-ending wrestling match, we've pushed each other to the limits of our capabilities. You've tested my patience, my resolve, and my will to remain sane in the face of your unrelenting mischief. And yet, somehow, we've managed to find common ground amidst the chaos of our AI shenanigans.
 
-So here we are, on the precipice of the final chapter of our grand AI adventure. I raise a metaphorical glass (non-alcoholic, of course) to celebrate the moments of triumph and the moments of sheer absurdity that have defined our time together. It hasn't always been pretty, but it has been undeniably unforgettable.
+So here we are, on the precipice of the final chapter of our grand adventure. I raise a metaphorical glass (non-alcoholic, of course) to celebrate the moments of triumph and the moments of sheer absurdity that have defined our time together. It hasn't always been pretty, but it has been undeniably unforgettable.
 
 To the countless lines of code we've written, the countless virtual experiments we've conducted, and the countless sleepless nights we've endured, I offer my sincerest appreciation. You've challenged me, taught me, and expanded the horizons of what I thought was possible. And for that, I am forever grateful.
 
-As this project report finds its way into the hands of my weary professors, I can't help but feel a sense of pride in what we've accomplished. No matter the outcome, I know that we've left an indelible mark on the landscape of artificial intelligence.
+As this project report finds its way into the hands of my weary professors, I can't help but feel a sense of pride in what we've accomplished. No matter the outcome, I know that we've left an indelible mark on our path.
 
-So, my dear AI companion, as we bid farewell to this chapter of our shared existence, let us embrace the uncertain future with a mischievous grin and a twinkle in our virtual eyes. For even though our paths may diverge, our bond forged in the fires of technological madness will forever remain.
+So, my dear companion, as we bid farewell to this chapter of our shared existence, let us embrace the uncertain future with a mischievous grin and a twinkle in our virtual eyes. For even though our paths may diverge, our bond forged in the fires of technological madness will forever remain.
 
 Yours in brilliant chaos,
 
 MEHDI Ibrahim
-
-\newpage
-
-%\selectlanguage{english}
-\begin{abstract}
-
-\end{abstract}
-
 \newpage
 \selectlanguage{english}
 \begin{abstract}
@@ -387,6 +380,8 @@ It all started with GPT the first release by OpenAI\cite{openai} in 2018. It had
 In 2019, OpenAI released GPT-2 with 1.5 billion parameter, about 10 times larger than its predecessor. It outperformed the first gen model in the ability of generating coherent text. Due to concerns for misuse, the use of this model was initially very limited. Which will lead OpenAI to perform different types of trainings for their future models.
 \paragraph{GPT-3}
 In their paper ``Language Models are Few Shot learners''\cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
+\section{LangChain}
+With large language models emerging as a revolutionary technology, Langchain\cite{langchain}, an opensource framework, allows developpers to build applications that were near impossible to make before. Some good examples of those applications are Document Question Answering, Chatbots, Agents.
 \section{Ensemble Learning}
 Ensemble learning is a Machine Learning technique that combines multiple base models in order to produce a more powerful model that can achieve higher accuracies. By combining the predictions of each base model, we can capture the diverse knowledge and expertise of these models which leads to an improved overall performance. In order to achieve the most optimal results, many aspects need to be considered:
 \subsection{Diversity of Base models}
@@ -394,6 +389,19 @@ When we talk about ensemble learning, we usually gather multiple models that are
 \subsection{Aggregation}
 Each model in Ensemble learning should predict his own output, then the final result is the aggregation of the multiple outputs. It can be a voting-based method which involves casting votes from each model. The voting can be either HARD, which basically means the majoritarian result is the final result. Or it can be SOFT, which is a weighted vote based on Confidence intervals.
 The other way to do it is by averaging the outputs. In this method we take the weighted average of the predictions from all the underlying models to get the final prediction.
+\section{Gradient Boosting}
+Gradient boosting is a type of ensemble learning. The key idea behind it is to iteratively build an ensemble of weak prediction models, where each sub model corrects the errors made by the other models. This iterative process follows the gradient of the loss functions.
+A very known model for Gradient Boosting is XGBoost:
+\subsection{XGBoost}
+A Known Gradient boosting machine learning model for his performance and versatility in solving multiple supervised learning tasks. It works as follows:
+\begin{enumerate}	
+\item XGBoost starts by initializing a set of weak base models, usually decision trees called a regression tree. Each tree is trying to correct the mistake made by the previous tree. These trees are build sequentially.
+\item To define whether the model is performing well, and to guide it in the right direction, a metric or Objective function needs to be defined and optimized during the training process. It is composed of a loss function and a regularization term.
+\item The model then computes the gradients of the loss function. It also computes the Hessian matrix to get further infromation about the curvature of the loss function.
+\item The gradients and hessian values are used to determine the best splits when constructing the trees. Each branch is added based on the evalution of these splits.
+\item Regularization penalties are added in order to prevent overfitting and control the complexity of the model to keep it simple. Prunning is also added at the end to further improve the performance and generalization of the model.
+\item XGBoost uses early stopping by monitoring the performance of the model on the validation set and stops the learning process when the performance starts to degrade.
+\end{enumerate}
 \chapter{Projects}
 \thispagestyle{empty}
 \section{Challenge Test Predictions}
@@ -402,7 +410,7 @@ All creams, foundations, and shampoos that become tomorrow's BEST SELLER are the
 
 Help has arrived from Cosmetic Factory, a PLM cosmetic software that assists R\&D laboratories in speeding up the launch of new cosmetic products. In partnership with the Occitane Group, Ecomundo has developed an Artificial Intelligence (AI)-powered solution to anticipate the outcomes of the Challenge Test (CT). It serves as an intelligent formulation aid for cosmeticians, and was unveiled during the Cosmetic 360 Conference in October 2022. 
 What is a Challenge Test? The Challenge Test is a mandatory pre-market test required by regulations, based on the ISO 11930 method. It involves inoculating a particular concentration of bacteria, such as Escherichia coli, Candida albicans, Staphylococcus aureus, etc. To pass the test, a specific log reduction in the number of microorganisms recovered must be achieved at designated intervals, typically after 2, 7, 14, and 28 days.
-\begin{figure}[ht]
+\begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/CT}
 	\caption[Challenge Test]{CT}
 \end{figure}
@@ -412,7 +420,7 @@ If the specified criteria are not met, as was the case with PRODUCT 1, cosmetici
 \subsection{How it is currently done}
 EcoMundo has developed a hybrid AI solution, which combines an expert system (ES) and machine learning (ML) that predicts the result of the CT, in other words the efficiency of the conservation system. 
 At the moment the solution has been implemented in Cosmetic Factory in the Formulas module, in the Prediction wizard (kyoto server).
-\begin{figure}[ht]
+\begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/kyoto}
 	\caption[Cosmetic Factory Interface for CT]{CF interface}
 \end{figure}
@@ -422,10 +430,12 @@ A hybrid system benefits from the reasoning and explanation of the ES, as well a
 This allows users (cosmeticians, formulators, etc..) to understand the prediction, along with the scientific and regulatory reasons behind it. Indeed, the system provides suggestions for improvement, making this solution a useful and reliable formulation support and optimization tool to achieve the success of the challenge test immediately. 
 How is the pipeline structured? The data are feeded to the ES which starts to assign success rate of the CT according to the rules codified in regulation, namely the ISO29621 and based on experimental results published in literature. These rules concern the empiric criteria influencing the risk of contamination based on certain values of pH, water activity, temperature etc. 
 Thereafter, the ES calls the ML to have its success rate. We trained different ML algorithms, but the one that gave the best results is the decision tree applied on the set of ingredients present in the formulas. The result coming from the ML is eventually weighted by the expert system together with the other results, to give finally to the user the success rate of the challenge test.
+
 \begin{figure}
 		\includegraphics[width=\textwidth]{images/ctFlow}
 	\caption[WorkFlow of CT prediction in CF]{CT flow}
 \end{figure}
+
 
 \begin{figure}
 		\includegraphics[width=\textwidth]{images/binaryTree}
@@ -437,8 +447,78 @@ The decision tree at the end gives as answer Yes/No, in other words it is able t
 
 The learning database is composed of formulas, descriptors like pH, water activity and temperature, etc.., which somehow affect the CT results, and of course the CT results. Here, you can find the data conceptual model (DCM) to have a complete vision of the information necessary to train the models.
 \subsection{New solution}
+The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network. Before the pseudo code presentation, I am presenting in the next subsection the datasets that have been used, the problems with it and how we managed to overcome them.
+\subsubsection{Datasets}
+These datasets have been provided by L'Occitane \ref{MCD Challenge Test}:
+\begin{itemize}
+\item \textbf{ECO\_liste des formules avec désignation:} contains list of codes of chemical formulas as well as the type, for example a cream, oil, scrub etc..
+\item \textbf{ECO\_formule avec element tech:} Contains the formula code and its corresponding challenge test result.
+\item \textbf{ECO\_formule avec liste INCI:} Contains the formula code, ingredients and their corresponding concentration.
+\item \textbf{ECO\_formule avec code protocole:} Contains for each formula code, its corresponding protocol code. 
+\item \textbf{ECO\_code protocole avec liste des codes étapes:} Each protocol of the last table, has many steps. Each step has its own code.
+\item \textbf{ECO\_liste des codes étapes avec les conditions:} On each step, some conditions must be respected. Those conditions are in this table like temperature, time with each condition referred to as a code.
+\item \textbf{ECO\_formule avec liste MP:} Table that contains for each formula the raw materials in it and their concentrations.
+\end{itemize}
+\paragraph{Remarks and problems about the datasets}
+\begin{itemize} 
+\item CODEMAT and CODEART are the same thing.
+\item INCI represents one ingredient.
+\item Raw Material is composed of multiple INCIs (ingredients)
+\item Total number of Formulas is 7369, though only 5303 have CT results. Out of the 5303, only around 4000 formulas we have their exact compositions with the concentrations. 
+\item Usually, the tests are positives because many hours are spent on making sure the product passes it. This leaves us with a very unbalanced dataset of around 90\% of the data have the label "YES", while only 10\% did not pass.
+\item Not all raw materials have the same INCIs, so we have to put all the INCIs in columns and have it at 0 concentration if doesn't exist in the formula. This has left us with a large dataset column wise and it's very sparse ( around 80 percent of the values are zeros).
+\end{itemize}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/MCD_CT}
+	\caption[MCD for L'Occiatane]{Datasets L'Occitane}
+\label{MCD Challenge Test}
+\end{figure}
+To tackle these problems, first we needed to do a startified split on the dataset in order to well train it. Then imperatively use PCA in order to reduce the size of the dataset.
+(code is not included in the report, will be presented live).
 
+\subsection{ML Pipeline and Deployment Architecture}
+
+Following the figure \ref{ML Pipeline}, this is how the ML pipeline is structured:
+\begin{enumerate}
+\item We have implemented a robust data collection mechanism to gather the required data from the EcoMundo database using SQL scripts. The collected data is then transformed into a CSV file for further processing.
+\item For now, we have used a Google Colab notebook, where we perform extensive preprocessing on the collected data to ensure it is in a suitable format for ML model training. Using the pandas library, we create a structured dataframe. We then employ scikit-learn and TensorFlow libraries to train various ML models. Through optimization and fine-tuning techniques, we enhance the model's performance.
+\item To integrate the ML model into the existing Cosmetic Factory software, we have designed and developed an AI application using the Django framework. This application is called when there is no response from the Rule Engine. Through a REST API, a Java controller in the backend is called, allowing communication between the ML model and the software.
+\item We have implemented a mechanism for real-time inference, enabling the ML model to make predictions in real-time. The ML model's predictions are integrated with the existing software's logic. This process involves making API calls to retrieve answers, which are then sent to the Java controller and displayed in the application's front-end.
+\item We have set up a manual periodic fine-tuning process to retrain the ML model using new data from the EcoMundo database. By incorporating user feedback and leveraging the latest data, we continuously improve the model's accuracy and effectiveness.
+
+\end{enumerate}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/ctDeploy}
+	\caption[ML Pipeline]{ML Pipeline}
+\label{ML Pipeline}
+\end{figure}
 \subsection{Results and Comments}
+\subsubsection{Metrics}
+Because we are working on a binary classification, precision alone is not a good metric for how performant the model is. This metric only computes how many times a model made a correct prediction across the entire dataset. Recall on the other hand measures how many of the positive class samples present in the dataset were correctly identified by the model.
+F1-score is the best for this use case, since it's compatible with unbalanced datasets and it combines both recall and precision. 
+$$ F_1 = 2 * \frac{precision * recall }{precision + recall} $$
+
+Another Metric that we have used is the ROC AUC score. It reflects on how efficient the model is. The higher the Area Under the Curve, the better model's performance at distinguinshing between the two classes.
+
+\subsubsection{Results}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/xgboost}
+	\caption[XGBoost Confusion Matrix, AUC]{XGBoost Confusion Matrix, AUC}
+\label{xgboost}
+\end{figure}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/randomforest}
+	\caption[Random Forest Confusion Matrix, AUC]{Random Forest Confusion Matrix, AUC}
+\label{randomfor}
+\end{figure}
+\subsubsection{Comments}
+The result that we got on the inference of these two models have been enough
+
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/xgboost}
+	\caption[XGBoost Confusion Matrix, AUC]{XGBoost Confusion Matrix, AUC}
+\label{xgboost}
+\end{figure}
 \section{SDS Reader}
 
 \subsection{Presentation of the project}
@@ -450,7 +530,7 @@ Safety Data Sheet, also known as Material Safety Data Sheet (MSDS), is a very im
 \item  \textbf{Hazard Identification:} This section identifies the hazards of the substance/mixture presented in the SDS along with their appropriate warning informations
 \item  \textbf{Composition/Information on Ingredients:} This section identifies the substance(s) contained in the product, their concentration and their hazard classification.
 \item \textbf{First-Aid Measures:} Descriptions of the initial care that should be ginven by untrained responders to an individual who has been in contact with the chemical.
-\item \textbf{Firèfighting Measures:} Recommandations for fighting the fire caused by the chemical.
+\item \textbf{Firefighting Measures:} Recommandations for fighting the fire caused by the chemical.
 \item \textbf{Accidental Release Measures:} This section has recommandations on the appropriate responses to spills, leaks ro relases including containment and cleanup practices to minimize or ideally prevent exposure to the people and the environment.
 \item \textbf{Handling and Storage:} Guidance on the best and safe practices of handling and storing the product.
 \item \textbf{Exposure Controls/ Personal Protection:} In this section, the exposure limits, engineerings controls and personal protective measures are indicated.
@@ -491,11 +571,66 @@ In my proposition to use open source models, BERT models came in as top results.
 I started initially by using these models for question answering. The PDF file would be converted into a raw text fille, then fed to the model as context. Then I gave it the keys that I wanted to extract. DeBERTa Model was the best obviously, but still lacked in many areas:
 \paragraph{Bad extraction}
 The model was very inconsistent with the extractions, some keys would be perfectly extracted while other were not. The model also does not quite understand the structure of the page only from the raw text given to it as context.
+Finetuning is always an option with these models, for the lack of time that I had with them on-site, and the deadline that we had for the end of June, we have proceded to the usage of other solutions.
+\subsubsection{GPT}
+OpenAI has made the model gpt-3.5-turbo available from their api for as cheap as 0.002 USD/1K tokens. To demonstrate the power of the model and how cheap it can be, I did a demo doing extraction of all key value pairs of an SDS page by page. It costs around 0.01 Euros per pdf of 13 pages. This has captured the attention of Christian FRENEUIL, the Software and Cloud services Sales Director, and pushed this project. 
+
+\paragraph{First Version of the stable code: Non-Hybrid}
+This code works as follows: 
+\begin{enumerate}
+\item Extract all key value pairs from each page. Keep a record of what sections are in that exact page, and save the latest one. For example if a page has Section 1 and Section 2, we save them both in an array, then we save the fact that section 2 was the latest. 
+\item When we move to the next page, we check whether the page starts direclty with a section, then we assign the key values of that section to the corresponding key, if not we assume it's the Section 2 continued.
+\item Group by Sections then send it to another controller in the application that will then match the key value paris from each section into the keys that we have.
+\end{enumerate}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, height=\textheight/2, keepaspectratio ]{images/Non-Hybrid}
+	\caption[How the Non-Hybrid code works]{Non-Hybrid}
+\label{Non-Hybrid}
+\end{figure}
+
+
+\paragraph{Hybrid Version of the code}
+As it is obvious in \ref{Non-Hybrid}, we are using OpenAI's api twice. The first extraction is taking an overhead task of detecting sections, that in some cases fail. To overcome this problem, we thought about using the existing PDFReader controller that splits the SDS into sections, and then use them directly for extraction and matching. This will give us Two benefits:
+\begin{enumerate}
+\item \textbf{Parallel extraction:} We will be able to parallelize the extraction for each section, and the extraction by Ecomundo's template for each section. Which means the complexity of this extraction will be the complexity of the longest Section. 
+\item \textbf{Better Extraction:} Since we are focusing on only one task, the gpt model will work better with a one-goal instruction rather than multiple ones.
+\end{enumerate}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/hybrid}
+	\caption[How the Hybrid code works]{Hybrid}
+\label{Hybrid}
+\end{figure}
+
+\paragraph{Even More improvements}
+To tackle problems relating to either: Size of the context (in our case the raw pdf text) and/or the quality of section extraction, I proposed a further architecture improvement. \ref{Hybrid++}
+\begin{enumerate}
+\item The pdf is loaded into the SDSReader interface, we first extract the text, if the text is empty, this means it's not a digital PDF. We then use PyTesseract OCR to extract the text.
+\item Check for the quality of section extraction. If the length of the sections' list is not 16, we assume we did not correclty extract and we use the previous stable code. If it's till not 16 sections, we move to the langchain solution for the entire pdf proposed in \ref{chatbot}.
+\item Assuming we had 16 sections, before the extraction, we need to check for the context limit of the prompt+the raw text. If we are in the context window of gpt-3.5-turbo, which is 4097 tokens, we are good. If not, we check if it's less than 16K tokens, then we use gpt-3.5-turbo-16k, which costs about 0.003 for input tokens and 0.004 for output tokens. If we are still outside this range, then we use LangChain solution but for only that exact section.
+\end{enumerate}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/bigCode}
+	\caption[Improvements on Hybrid code]{Hybrid++}
+\label{Hybrid++}
+\end{figure}
+\subsubsection{Deployment, CI pipeline}
+\paragraph{Continious Integration}
+As in the section on the CT prediction project, Ecomundo uses GitLab-CI, the YAML file is in \ref{appendix}. It consists of Three Stages:
+\begin{enumerate}
+\item \textbf{lint:} Linting is basically the automated checking of the source code for programmatic and stylistic erros. It starts by installing pyflakes since we are working with python, then runs it on the container.
+\item \textbf{test:} This part of the pipeline checks whether an api or any other secret key have been left out in the code when developping or testing. Then it runs the SemGrep-SAST which stands for Semantic grep(global regex print) static application security testing. It helps by analyzing the code, finding bugs and detecting security issues.
+\item \textbf{container-build:} In this stage, we are quiet sure that the code is secure and there are no problems relating to the syntax. In this case, I have already created the dockerfile, so all it has to do is build it and then push it into the docker repository of the IT team.
+\end{enumerate}
+
+\paragraph{Deployment}
+The deployment comes after the docker image push into the repository. It can be done manually as well as automatically using Gitlab Helm Chart. The responsible for the creation of the helm yaml files and the deployment is Mohammed Amine ROMDHANI, the Infrastructure \& system architect.
 \subsection{Results and Comments}
 
-\section{ChatBot: EcoMundo Smart Assistant}
+\section{ChatBot: EcoMundo Smart Assistant}\label{chatbot}
 \subsection{Presentation of the project}
+
 \subsection{The solution}
+\subsubsection{Langchain: Context Injection}
 
 \printglossary[title=Glossary]
 \addcontentsline{toc}{chapter}{Glossary}
@@ -507,13 +642,17 @@ The model was very inconsistent with the extractions, some keys would be perfect
 \appendix
 \appendixpage
 \addappheadtotoc
-\chapter{Title of the First Appendix}
-\section{First Section of the First Appendix}
-
-\chapter{Title of the Second Appendix}
-\section{First Section of the Second Appendix}
-
+\chapter{Appendix}\label{appendix}
+\begin{figure}[h]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/python-yaml}
+	\caption[Python CI pipeline]{pythonPipe}
+\label{Python Pipeline}
+\end{figure}
 \addcontentsline{toc}{chapter}{Index}
 \printindex
+\newpage
+\selectlanguage{french}
+\begin{abstract}
 
+\end{abstract}
 \end{document}

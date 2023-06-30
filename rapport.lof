@@ -4,9 +4,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Challenge Test}}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cosmetic Factory Interface for CT}}{18}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces WorkFlow of CT prediction in CF}}{19}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Current Decision Tree for CT prediction}}{20}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Challenge Test}}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cosmetic Factory Interface for CT}}{19}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces WorkFlow of CT prediction in CF}}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Current Decision Tree for CT prediction}}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces MCD for L'Occiatane}}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ML Pipeline}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces How the Non-Hybrid code works}}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces How the Hybrid code works}}{29}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Improvements on Hybrid code}}{31}{figure.caption.23}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Python CI pipeline}}{35}{figure.caption.28}%
+\babel@toc {french}{}\relax 
