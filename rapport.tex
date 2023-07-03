@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt,twoside]{report}
 \usepackage{rotating}
 \usepackage{float}
+\usepackage{amssymb}
 
 \usepackage[english,french]{babel}
 \usepackage[utf8]{inputenc}
@@ -335,8 +336,90 @@ During my internship at Ecomundo, I was assigned as an AI Engineer Intern inside
 The main objectives of this internship are to design, develop, test and document innovative solutions that adress business and R\&D challenges. The area of focus includes designing and improving rule-based expert systems that leverage knowledge and logic to provide answers to complex tasks that are traditionally done by a human. Additionally, developping AI solutions in different areas using Natural language processing and Machine/Deep Learning. Once these AI solutions are designed and developped, the next crucial step is to deploy them effectively. This envolves ensuring their quality and integrating them into the existing technical infrastructure of the organization. Rigourous testing procedures, such as unit testing, integration testing and performance testing are employed to validate the reliability and efficiency of the solutions. And to keep the projects well defined for future references, we worked on writing well documenting our work in order to provide clear intructions and guidelines for the code, deployment steps, maintenance and error handling.
 
 \section{Software}
+Ecomundo has many software in its arsenal, but in the context of this report, I worked with two applications: Cosmetic factory and SDS factory:
 \subsection{Cosmetic Factory}
+Cosmetic factory is an AI-Powered PLM Softwarethat has more than 12 key features that supports clients at each stage of a cosmetic product lifecycle from marketing brief to the worldwide market launch, while ensuring the best level of expertise. It digitalizes the entire development process of the products: 
+\begin{itemize}
+\item Choice of raw materials
+\item Formulation
+\item Regulatory and Environmental Compliance
+\item Marketing constraints
+\end{itemize}
+This application is powered an expert database containing more than 300.000 Chemical substances, +28.000 INCIs, +380 international regulations, +3900 toxicological profiles, An embedded database of all classifications (GHS, CLP, HAZCOM ...)
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/cf_ALLinONE}
+	\caption[CF All in One]{Cosmetic Factory}
+	\label{cfAiO}
+\end{figure}
+
+From the figure \ref{cfAiO}, two modules are in the context of this report:
+\begin{enumerate}
+\item Formulation
+	\begin{enumerate}
+	\item \textbf{Smart Theoretical Formulation:} CF helps saving time from the beginning of the formulation process thanks too the assisted theoretical formulation:
+		\begin{itemize}
+		\item Prepare the theoretical formulas according to the 
+requirements of the associated product brief (target 
+markets, naturalness, biodegradability, COSMOS standards...) 
+		\item Reduce low value-added exchanges between the different 
+stakeholders thanks to the embedded expertise
+		\end{itemize}
+	\item \textbf{Bench Formulation:} Adjust the theoretical formulas on the bench. Create a test 
+library and record all associated analytical results (physicochemical 
+and organoleptic properties, etc.), as well as other parameters. 
+Re-validate the formula's compliance with the product brief with 
+the AI FORMULA Check.
+	\item \textbf{Pilot Batch management:} Prepare the industrialization of the product with the management 
+of all the parameters related to the formula and the necessary 
+equipment.
+	\item \textbf{Test Management:} Plan, manage and follow the progress of all the tests related to the 
+products (regulatory, tolerance, efficacy...) in COSMETIC Factory. 
+	\item \textbf{Powerful Tools to accelerate formulation:}
+	
+	\begin{itemize}
+		\item \textbf{AI Formula Check:} Calculate global compliance in one click!
+		\item \textbf{Raw material Comparison Engine:}  Compare the PMs with 
+a multi-sourcing filter system
+		\item \textbf{AI Challenge test prediction:} Calculate the percentage of success of the challenge tests.
+		\item \textbf{Formula Comparison Engine:} Compare the formulas and tests with an advanced multi-criteria filter system:
+		\checkmark comparison of private labels (naturalness, COSMOS, biodegradability)
+		\checkmark concentrations in raw materials
+		\checkmark concentrations in ingredients
+		\checkmark go or no go results according to FORMULA Check
+		\checkmark Analytical data
+
+	\end{itemize}	
+	\end{enumerate}
+\item AI - Formula Check
+	\begin{enumerate}
+		\item \textbf{Global Compliance Calculation:}FORMULA Check instantly calculates the compliance of a raw 
+material, a formula, a finished product or a packaging. The tool 
+makes it possible to know instantly if a product, and even before that, if 
+a formula under development is in compliance with the targeted 
+markets, without waiting for an analysis by regulatory and toxicological 
+services.
+		\item \textbf{Oniscient Expert, Always Available:}FORMULA Check is like having an omniscient regulatory expert 
+available at all times, with perfect and exhaustive knowledge of 
+regulations (rules, constraints on use, product positioning) and 
+ingredients.
+
+		\item \textbf{Smart And Proactive Formulation:}FORMULA Check automatically provides expert advice on 
+compliance and allows formulators to make the most informed 
+decisions before proceeding further, modifying formulas, or initiating 
+testing (only when necessary).
+	\end{enumerate}
+\end{enumerate}
+
+
+
 \subsection{SDS Factory}
+This application comes in the context of this report as the after-effect of the new developped PDF Reader. PDF Reader allows the clients to create products from Safety data Sheets (\ref{sds?}) to be able to use them in other applications. It also allows to manage SDSs in general from creation, translation to distribution.
+\begin{figure}[H]
+		\includegraphics[width=\textwidth]{images/sdsFactory}
+	\caption[SDS Factory]{SDS Factory}
+	\label{sdsfactory}
+\end{figure}
+
 \chapter{Methods and tools}
 \thispagestyle{empty}
 \section{Transformers}
@@ -380,7 +463,7 @@ It all started with GPT the first release by OpenAI\cite{openai} in 2018. It had
 In 2019, OpenAI released GPT-2 with 1.5 billion parameter, about 10 times larger than its predecessor. It outperformed the first gen model in the ability of generating coherent text. Due to concerns for misuse, the use of this model was initially very limited. Which will lead OpenAI to perform different types of trainings for their future models.
 \paragraph{GPT-3}
 In their paper ``Language Models are Few Shot learners''\cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
-\section{LangChain}
+\section{LangChain}\label{langchainSec}
 With large language models emerging as a revolutionary technology, Langchain\cite{langchain}, an opensource framework, allows developpers to build applications that were near impossible to make before. Some good examples of those applications are Document Question Answering, Chatbots, Agents.
 \section{Ensemble Learning}
 Ensemble learning is a Machine Learning technique that combines multiple base models in order to produce a more powerful model that can achieve higher accuracies. By combining the predictions of each base model, we can capture the diverse knowledge and expertise of these models which leads to an improved overall performance. In order to achieve the most optimal results, many aspects need to be considered:
@@ -447,7 +530,7 @@ The decision tree at the end gives as answer Yes/No, in other words it is able t
 
 The learning database is composed of formulas, descriptors like pH, water activity and temperature, etc.., which somehow affect the CT results, and of course the CT results. Here, you can find the data conceptual model (DCM) to have a complete vision of the information necessary to train the models.
 \subsection{New solution}
-The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network. Before the pseudo code presentation, I am presenting in the next subsection the datasets that have been used, the problems with it and how we managed to overcome them.
+The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network (Not implemented yet). Before the pseudo code presentation, I am presenting in the next subsection the datasets that have been used, the problems with it and how we managed to overcome them.
 \subsubsection{Datasets}
 These datasets have been provided by L'Occitane \ref{MCD Challenge Test}:
 \begin{itemize}
@@ -512,8 +595,7 @@ Another Metric that we have used is the ROC AUC score. It reflects on how effici
 \label{randomfor}
 \end{figure}
 \subsubsection{Comments}
-The result that we got on the inference of these two models have been enough
-
+The result that we got on the inference of these two models have been enough to support the Expert system in its prediction. At the end of the day, I suggested that we do not take 50\% as the threashold of classification. This means if for example a product had a 60\% for example of passing the challenge test, we would show the percentage and our expert suggestion that effecting the challenge test for this product will probably be a loss of time and money in case of failure.
 \begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/xgboost}
 	\caption[XGBoost Confusion Matrix, AUC]{XGBoost Confusion Matrix, AUC}
@@ -523,7 +605,7 @@ The result that we got on the inference of these two models have been enough
 
 \subsection{Presentation of the project}
 Currently called PDF Reader, is an application made by Ecomundo specifically for Safety Data Sheets:
-\subsubsection{What is an SDS?}
+\subsubsection{What is an SDS?}\label{sds?}
 Safety Data Sheet, also known as Material Safety Data Sheet (MSDS), is a very important document that provides informations about the hazards and safe handling of a specific substance/mixture. Its main purpose is to ensure the safety of individuals who may use or come in contact with the substance in any settings. It it composed of sixteen sections:
 \begin{itemize}
 \item \textbf{Identification:} Identification of the substance/mixture on the SDS as well as the recommanded uses. It contains also the contact informations for the suppliers/manifacturers
@@ -623,15 +705,63 @@ As in the section on the CT prediction project, Ecomundo uses GitLab-CI, the YAM
 \end{enumerate}
 
 \paragraph{Deployment}
-The deployment comes after the docker image push into the repository. It can be done manually as well as automatically using Gitlab Helm Chart. The responsible for the creation of the helm yaml files and the deployment is Mohammed Amine ROMDHANI, the Infrastructure \& system architect.
+The deployment comes after the docker image push into the repository.We use HELM Charts as well as Jenkins to architect and deploy the containers in the kubernetes cluster. 
 \subsection{Results and Comments}
+\subsubsection{Difference between old solution and new one:}
+
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/oldSDSReader}
+	\caption[Old SDSReader]{Old SDSReader Output in the application}
+\label{oldSDSReader}
+\end{figure}
+
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/newSDSReader}
+	\caption[Old SDSReader]{New SDSReader Output in JSON format}
+\label{newSDSReader}
+\end{figure}
+
+As we see in \ref{oldSDSReader}, the first column is where we should extract all the key value pairs from the pdf, the second one is the matching key value pairs. Chapter 2 is one of the most important sections in any sds since it contains all the precautionary and hazard statements. As we can see, the old code has failed to match any of them.
+Contrary while using the new code with GPT, \ref{newSDSReader} shows the JSON Output direclty from the console that sould be send to the backend and then display it on the front. The extraction was perfect and all the data are there. \ref{chaps1}, \ref{chaps2}, \ref{chaps3} are the page of the pdf from where we did the extraction.
+The execution time is also very fast when calling the api, as we can see in \ref{sdsTimeResponse} clocking at a less than 32 seconds time , thanks to the parallel requests for both raw extraction and matched extraction. This test has been done using Postman.
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/sdsTimeResponse}
+	\caption[sdsTimeResponse]{Extraction Time for new SDSReader}
+\label{sdsTimeResponse}
+\end{figure}	
 
 \section{ChatBot: EcoMundo Smart Assistant}\label{chatbot}
 \subsection{Presentation of the project}
+With the release of ChatGPT, the chatbot paradigm has shifted from simple Question Answering models to a human-to-human interaction. 
+In Ecomundo, the idea of having a chatbot was needed to answer clients' frequently asked questions as well as special cases. The ideal solution would be a chatbot integrated in all of Ecomundo's Applications (Starting first as a beta version with Cosmetic Factory).
 
-\subsection{The solution}
+With a chatbot powered by gpt-3.5-turbo (or whatever latest and high quality per price range model is available), this project is very doable.
+\subsection{Theoretical solution}
+The problem with using a gpt model directly, is that it has zero knowledge about our software (Obviously it was never intended to be used directly), has little to zero knowledge about the updated regulations since its training database dates to april 2021. 
+The first solution that comes to mind is to fine tune it with our database of questions already answered by the commercial team as well as the latest regulations and documentation about our software. But this will be a finnacial hit since the model fine-tuned costs 0.12 USD/1K tokens (6 times more expensive than normal DAVINCI model) + 0.0300 / 1K tokens for training it. We need another solution:
 \subsubsection{Langchain: Context Injection}
+Langchain as I briefly described in \ref{langchainSec} is an opensource framework that allows the users to create agents, chatbots and question documents using Large Language Models. It mainly works using a method called \textbf{Context Injection}. This method involves using vectorstores in order to calculate similarity searches between the embedding of the user's question and our context documents. If there is already a chat history with the chatbot, we will create a standalone question that reformulate the questions taking into consideration that history.
 
+The context documents will be splitted into chunks, so the search will actually be between the query and the chunks. The figure \ref{chatbotArch} explains exaclty how this method works:
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio ]{images/gptLangchain}
+	\caption[Context Injection using GPT Models]{Context Injection using GPT Models}
+\label{chatbotArch}
+\end{figure}	
+\begin{enumerate}
+\item We start by taking the client's question and combining it in a comprehensive way with the chat history if it exists, then we generate a standalone question using GPT model. We create using an embedding model like OpenAI's ADA for the standalone question.
+\item We then take our context documents and split them into text chunks. We also embedd these chunks using the same model. \textbf{This step will be done only once unless we add new documents in the future}.
+\item We compute using the cosine similarity (or any other similarity metric) to extract the top chunks that are relevant to our question. \textbf{This step is the weakest link in this architecture since it's dependent on how good the similarity metric is.}
+\item We combine the standalone Question and the relevant chunks and we send them as a request to GPT model again. This step can be done with Langchain in four ways:
+\begin{enumerate}
+\item \textbf{Stuffing:} Takes all the context and puts it in one request with the question.
+\item \textbf{Map Reduce:} Sends multiple requests in parallel, each one with a chunk of text. At the end it combines all the answers in one final answer.
+\item \textbf{Refine:} Sends multiple requests in sequences, each one with a chunk of text. After having an answer from one request, it is refined using the next context chunk, if no improvements are possible then the previous answer is preserved.
+\end{enumerate}
+\item We output the final Answer to the user.
+\end{enumerate}
+\subsubsection{Future work}
+This project was only introduced as a concept, we managed to make a proof of concept when we used it in PDFReader in the case of a very long section or when a document that we was not splitted correctly into sections. We still need to test it again with its main purpose which is a chatbot, figure out how to integrate it into our softwares and obviously how impactful it will be for the clients.
 \printglossary[title=Glossary]
 \addcontentsline{toc}{chapter}{Glossary}
 
@@ -643,10 +773,25 @@ The deployment comes after the docker image push into the repository. It can be 
 \appendixpage
 \addappheadtotoc
 \chapter{Appendix}\label{appendix}
-\begin{figure}[h]
+\begin{figure}[H]
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/python-yaml}
-	\caption[Python CI pipeline]{pythonPipe}
+	\caption[pythonPipe]{Python CI pipeline}
 \label{Python Pipeline}
+\end{figure}	
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio]{images/chaps1}
+	\caption[chaps123]{Demo Chapter 2}
+\label{chaps1}
+\end{figure}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio]{images/chaps2}
+	\caption[chaps123]{Demo Chapter 2}
+\label{chaps2}
+\end{figure}
+\begin{figure}[H]
+		\includegraphics[width=\textwidth, keepaspectratio]{images/chaps3}
+	\caption[chaps123]{Demo Chapter 2}
+\label{chaps3}
 \end{figure}
 \addcontentsline{toc}{chapter}{Index}
 \printindex
