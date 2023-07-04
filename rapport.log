@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,7 +986,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.167 \end{abstract}
+l.173 \end{abstract}
                      [1] (rapport.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
@@ -1016,7 +1016,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \newpage
+l.183 \newpage
                [3] (rapport.lof)
 \tf@lof=\write7
 \openout7 = `rapport.lof'.
@@ -1032,17 +1032,17 @@ pdfTeX warning: pdflatex.exe (file ./images/ecomundo.pdf): PDF inclusion: found
 <images/ecomundo.pdf, id=339, 565.15138pt x 155.6214pt>
 File: images/ecomundo.pdf Graphic file (type pdf)
 <use images/ecomundo.pdf>
-Package pdftex.def Info: images/ecomundo.pdf  used on input line 192.
+Package pdftex.def Info: images/ecomundo.pdf  used on input line 198.
 (pdftex.def)             Requested size: 418.25368pt x 115.17464pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 192--194
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 198--200
 [][]
  []
 
 <images/pierre.png, id=341, 370.38374pt x 392.21532pt>
 File: images/pierre.png Graphic file (type png)
 <use images/pierre.png>
-Package pdftex.def Info: images/pierre.png  used on input line 204.
+Package pdftex.def Info: images/pierre.png  used on input line 210.
 (pdftex.def)             Requested size: 185.1914pt x 196.10718pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1050,7 +1050,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5
 
  <./images/ecomundo.pdf>]
-Overfull \hbox (1.58273pt too wide) in paragraph at lines 210--211
+Overfull \hbox (1.58273pt too wide) in paragraph at lines 216--217
 \T1/cmr/m/n/12 dé-fis avec, en-tre autres, le développe-ment de nos dif-férente
 s fil-iales au Canada,
  []
@@ -1118,10 +1118,10 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <images/cf_ALLinONE.pdf, id=386, 782.925pt x 542.025pt>
 File: images/cf_ALLinONE.pdf Graphic file (type pdf)
 <use images/cf_ALLinONE.pdf>
-Package pdftex.def Info: images/cf_ALLinONE.pdf  used on input line 345.
+Package pdftex.def Info: images/cf_ALLinONE.pdf  used on input line 351.
 (pdftex.def)             Requested size: 418.25368pt x 289.56284pt.
 
-Overfull \hbox (4.43631pt too wide) in paragraph at lines 362--367
+Overfull \hbox (4.43631pt too wide) in paragraph at lines 368--373
 []\T1/cmr/bx/n/12 Bench For-mu-la-tion: \T1/cmr/m/n/12 Ad-just the the-o-ret-i-
 cal for-mu-las on the bench.
  []
@@ -1135,13 +1135,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./images/cf_ALLinONE.pdf>]
-Overfull \hbox (3.47964pt too wide) in paragraph at lines 379--385
+Overfull \hbox (3.47964pt too wide) in paragraph at lines 385--391
 \T1/cmr/m/n/12 tests with an ad-vanced multi-criteria fil-ter sys-tem: []compar
 ison
  []
 
 
-Overfull \hbox (60.7753pt too wide) in paragraph at lines 379--385
+Overfull \hbox (60.7753pt too wide) in paragraph at lines 385--391
 \T1/cmr/m/n/12 of pri-vate la-bels (nat-u-ral-ness, COS-MOS, biodegrad-abil-ity
 ) []concentrations
  []
@@ -1153,7 +1153,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 <images/sdsFactory.pdf, id=440, 782.925pt x 542.025pt>
 File: images/sdsFactory.pdf Graphic file (type pdf)
 <use images/sdsFactory.pdf>
-Package pdftex.def Info: images/sdsFactory.pdf  used on input line 413.
+Package pdftex.def Info: images/sdsFactory.pdf  used on input line 419.
 (pdftex.def)             Requested size: 418.25368pt x 289.56284pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1186,7 +1186,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-Overfull \hbox (23.14531pt too wide) in paragraph at lines 462--463
+Overfull \hbox (23.14531pt too wide) in paragraph at lines 468--469
 []\T1/cmr/m/n/12 With large lan-guage mod-els emerg-ing as a rev-o-lu-tion-ary 
 tech-nol-ogy, Langchain[[]],
  []
@@ -1220,7 +1220,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [19]
 Chapter 3.
 
-Overfull \hbox (15.43063pt too wide) in paragraph at lines 487--488
+Overfull \hbox (15.43063pt too wide) in paragraph at lines 493--494
 []\T1/cmr/m/n/12 All creams, foun-da-tions, and sham-poos that be-come to-mor-r
 ow's BEST SELLER
  []
@@ -1228,7 +1228,7 @@ ow's BEST SELLER
 <images/CT.png, id=559, 1047.16219pt x 283.0575pt>
 File: images/CT.png Graphic file (type png)
 <use images/CT.png>
-Package pdftex.def Info: images/CT.png  used on input line 492.
+Package pdftex.def Info: images/CT.png  used on input line 498.
 (pdftex.def)             Requested size: 418.25368pt x 113.05685pt.
 [20
 
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: images/CT.png  used on input line 492.
 <images/kyoto.png, id=565, 1428.83812pt x 683.55376pt>
 File: images/kyoto.png Graphic file (type png)
 <use images/kyoto.png>
-Package pdftex.def Info: images/kyoto.png  used on input line 502.
+Package pdftex.def Info: images/kyoto.png  used on input line 508.
 (pdftex.def)             Requested size: 418.25368pt x 200.09251pt.
 
 
@@ -1251,12 +1251,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/ctFlow.png, id=571, 591.71063pt x 408.02437pt>
 File: images/ctFlow.png Graphic file (type png)
 <use images/ctFlow.png>
-Package pdftex.def Info: images/ctFlow.png  used on input line 513.
+Package pdftex.def Info: images/ctFlow.png  used on input line 519.
 (pdftex.def)             Requested size: 418.25368pt x 288.423pt.
 <images/binaryTree.png, id=572, 489.32813pt x 395.22656pt>
 File: images/binaryTree.png Graphic file (type png)
 <use images/binaryTree.png>
-Package pdftex.def Info: images/binaryTree.png  used on input line 519.
+Package pdftex.def Info: images/binaryTree.png  used on input line 525.
 (pdftex.def)             Requested size: 418.25368pt x 337.82571pt.
 
 
@@ -1280,7 +1280,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/MCD_CT.pdf, id=586, 722.7pt x 406.51875pt>
 File: images/MCD_CT.pdf Graphic file (type pdf)
 <use images/MCD_CT.pdf>
-Package pdftex.def Info: images/MCD_CT.pdf  used on input line 550.
+Package pdftex.def Info: images/MCD_CT.pdf  used on input line 556.
 (pdftex.def)             Requested size: 418.25368pt x 235.26619pt.
 
 
@@ -1304,17 +1304,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/ctDeploy.jpg, id=620, 1154.06157pt x 510.40688pt>
 File: images/ctDeploy.jpg Graphic file (type jpg)
 <use images/ctDeploy.jpg>
-Package pdftex.def Info: images/ctDeploy.jpg  used on input line 569.
+Package pdftex.def Info: images/ctDeploy.jpg  used on input line 575.
 (pdftex.def)             Requested size: 418.25368pt x 184.98465pt.
 <images/xgboost.png, id=621, 572.1375pt x 608.2725pt>
 File: images/xgboost.png Graphic file (type png)
 <use images/xgboost.png>
-Package pdftex.def Info: images/xgboost.png  used on input line 583.
+Package pdftex.def Info: images/xgboost.png  used on input line 589.
 (pdftex.def)             Requested size: 418.25368pt x 444.67566pt.
 <images/randomforest.png, id=622, 563.85657pt x 609.02531pt>
 File: images/randomforest.png Graphic file (type png)
 <use images/randomforest.png>
-Package pdftex.def Info: images/randomforest.png  used on input line 588.
+Package pdftex.def Info: images/randomforest.png  used on input line 594.
 (pdftex.def)             Requested size: 418.25368pt x 451.75894pt.
 
 Underfull \vbox (badness 5260) has occurred while \output is active []
@@ -1343,7 +1343,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [27 <./images/xgboost.png>]
 File: images/xgboost.png Graphic file (type png)
 <use images/xgboost.png>
-Package pdftex.def Info: images/xgboost.png  used on input line 595.
+Package pdftex.def Info: images/xgboost.png  used on input line 601.
 (pdftex.def)             Requested size: 418.25368pt x 444.67566pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1400,7 +1400,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 <images/Non-Hybrid.pdf, id=677, 399.41219pt x 784.85219pt>
 File: images/Non-Hybrid.pdf Graphic file (type pdf)
 <use images/Non-Hybrid.pdf>
-Package pdftex.def Info: images/Non-Hybrid.pdf  used on input line 663.
+Package pdftex.def Info: images/Non-Hybrid.pdf  used on input line 669.
 (pdftex.def)             Requested size: 343.18306pt x 674.36095pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1433,7 +1433,7 @@ DF version <1.7>, but at most version <1.5> allowed
 <images/hybrid.pdf, id=711, 385.44pt x 281.13028pt>
 File: images/hybrid.pdf Graphic file (type pdf)
 <use images/hybrid.pdf>
-Package pdftex.def Info: images/hybrid.pdf  used on input line 676.
+Package pdftex.def Info: images/hybrid.pdf  used on input line 682.
 (pdftex.def)             Requested size: 418.25368pt x 305.0618pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1450,7 +1450,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 <images/bigCode.pdf, id=738, 507.81718pt x 711.61856pt>
 File: images/bigCode.pdf Graphic file (type pdf)
 <use images/bigCode.pdf>
-Package pdftex.def Info: images/bigCode.pdf  used on input line 689.
+Package pdftex.def Info: images/bigCode.pdf  used on input line 695.
 (pdftex.def)             Requested size: 418.25368pt x 586.10445pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1480,12 +1480,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/oldSDSReader.png, id=782, 1430.34375pt x 707.64375pt>
 File: images/oldSDSReader.png Graphic file (type png)
 <use images/oldSDSReader.png>
-Package pdftex.def Info: images/oldSDSReader.png  used on input line 708.
+Package pdftex.def Info: images/oldSDSReader.png  used on input line 714.
 (pdftex.def)             Requested size: 418.25368pt x 206.92827pt.
 <images/newSDSReader.png, id=783, 855.195pt x 676.02562pt>
 File: images/newSDSReader.png Graphic file (type png)
 <use images/newSDSReader.png>
-Package pdftex.def Info: images/newSDSReader.png  used on input line 714.
+Package pdftex.def Info: images/newSDSReader.png  used on input line 720.
 (pdftex.def)             Requested size: 418.25368pt x 330.6262pt.
 
 Underfull \vbox (badness 1342) has occurred while \output is active []
@@ -1503,7 +1503,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/sdsTimeResponse.png, id=802, 297.36093pt x 206.27063pt>
 File: images/sdsTimeResponse.png Graphic file (type png)
 <use images/sdsTimeResponse.png>
-Package pdftex.def Info: images/sdsTimeResponse.png  used on input line 723.
+Package pdftex.def Info: images/sdsTimeResponse.png  used on input line 729.
 (pdftex.def)             Requested size: 418.25368pt x 290.14603pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1533,7 +1533,7 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 <images/gptLangchain.pdf, id=816, 744.86276pt x 392.42609pt>
 File: images/gptLangchain.pdf Graphic file (type pdf)
 <use images/gptLangchain.pdf>
-Package pdftex.def Info: images/gptLangchain.pdf  used on input line 742.
+Package pdftex.def Info: images/gptLangchain.pdf  used on input line 748.
 (pdftex.def)             Requested size: 418.25368pt x 220.3559pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1568,7 +1568,7 @@ Appendix A.
 <images/python-yaml.png, id=868, 850.67813pt x 639.13782pt>
 File: images/python-yaml.png Graphic file (type png)
 <use images/python-yaml.png>
-Package pdftex.def Info: images/python-yaml.png  used on input line 771.
+Package pdftex.def Info: images/python-yaml.png  used on input line 777.
 (pdftex.def)             Requested size: 418.25368pt x 314.24329pt.
 
 
@@ -1577,7 +1577,7 @@ DF version <1.7>, but at most version <1.5> allowed
 <images/chaps1.pdf, id=869, 597.432pt x 845.07718pt>
 File: images/chaps1.pdf Graphic file (type pdf)
 <use images/chaps1.pdf>
-Package pdftex.def Info: images/chaps1.pdf  used on input line 776.
+Package pdftex.def Info: images/chaps1.pdf  used on input line 782.
 (pdftex.def)             Requested size: 418.25368pt x 591.64026pt.
 
 
@@ -1586,7 +1586,7 @@ DF version <1.7>, but at most version <1.5> allowed
 <images/chaps2.pdf, id=870, 597.432pt x 845.07718pt>
 File: images/chaps2.pdf Graphic file (type pdf)
 <use images/chaps2.pdf>
-Package pdftex.def Info: images/chaps2.pdf  used on input line 781.
+Package pdftex.def Info: images/chaps2.pdf  used on input line 787.
 (pdftex.def)             Requested size: 418.25368pt x 591.64026pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1600,7 +1600,7 @@ DF version <1.7>, but at most version <1.5> allowed
 <images/chaps3.pdf, id=876, 597.432pt x 845.07718pt>
 File: images/chaps3.pdf Graphic file (type pdf)
 <use images/chaps3.pdf>
-Package pdftex.def Info: images/chaps3.pdf  used on input line 786.
+Package pdftex.def Info: images/chaps3.pdf  used on input line 792.
 (pdftex.def)             Requested size: 418.25368pt x 591.64026pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1640,7 +1640,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.795 \end{abstract}
+l.807 \end{abstract}
                      [1] (rapport.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -1688,7 +1688,7 @@ comundo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 onts/cm/cmr8.pfb><C:/Users/imehdi_ecomundo/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/imehdi_ecomundo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on rapport.pdf (52 pages, 3156353 bytes).
+Output written on rapport.pdf (52 pages, 3159730 bytes).
 PDF statistics:
  1583 PDF objects out of 1728 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)

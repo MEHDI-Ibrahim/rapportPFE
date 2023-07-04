@@ -89,4 +89,3 @@
 \contentsline {chapter}{Bibliography}{43}{chapter*.34}%
 \contentsline {chapter}{Appendices}{45}{section*.35}%
 \contentsline {chapter}{\numberline {A}Appendix}{45}{appendix.A}%
-\babel@toc {french}{}\relax 
