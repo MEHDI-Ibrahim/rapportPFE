@@ -2,6 +2,7 @@
 \usepackage{rotating}
 \usepackage{float}
 \usepackage{amssymb}
+\usepackage{acronym}
 
 \usepackage[english,french]{babel}
 \usepackage[utf8]{inputenc}
@@ -23,8 +24,8 @@
 
 %\selectlanguage{francais}
 
-\makeglossaries
-\makeindex
+
+
 
 \geometry{vmargin=3cm}
 \hypersetup{%
@@ -62,6 +63,9 @@
 \renewcommand{\listfigurename}{List of Figures}%
 }
 
+\newacronym{aca}{ACA}{A Contrived Acronym}
+\newacronym{svm}{SVM}{Support Vector Machine}
+% Add more acronyms here
 \begin{document}
 
 \begin{titlepage}
@@ -178,16 +182,7 @@ MEHDI Ibrahim
 
 \thispagestyle{empty}
 
-\newpage
-\thispagestyle{empty}
-\listoftables   % table des tableaux
-\addcontentsline{toc}{chapter}{List of Tables}
-\thispagestyle{empty}
 
-\printglossary[type=\acronymtype]
-\addcontentsline{toc}{chapter}{Acronyms}
-
-\thispagestyle{empty}
 
 \newpage
 
@@ -762,8 +757,7 @@ The context documents will be splitted into chunks, so the search will actually 
 \end{enumerate}
 \subsubsection{Future work}
 This project was only introduced as a concept, we managed to make a proof of concept when we used it in PDFReader in the case of a very long section or when a document that we was not splitted correctly into sections. We still need to test it again with its main purpose which is a chatbot, figure out how to integrate it into our softwares and obviously how impactful it will be for the clients.
-\printglossary[title=Glossary]
-\addcontentsline{toc}{chapter}{Glossary}
+
 
 \bibliographystyle{plain}
 \bibliography{biblio}
@@ -793,8 +787,7 @@ This project was only introduced as a concept, we managed to make a proof of con
 	\caption[chaps123]{Demo Chapter 2}
 \label{chaps3}
 \end{figure}
-\addcontentsline{toc}{chapter}{Index}
-\printindex
+
 \newpage
 \selectlanguage{french}
 \begin{abstract}

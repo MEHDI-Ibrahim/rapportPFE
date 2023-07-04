@@ -1,0 +1,168 @@
+\glsdefs@newdocentry{time}%
+{%
+name={Time},%
+sort={Time},%
+type={main},%
+first={Time},%
+firstplural={Times},%
+text={Time},%
+plural={Times},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{utc}%
+{%
+name={\acronymfont {\glsentryshort {utc}}},%
+sort={UTC},%
+type={acronym},%
+first={UTC},%
+firstplural={UTCs},%
+text={UTC},%
+plural={UTCs},%
+description={Coordinated Universal Time},%
+descriptionplural={Coordinated Universal Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Coordinated Universal Time},%
+longplural={Coordinated Universal Times},%
+short={UTC},%
+shortplural={UTCs},%
+counter={page},%
+parent={time},%
+%
+}%
+
+\glsdefs@newdocentry{adt}%
+{%
+name={\acronymfont {\glsentryshort {adt}}},%
+sort={ADT},%
+type={acronym},%
+first={ADT},%
+firstplural={ADTs},%
+text={ADT},%
+plural={ADTs},%
+description={Atlantic Daylight Time},%
+descriptionplural={Atlantic Daylight Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Atlantic Daylight Time},%
+longplural={Atlantic Daylight Times},%
+short={ADT},%
+shortplural={ADTs},%
+counter={page},%
+parent={time},%
+%
+}%
+
+\glsdefs@newdocentry{cities}%
+{%
+name={Cities},%
+sort={Cities},%
+type={main},%
+first={Cities},%
+firstplural={Citiess},%
+text={Cities},%
+plural={Citiess},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{la}%
+{%
+name={\acronymfont {\glsentryshort {la}}},%
+sort={LA},%
+type={acronym},%
+first={LA},%
+firstplural={LAs},%
+text={LA},%
+plural={LAs},%
+description={Los Angeles},%
+descriptionplural={Los Angeles},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Los Angeles},%
+longplural={Los Angeless},%
+short={LA},%
+shortplural={LAs},%
+counter={page},%
+parent={cities},%
+%
+}%
+
+\glsdefs@newdocentry{ny}%
+{%
+name={\acronymfont {\glsentryshort {ny}}},%
+sort={NY},%
+type={acronym},%
+first={NY},%
+firstplural={NYs},%
+text={NY},%
+plural={NYs},%
+description={New York},%
+descriptionplural={New York},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={New York},%
+longplural={New Yorks},%
+short={NY},%
+shortplural={NYs},%
+counter={page},%
+parent={cities},%
+%
+}%
+
