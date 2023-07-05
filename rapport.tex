@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,twoside]{report}
+l\documentclass[a4paper,12pt,twoside]{report}
 \usepackage{rotating}
 \usepackage{float}
 \usepackage{amssymb}
@@ -167,7 +167,7 @@ This report presents the findings and outcomes of three projects that utilized a
 
 The first project aimed to develop an AI-powered solution for predicting the outcomes of Challenge Tests, which evaluate the effectiveness of cosmetic products in inhibiting the growth of microorganisms. By analyzing the formulation of cosmetic products using machine learning algorithms, the solution provided accurate predictions of Challenge Test outcomes. This optimization allowed formulators to improve their formulations and increase the likelihood of passing the tests, thereby reducing the time and resources needed for product development. This projects was conducted in collaboration with the L'Occitane Group and integrated into the Cosmetic Factory software, a Product Lifecycle Management (PLM) solution.
 
-The second project focused on developing an AI solution for reading Safety Data Sheets (SDS). The existing solution used a static code to search for keywords in PDFs and match them with a database. However, this approach had limitations in handling different languages and variations in key-value pairs. The new solution proposed the use of large language models and context injection to improve extraction accuracy and efficiency. This enhanced the ability to extract key information from SDS, improving safety and compliance in the cosmetics industry.
+The second project focused on developing an AI solution for reading Safety Data Sheets (SDS). The existing solution used a static code to search for keywords in PDFs and match them with a database. However, this approach had limitations in handling different languages and variations in key-value pairs. The new solution proposed the use of large language models and context injection to improve extraction accuracy and efficiency. This enhanced the ability to extract key information from SDS, improving safety and compliance in the chemical regulations industry.
 
 The third project aimed to develop a chatbot powered by a large language model to provide support and answer frequently asked questions. However, the cost of fine-tuning the model with the company's database was prohibitive. As an alternative, the Langchain framework was proposed, which utilized context injection to provide relevant answers based on the user's question and available context documents. This chatbot solution improved customer support and efficiency in addressing client inquiries.
 \end{abstract}
@@ -334,12 +334,12 @@ The Product sub-department works closely with other teams within the IT departme
 \subsection{My position}
 During my internship at Ecomundo, I was assigned as an AI Engineer Intern inside the  IT-R\&D department, under the supervision of both Chief Technical director Jean-Raphaël MIRON and AI Engineer Anna PERFETTO.
 \section{Internship objectives}
-The main objectives of this internship are to design, develop, test and document innovative solutions that adress business and R\&D challenges. The area of focus includes designing and improving rule-based expert systems that leverage knowledge and logic to provide answers to complex tasks that are traditionally done by a human. Additionally, developping AI solutions in different areas using Natural language processing and Machine/Deep Learning. Once these AI solutions are designed and developped, the next crucial step is to deploy them effectively. This envolves ensuring their quality and integrating them into the existing technical infrastructure of the organization. Rigourous testing procedures, such as unit testing, integration testing and performance testing are employed to validate the reliability and efficiency of the solutions. And to keep the projects well defined for future references, we worked on writing well documenting our work in order to provide clear intructions and guidelines for the code, deployment steps, maintenance and error handling.
+The main objectives of this internship are to design, develop, test and document innovative solutions that adress business and R\&D challenges. The area of focus includes supporting and improving rule-based expert systems that leverage knowledge and logic to provide answers to complex tasks that are traditionally done by a human. Additionally, developping AI solutions in different areas using Natural language processing and Machine/Deep Learning. Once these AI solutions are designed and developped, the next crucial step is to deploy them effectively. This envolves ensuring their quality and integrating them into the existing technical infrastructure of the organization. Rigourous testing procedures, such as unit testing, integration testing and performance testing are employed to validate the reliability and efficiency of the solutions. And to keep the projects well defined for future references, we worked on writing well documenting our work in order to provide clear intructions and guidelines for the code, deployment steps, maintenance and error handling.
 
 \section{Software}
 Ecomundo has many software in its arsenal, but in the context of this report, I worked with two applications: Cosmetic factory and SDS factory:
 \subsection{Cosmetic Factory}
-Cosmetic factory is an AI-Powered PLM Softwarethat has more than 12 key features that supports clients at each stage of a cosmetic product lifecycle from marketing brief to the worldwide market launch, while ensuring the best level of expertise. It digitalizes the entire development process of the products: 
+Cosmetic factory is an AI-Powered PLM Software that has more than 12 key features that supports clients at each stage of a cosmetic product lifecycle from marketing brief to the worldwide market launch, while ensuring the best level of expertise. It digitalizes the entire development process of the products: 
 \begin{itemize}
 \item Choice of raw materials
 \item Formulation
@@ -531,7 +531,7 @@ The decision tree at the end gives as answer Yes/No, in other words it is able t
 
 The learning database is composed of formulas, descriptors like pH, water activity and temperature, etc.., which somehow affect the CT results, and of course the CT results. Here, you can find the data conceptual model (DCM) to have a complete vision of the information necessary to train the models.
 \subsection{New solution}
-The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network (Not implemented yet). Before the pseudo code presentation, I am presenting in the next subsection the datasets that have been used, the problems with it and how we managed to overcome them.
+The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network (Not implemented yet). In the next subsection, I am presenting the datasets that have been used, the problems with it and how we managed to overcome them.
 \subsubsection{Datasets}
 These datasets have been provided by L'Occitane \ref{MCD Challenge Test}:
 \begin{itemize}
@@ -583,6 +583,8 @@ F1-score is the best for this use case, since it's compatible with unbalanced da
 $$ F_1 = 2 * \frac{precision * recall }{precision + recall} $$
 
 Another Metric that we have used is the ROC AUC score. It reflects on how efficient the model is. The higher the Area Under the Curve, the better model's performance at distinguinshing between the two classes.
+
+The expert actually wanted less false negatives and did no care about the other metrics. If we gave as a result that a formula will pass the challenge, but when its conducted it does not pass, it's not as big of a problem as the other way around: We say it is not going to pass the test but it actually does.
 
 \subsubsection{Results}
 \begin{figure}[H]
@@ -656,7 +658,7 @@ I started initially by using these models for question answering. The PDF file w
 The model was very inconsistent with the extractions, some keys would be perfectly extracted while other were not. The model also does not quite understand the structure of the page only from the raw text given to it as context.
 Finetuning is always an option with these models, for the lack of time that I had with them on-site, and the deadline that we had for the end of June, we have proceded to the usage of other solutions.
 \subsubsection{GPT}
-OpenAI has made the model gpt-3.5-turbo available from their api for as cheap as 0.002 USD/1K tokens. To demonstrate the power of the model and how cheap it can be, I did a demo doing extraction of all key value pairs of an SDS page by page. It costs around 0.01 Euros per pdf of 13 pages. This has captured the attention of Christian FRENEUIL, the Software and Cloud services Sales Director, and pushed this project. 
+OpenAI has made the model gpt-3.5-turbo available from their api for as cheap as 0.0015 USD/1K tokens (June 2023). To demonstrate the power of the model and how cheap it can be, I did a demo doing extraction of all key value pairs of an SDS page by page. It costs around 0.01 Euros per pdf of 13 pages. This has captured the attention of Christian FRENEUIL, the Software and Cloud services Sales Director, and pushed this project. 
 
 \paragraph{First Version of the stable code: Non-Hybrid}
 This code works as follows: 
