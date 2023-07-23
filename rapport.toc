@@ -1,88 +1,91 @@
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 
+\babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{List of Figures}{4}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Presentation of the host company}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}History}{6}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Organizational framework}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Human Resources}{7}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Corporate Communication}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Scientific Expertise}{8}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Regulatory Affairs}{8}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Sales}{8}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Innovation \& Software}{8}{subsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.2.7}IT}{9}{subsection.1.2.7}%
-\contentsline {subsubsection}{\numberline {1.2.7.1}DevOps}{9}{subsubsection.1.2.7.1}%
-\contentsline {subsubsection}{\numberline {1.2.7.2}R\&D (Research \& Development)}{9}{subsubsection.1.2.7.2}%
-\contentsline {subsubsection}{\numberline {1.2.7.3}Quality}{9}{subsubsection.1.2.7.3}%
-\contentsline {subsubsection}{\numberline {1.2.7.4}Data}{10}{subsubsection.1.2.7.4}%
-\contentsline {subsubsection}{\numberline {1.2.7.5}Dev}{10}{subsubsection.1.2.7.5}%
-\contentsline {subsubsection}{\numberline {1.2.7.6}LAB}{10}{subsubsection.1.2.7.6}%
-\contentsline {subsubsection}{\numberline {1.2.7.7}Product}{10}{subsubsection.1.2.7.7}%
-\contentsline {section}{\numberline {1.3}Internship objectives}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Existing solutions}{11}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Cosmetic Factory}{11}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}SDS Factory}{13}{subsection.1.4.2}%
-\contentsline {chapter}{\numberline {2}Methods and tools}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Transformers}{15}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Word Embedding}{15}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Attention}{15}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Encoder-Decoder Architecture}{15}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Encoder}{15}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Decoder}{16}{subsubsection.2.1.3.2}%
-\contentsline {subsection}{\numberline {2.1.4}HuggingFace}{16}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}OpenAI \& GPT}{17}{subsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.5.1}Generative Pretrained Transformers}{17}{subsubsection.2.1.5.1}%
-\contentsline {paragraph}{GPT-1}{17}{section*.5}%
-\contentsline {paragraph}{GPT-2}{17}{section*.6}%
-\contentsline {paragraph}{GPT-3}{17}{section*.7}%
-\contentsline {section}{\numberline {2.2}LangChain}{17}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Ensemble Learning}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Diversity of Base models}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Aggregation}{18}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Gradient Boosting}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}XGBoost}{18}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Projects}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Challenge Test Predictions}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Presentation of the project}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}How it is currently done}{21}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}New solution}{24}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Datasets}{24}{subsubsection.3.1.3.1}%
-\contentsline {paragraph}{Remarks and problems about the datasets}{24}{section*.12}%
-\contentsline {subsection}{\numberline {3.1.4}ML Pipeline and Deployment Architecture}{25}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Results and Comments}{26}{subsection.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.1.5.1}Metrics}{26}{subsubsection.3.1.5.1}%
-\contentsline {subsubsection}{\numberline {3.1.5.2}Results}{27}{subsubsection.3.1.5.2}%
-\contentsline {subsubsection}{\numberline {3.1.5.3}Comments}{28}{subsubsection.3.1.5.3}%
-\contentsline {section}{\numberline {3.2}SDS Reader}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Presentation of the project}{29}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}What is an SDS?}{29}{subsubsection.3.2.1.1}%
-\contentsline {subsection}{\numberline {3.2.2}How it is currently done}{31}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Get sections}{31}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Get Key-Value pairs}{31}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}Match with Ecomundo Template}{31}{subsubsection.3.2.2.3}%
-\contentsline {subsection}{\numberline {3.2.3}Problems with the old way}{31}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}New solution}{31}{subsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.4.1}Usage of Large Language Models}{31}{subsubsection.3.2.4.1}%
-\contentsline {paragraph}{Security}{32}{section*.18}%
-\contentsline {paragraph}{Cost}{32}{section*.19}%
-\contentsline {subsubsection}{\numberline {3.2.4.2}Open-Source Large Language Models}{32}{subsubsection.3.2.4.2}%
-\contentsline {paragraph}{BERT and its derivatives}{32}{section*.20}%
-\contentsline {paragraph}{Bad extraction}{32}{section*.21}%
-\contentsline {subsubsection}{\numberline {3.2.4.3}GPT}{32}{subsubsection.3.2.4.3}%
-\contentsline {paragraph}{First Version of the stable code: Non-Hybrid}{33}{section*.22}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Presentation of the host company}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}History}{8}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Organizational framework}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Human Resources}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Corporate Communication}{9}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Scientific Expertise}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Regulatory Affairs}{10}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Sales}{10}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Innovation \& Software}{10}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}IT}{10}{subsection.1.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.7.1}DevOps}{11}{subsubsection.1.2.7.1}%
+\contentsline {subsubsection}{\numberline {1.2.7.2}R\&D (Research \& Development)}{11}{subsubsection.1.2.7.2}%
+\contentsline {subsubsection}{\numberline {1.2.7.3}Quality}{11}{subsubsection.1.2.7.3}%
+\contentsline {subsubsection}{\numberline {1.2.7.4}Data}{11}{subsubsection.1.2.7.4}%
+\contentsline {subsubsection}{\numberline {1.2.7.5}Dev}{12}{subsubsection.1.2.7.5}%
+\contentsline {subsubsection}{\numberline {1.2.7.6}LAB}{12}{subsubsection.1.2.7.6}%
+\contentsline {subsubsection}{\numberline {1.2.7.7}Product}{12}{subsubsection.1.2.7.7}%
+\contentsline {section}{\numberline {1.3}Internship objectives}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Existing solutions}{13}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Cosmetic Factory}{13}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}SDS Factory}{15}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {2}Methods and tools}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Transformers}{16}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Word Embedding}{16}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Attention}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Encoder-Decoder Architecture}{17}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Encoder}{17}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Decoder}{17}{subsubsection.2.1.3.2}%
+\contentsline {subsection}{\numberline {2.1.4}HuggingFace}{19}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}OpenAI \& GPT}{19}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Generative Pretrained Transformers}{19}{subsubsection.2.1.5.1}%
+\contentsline {paragraph}{GPT-1}{19}{section*.5}%
+\contentsline {paragraph}{GPT-2}{19}{section*.6}%
+\contentsline {paragraph}{GPT-3}{19}{section*.7}%
+\contentsline {section}{\numberline {2.2}LangChain}{19}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Ensemble Learning}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Diversity of Base models}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Aggregation}{20}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Gradient Boosting}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}XGBoost}{20}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Summary}{21}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Projects}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Challenge Test Predictions}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Presentation of the project}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}How it is currently done}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}New solution}{26}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Datasets}{26}{subsubsection.3.1.3.1}%
+\contentsline {paragraph}{Remarks and problems about the datasets}{26}{section*.12}%
+\contentsline {subsection}{\numberline {3.1.4}ML Pipeline and Deployment Architecture}{27}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Results and Comments}{28}{subsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.5.1}Metrics}{28}{subsubsection.3.1.5.1}%
+\contentsline {subsubsection}{\numberline {3.1.5.2}Results}{29}{subsubsection.3.1.5.2}%
+\contentsline {subsubsection}{\numberline {3.1.5.3}Comments}{30}{subsubsection.3.1.5.3}%
+\contentsline {section}{\numberline {3.2}SDS Reader}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Presentation of the project}{31}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}What is an SDS?}{31}{subsubsection.3.2.1.1}%
+\contentsline {subsection}{\numberline {3.2.2}How it is currently done}{33}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Get sections}{33}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Get Key-Value pairs}{33}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}Match with Ecomundo Template}{33}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Problems with the old way}{33}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}New solution}{33}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Usage of Large Language Models}{33}{subsubsection.3.2.4.1}%
+\contentsline {paragraph}{Security}{34}{section*.18}%
+\contentsline {paragraph}{Cost}{34}{section*.19}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Open-Source Large Language Models}{34}{subsubsection.3.2.4.2}%
+\contentsline {paragraph}{BERT and its derivatives}{34}{section*.20}%
+\contentsline {paragraph}{Bad extraction}{34}{section*.21}%
+\contentsline {subsubsection}{\numberline {3.2.4.3}GPT}{34}{subsubsection.3.2.4.3}%
+\contentsline {paragraph}{First Version of the stable code: Non-Hybrid}{35}{section*.22}%
 \contentsline {paragraph}{Hybrid Version of the code}{35}{section*.24}%
 \contentsline {paragraph}{Even More improvements}{35}{section*.26}%
-\contentsline {subsubsection}{\numberline {3.2.4.4}Deployment, CI pipeline}{38}{subsubsection.3.2.4.4}%
-\contentsline {paragraph}{Continious Integration}{38}{section*.28}%
-\contentsline {paragraph}{Deployment}{38}{section*.29}%
-\contentsline {subsection}{\numberline {3.2.5}Results and Comments}{38}{subsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.5.1}Difference between old solution and new one:}{38}{subsubsection.3.2.5.1}%
-\contentsline {section}{\numberline {3.3}ChatBot: EcoMundo Smart Assistant}{40}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Presentation of the project}{40}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Theoretical solution}{40}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Langchain: Context Injection}{41}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Future work}{42}{subsubsection.3.3.2.2}%
-\contentsline {chapter}{Bibliography}{43}{chapter*.34}%
-\contentsline {chapter}{Appendices}{45}{section*.35}%
+\contentsline {subsubsection}{\numberline {3.2.4.4}Deployment, CI pipeline}{37}{subsubsection.3.2.4.4}%
+\contentsline {paragraph}{Continious Integration}{37}{section*.28}%
+\contentsline {paragraph}{Deployment}{39}{section*.29}%
+\contentsline {subsection}{\numberline {3.2.5}Results and Comments}{39}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}Difference between old solution and new one:}{39}{subsubsection.3.2.5.1}%
+\contentsline {section}{\numberline {3.3}ChatBot: EcoMundo Smart Assistant}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Presentation of the project}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Theoretical solution}{41}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Langchain: Context Injection}{42}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Future work}{43}{subsubsection.3.3.2.2}%
+\contentsline {chapter}{Bibliography}{45}{chapter*.35}%
+\contentsline {chapter}{Appendices}{47}{section*.36}%
+\babel@toc {french}{}\relax 

@@ -2,7 +2,8 @@
 \usepackage{rotating}
 \usepackage{float}
 \usepackage{amssymb}
-\usepackage{acronym}
+\usepackage[acronym]{glossaries}
+
 
 \usepackage[english,french]{babel}
 \usepackage[utf8]{inputenc}
@@ -18,9 +19,13 @@
 
 \usepackage{makeidx}
 \usepackage[colorlinks]{hyperref}
-\usepackage[acronym]{glossaries}
+
 \usepackage{geometry}
 \usepackage[titletoc]{appendix}
+\usepackage{longtable}
+
+% Command to add an acronym to the list
+\newcommand{\acronym}[2]{#1 & #2\\}
 
 %\selectlanguage{francais}
 
@@ -31,19 +36,6 @@
 \hypersetup{%
   citecolor=black
 }
-%\newacronym[\glsshortpluralkey=cas,\glslongpluralkey=contrived
-%acronyms]{aca}{aca}{a contrived acronym}
-%
-%\newglossaryentry{sample}{name={sample},description={a sample entry}}
-%
-%\addto\captionsfrench{
-%\renewcommand{\acronymname}{Acronymes}%
-%}
-%
-%\addto\captionsfrench{
-%\renewcommand{\glossarymname}{Glossaire}%
-%}
-
 \setcounter{secnumdepth}{3}
 
 \fancyhf{}
@@ -63,11 +55,16 @@
 \renewcommand{\listfigurename}{List of Figures}%
 }
 
-\newacronym{aca}{ACA}{A Contrived Acronym}
-\newacronym{svm}{SVM}{Support Vector Machine}
-% Add more acronyms here
 \begin{document}
+\newacronym{AI}{AI}{Artificial Intelligence}
+\newacronym{NLP}{NLP}{Natural Language Processing}
+\newacronym{IDSCC5}{IDSCC5}{Intelligent Data Science and Cloud Computing}
+\newacronym{ENSAO}{ENSAO}{Ecole Nationale des Sciences Appliquées Oujda}
 
+\newglossarystyle{mylist}{%
+    \setglossarystyle{list}%
+    \renewcommand{\glsgroupskip}{}%
+}
 \begin{titlepage}
 
 \fontfamily{cmr}\selectfont
@@ -143,23 +140,19 @@
 \begin{center}
     \Large\textbf{Acknowledgments}
 \end{center}
-To my AI-fueled brainchild,
+As I stand at the crossroads of completing my internship report, I find myself reflecting on the transformative experiences that have shaped my professional journey. Throughout this endeavor, I have been fortunate to receive support from numerous individuals and I would like to express my sincere appreciation.
 
-As I sit here contemplating the culmination of countless hours spent with you, my eccentric companion of bits and bytes, I can't help but marvel at the absurdity of it all. Like a mad scientist in a lab coat, I've tinkered and toyed with algorithms, seeking the elusive harmony between artificial intelligence and human understanding.
+First and foremost, I extend my heartfelt gratitude to my supervisors for their guidance and mentorship throughout the internship. Their expertise and encouragement provided me with the necessary tools to navigate the challenges and make meaningful contributions to the team.
 
-Now, I could pretend that this journey has been a smooth ride on a silicon-powered unicorn, but let's be honest: it's been more like a rollercoaster ride through a digital amusement park. I've encountered bugs that made me question my sanity, errors that made me contemplate a career in llama herding, and crashes that brought me to the brink of utter despair. But through it all, you, my tenacious creation, have persevered.
+I am also indebted to the entire team for their warm welcome and collaborative spirit. Working alongside such dedicated professionals has been inspiring, and I am grateful for the knowledge and insights they shared during our interactions.
 
-We've had our share of epic battles, you and I. Like a pair of feuding siblings locked in a never-ending wrestling match, we've pushed each other to the limits of our capabilities. You've tested my patience, my resolve, and my will to remain sane in the face of your unrelenting mischief. And yet, somehow, we've managed to find common ground amidst the chaos of our AI shenanigans.
+Furthermore, I would like to acknowledge the organization's commitment to nurturing talent. The opportunity to be part of this team has been invaluable in honing my skills and gaining a deeper understanding of the industry.
 
-So here we are, on the precipice of the final chapter of our grand adventure. I raise a metaphorical glass (non-alcoholic, of course) to celebrate the moments of triumph and the moments of sheer absurdity that have defined our time together. It hasn't always been pretty, but it has been undeniably unforgettable.
+In addition, I want to thank my family and friends for their unwavering support and understanding during this period. Their encouragement gave me the strength to persevere when faced with obstacles, and I am truly grateful for their presence in my life.
 
-To the countless lines of code we've written, the countless virtual experiments we've conducted, and the countless sleepless nights we've endured, I offer my sincerest appreciation. You've challenged me, taught me, and expanded the horizons of what I thought was possible. And for that, I am forever grateful.
+Lastly, I would like to express my appreciation to all those whose contributions may not be directly evident but have played a crucial role in making this internship a success.
 
-As this project report finds its way into the hands of my weary professors, I can't help but feel a sense of pride in what we've accomplished. No matter the outcome, I know that we've left an indelible mark on our path.
-
-So, my dear companion, as we bid farewell to this chapter of our shared existence, let us embrace the uncertain future with a mischievous grin and a twinkle in our virtual eyes. For even though our paths may diverge, our bond forged in the fires of technological madness will forever remain.
-
-Yours in brilliant chaos,
+As I move forward in my professional journey, I carry with me the knowledge and experiences gained during this internship. Each step has been instrumental in shaping my growth, and I am eager to apply the lessons learned in future endeavors.
 
 MEHDI Ibrahim
 \newpage
@@ -172,6 +165,18 @@ The first project aimed to develop an AI-powered solution for predicting the out
 The second project focused on developing an AI solution for reading Safety Data Sheets (SDS). The existing solution used a static code to search for keywords in PDFs and match them with a database. However, this approach had limitations in handling different languages and variations in key-value pairs. The new solution proposed the use of large language models and context injection to improve extraction accuracy and efficiency. This enhanced the ability to extract key information from SDS, improving safety and compliance in the chemical regulations industry.
 
 The third project aimed to develop a chatbot powered by a large language model to provide support and answer frequently asked questions. However, the cost of fine-tuning the model with the company's database was prohibitive. As an alternative, the Langchain framework was proposed, which utilized context injection to provide relevant answers based on the user's question and available context documents. This chatbot solution improved customer support and efficiency in addressing client inquiries.
+\end{abstract}
+
+\newpage
+\selectlanguage{french}
+\begin{abstract}
+Ce rapport présente les résultats et les retombées de trois projets qui ont utilisé l'intelligence artificielle (IA) pour améliorer les opérations dans l'industrie des réglementations chimiques.
+
+Le premier projet visait à développer une solution alimentée par l'IA pour prédire les résultats des Challenge Tests, qui évaluent l'efficacité des produits cosmétiques pour inhiber la croissance des microorganismes. En analysant la formulation des produits cosmétiques à l'aide d'algorithmes d'apprentissage automatique, la solution fournissait des prédictions précises des résultats des tests. Cette optimisation a permis aux formulateurs d'améliorer leurs formulations et d'augmenter les chances de réussite des tests, réduisant ainsi le temps et les ressources nécessaires pour le développement de produits. Ce projet a été mené en collaboration avec le groupe L'Occitane et intégré dans le logiciel Cosmetic Factory, une solution de gestion du cycle de vie des produits (PLM).
+
+Le deuxième projet était axé sur le développement d'une solution d'IA pour la lecture des fiches de données de sécurité (FDS). La solution existante utilisait un code statique pour rechercher des mots clés dans des fichiers PDF et les faire correspondre avec une base de données. Cependant, cette approche présentait des limites pour traiter différentes langues et variations dans les paires clé-valeur. La nouvelle solution proposait l'utilisation de grands modèles de langage et l'injection de contexte pour améliorer la précision et l'efficacité de l'extraction. Cela a renforcé la capacité à extraire des informations clés des FDS, améliorant la sécurité et la conformité dans l'industrie des réglementations chimiques.
+
+Le troisième projet visait à développer un chatbot alimenté par un grand modèle de langage pour fournir un support et répondre aux questions fréquemment posées. Cependant, le coût de l'adaptation fine du modèle avec la base de données de l'entreprise était prohibitif. En guise d'alternative, le cadre Langchain a été proposé, utilisant l'injection de contexte pour fournir des réponses pertinentes en fonction de la question de l'utilisateur et des documents de contexte disponibles. Cette solution de chatbot a amélioré le support client et l'efficacité pour répondre aux demandes des clients.
 \end{abstract}
 
 \newpage
@@ -188,15 +193,44 @@ The third project aimed to develop a chatbot powered by a large language model t
 
 \addcontentsline{toc}{chapter}{List of Figures}
 
-\thispagestyle{empty}
 
 
 
 \newpage
-
+\thispagestyle{empty}
+\begin{center}
+    \Large\textbf{Acronyms}
+\end{center}
+\begin{longtable}{ll}
+   \textbf{Acronym} & \textbf{Definition} \\
+   \hline
+   % Add your acronyms here using the \acronym command
+   \acronym{AI}{Artificial Intelligence}
+\acronym{NLP}{Natural Language Processing}
+\acronym{PDF}{Portable Document Format}
+\acronym{SDS/FDS}{Safety Data Sheet/ Fiche de Données de Sécurité}
+\acronym{PLM}{Product Life Management}
+\acronym{CT}{Challenge Test}
+\acronym{REACH}{Registration, Evaluation, Authorisation and Restriction of Chemicals}
+\acronym{CLP}{Classification, Labelling and Packaging}
+   % Add more acronyms as needed
+\end{longtable}
+\newpage
 \chapter{Introduction}
-In this chapter, I am providing a comprehensive overview of the host company, outlining the objectives of my internship and setting the context for this report.
+In the ever-evolving landscape of the chemical regulations industry, advancements in technology have been instrumental in streamlining operations, improving safety measures, and fostering sustainable practices. As part of an enriching internship experience, this report sheds light on the transformative role of artificial intelligence (AI) in revolutionizing various facets of the chemical regulations sector. Throughout the internship tenure, I had the privilege of contributing to three distinct projects that harnessed AI's potential to address critical challenges and enhance industry practices.
+
+This internship afforded the opportunity to explore the intersection of cutting-edge technologies and the intricate world of chemical regulations. Each project served as a stepping stone towards creating more efficient, reliable, and responsive solutions, ultimately contributing to the overall growth and advancement of the industry.
+
+As a primary focus, the projects emphasized the strategic integration of AI technologies to tackle industry-specific issues effectively. By leveraging AI-powered machine learning algorithms and large language models, these projects sought to optimize various processes and improve the overall decision-making within the sector.
+
+The objectives of the projects were carefully designed to align with the industry's needs, emphasizing the potential to transform how businesses operate, comply with safety standards, and drive product development. By overcoming the traditional limitations and exploring new paradigms, the projects showcased the immense promise of AI in reshaping the chemical regulations landscape.
+
+Throughout this report, I will delve into the methodologies, challenges, and outcomes of each project, while highlighting the significance of their contributions to the industry. Moreover, the report will also cover the invaluable insights gained during the internship, including a deeper understanding of the industry's regulatory framework and how AI can be applied strategically to enhance its efficiency and efficacy.
+
+As AI continues to gain prominence as a powerful tool in numerous industries, its potential in the chemical regulations sector remains unparalleled. This internship report aims to underscore the invaluable role of AI-driven innovations in fostering a safer, more sustainable, and technologically advanced chemical regulations industry. By understanding the implications of these projects, we embark on a journey towards a future where AI and chemical regulations coalesce to bring about transformative change.
+
 \section{Presentation of the host company}
+In this chapter, I am providing a comprehensive overview of the host company, outlining the objectives of my internship and setting the context for this report.
 \includegraphics[width=\textwidth]{images/ecomundo}
 EcoMundo \cite{ecomundo} specialises in chemical substances, their impact on human health and the environment, and the European and international regulations governing chemical risk (REACH, CLP, Cosmetics, Biocides, Medical devices, etc.).
 
@@ -300,7 +334,6 @@ The DevOps sub-department combines software development and operations to enable
 \subsubsection{R\&D (Research \& Development)}
 
 The R\&D sub-department within the IT department focuses on exploring new technologies, conducting research, and developing innovative solutions. R\&D professionals work closely with other departments to identify opportunities for technological advancements, prototype new features, and enhance existing software solutions. Their research-driven approach ensures that Ecomundo remains at the forefront of technological innovation within the environmental sciences domain.
-During my stay in Ecomundo, I was part of this department, under the supervision of Jean-Raphaël MIRON the Chief Technical Director and Anna PERFETTO the AI Engineer.
 
 \subsubsection{Quality}
 
@@ -374,11 +407,13 @@ products (regulatory, tolerance, efficacy...) in COSMETIC Factory.
 a multi-sourcing filter system
 		\item \textbf{AI Challenge test prediction:} Calculate the percentage of success of the challenge tests.
 		\item \textbf{Formula Comparison Engine:} Compare the formulas and tests with an advanced multi-criteria filter system:
-		\checkmark comparison of private labels (naturalness, COSMOS, biodegradability)
-		\checkmark concentrations in raw materials
-		\checkmark concentrations in ingredients
-		\checkmark go or no go results according to FORMULA Check
-		\checkmark Analytical data
+			\begin{itemize}
+				\item comparison of private labels (naturalness, COSMOS, biodegradability)
+				\item concentrations in raw materials
+				\item concentrations in ingredients
+				\item go or no go results according to FORMULA Check
+				\item Analytical data
+			\end{itemize}
 
 	\end{itemize}	
 	\end{enumerate}
@@ -405,7 +440,7 @@ testing (only when necessary).
 
 
 \subsection{SDS Factory}
-This application comes in the context of this report as the after-effect of the new developped PDF Reader. PDF Reader allows the clients to create products from Safety data Sheets (\ref{sds?}) to be able to use them in other applications. As shown in \ref{sdsfactory}, sds factory has many features that allows to manage SDSs in general from creation, translation to distribution.
+This application comes in the context of this report as the after-effect of the new developped PDF Reader. PDF Reader allows the clients to create products from Safety data Sheets (see  section \ref{sds?}) to be able to use them in other applications. As shown in figure \ref{sdsfactory}, SDS Factory has many features that allows to manage SDSs in general from creation, translation to distribution.
 \begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/sdsFactory}
 	\caption[SDS Factory]{SDS Factory}
@@ -415,10 +450,14 @@ This application comes in the context of this report as the after-effect of the 
 \chapter{Methods and tools}
 \thispagestyle{empty}
 \section{Transformers}
-Transformers\cite{NIPS2017_3f5ee243} have been introduced in 2017 to replace the Recurrent Neural Networks architectures using self-attention mechanisms and the encoder-decoder architecture that hugely improved the performance of such models.
+Transformers \cite{NIPS2017_3f5ee243} have been introduced in 2017 to replace the Recurrent Neural Networks architectures using self-attention mechanisms and the encoder-decoder architecture that hugely improved the performance of such models.
 
 \subsection{Word Embedding}
-Word embedding is the approach that allows computers to understand words by converting them into numeric vectors. In this space of vectors, words with similar meanings have close or similar representation. One famous algorithm frequently used is Word2Vec\cite{mikolov2013efficient}. The basic idea is that two words are considered similar if they are often used in similar context.
+Word embedding is a fundamental concept in natural language processing that facilitates computers in comprehending words by transforming them into dense numerical vectors. These vectors exist within a multi-dimensional space, where words with similar semantic meanings exhibit proximate or analogous representations. As an example, the classic Word2Vec is a prominent and widely adopted algorithm for creating word embeddings \cite{mikolov2013efficient}.
+
+The underlying principle behind word embeddings is to capture the contextual and semantic relationships between words. Rather than relying on sparse and discrete one-hot encoding representations, where each word is assigned a unique index in a high-dimensional vector space, word embeddings attempt to project words into a continuous and compact vector space. This process allows for a more efficient representation, as similar words or words used in comparable contexts end up with vectors that are closer together, enabling the model to leverage this spatial proximity to infer semantic associations.
+
+ By capturing and representing the underlying semantic relationships between words in a dense and continuous vector space, word embeddings have opened up new possibilities for machines to interpret and generate human language effectively. As research continues to advance, the field of embeddings continues to evolve, leading to even more sophisticated and contextually rich representations of language.
 
 \subsection{Attention}
 The attention mechanism allows the model to effectively capture relevancy between words in a sentence by calculation attention scores. The scores are calculated using the dot product between each word and the target word of interest. Softmax function is then used to transform the scores into `meaningful` weights that help the model emphasis important words while de-emphasising less significant ones. This mechanism gives the model the superpower of understanding the contextual nuances and relationships between words, which is the ideal goal for Natual Language processing tasks.
@@ -439,10 +478,58 @@ Attention weights are simply the softmax of the attention weights: $$\alpha_{ij}
 The final output of the attention mechanism is obtained by taking the weighted sum of the value vectors V.
 $$AttentionOutput(q_{i}) = \sum_{j}\alpha_{ij} V_{j} $$
 \subsubsection{Decoder}
-At the decoder level on the other hand, attention is used in two ways, a self-attention and an encoder-decider attention. The first one works by doing the exact same thing as the encoder, however it employs masking that prevents the decoder from accessing future positions. The Second allows the decoder to attend relevant parts of the input while generating the output. The encoder's output serve as as the key value vectors, and the query vectors are derived from the state of the decoder.
+The decoder is responsible for generating the output sequence step by step. It uses both self-attention mechanisms and an additional attention mechanism that allows it to focus on the relevant parts of the encoder's output. This attention mechanism is often referred to as the encoder-decoder attention.
 
+Let's assume that the encoder produces the final hidden states $H = \{h_1, h_2, ..., h_n\}$, where $n$ is the number of tokens in the input sequence. The decoder takes these hidden states as input and processes them step by step to generate the output sequence.
+
+At each decoding step $t$, the decoder receives the previously generated token and its corresponding embedding $y_{t-1}$ and also an attention context vector $c_t$, which is a weighted sum of the encoder's hidden states based on attention scores. The process of obtaining the context vector is similar to the one used in the encoder's self-attention mechanism.
+
+The decoder's self-attention is also calculated based on query (Q), key (K), and value (V) transformations, similar to the encoder. However, to prevent the decoder from attending to future tokens, a masking mechanism is applied to the attention scores.
+
+The decoder's self-attention scores are calculated as follows:
+\[
+Q_t = y_{t-1} \cdot W_{Q}'
+\]
+\[
+K_t = y_{t-1} \cdot W_{K}'
+\]
+\[
+V_t = y_{t-1} \cdot W_{V}'
+\]
+\[
+\text{Attention}_t(q_i, k_j) = \begin{cases} 
+      \frac{{Q_t \cdot K_j^T}}{{\sqrt{d}}} & \text{if token } j \leq t \\
+      -\infty & \text{otherwise}
+   \end{cases}
+\]
+
+Here, $d$ represents the dimension of the key vectors.
+
+The attention weights for the decoder's self-attention are computed as follows:
+\[
+\alpha_{ij} = \text{softmax}(\text{Attention}_t(q_i, k_j))
+\]
+
+The context vector $c_t$ is then calculated as the weighted sum of the encoder's hidden states using the attention weights:
+\[
+c_t = \sum_{j=1}^n \alpha_{ij} V_j
+\]
+
+After obtaining the context vector $c_t$, the decoder combines it with the input embedding $y_{t-1}$ and feeds it through a decoding transformer layer to produce the final hidden state for the current decoding step:
+\[
+h_t = \text{DecoderLayer}(y_{t-1} + c_t, h_{t-1})
+\]
+
+Finally, the output at each step is generated using a linear transformation and a softmax activation:
+\[
+\hat{y}_t = \text{softmax}(h_t \cdot W_o)
+\]
+
+Where $W_o$ is a learnable weight matrix, and $\hat{y}_t$ represents the probability distribution over the target vocabulary for the next token in the output sequence.
+
+The decoding process continues until an end-of-sequence token is generated or a predefined maximum length for the output sequence is reached. The trained model can be used for tasks such as machine translation, text summarization, and more, by feeding the input sequence to the encoder and iteratively decoding the output sequence using the decoder.
 \subsection{HuggingFace}
-Huggingface\cite{huggingface} is an opensource known for their contributions for the transformers library, one of the most used libraries for NLP and AI tasks in general. 
+Huggingface \cite{huggingface} is an opensource known for their contributions for the transformers library, one of the most used libraries for NLP and AI tasks in general. 
 Transfomers library provides a wide range of pre-trained models for multiple purposes such as text classification, NER, text generation, translation, etc... It is build on top of the PyTorch and TensorFlow frameworks.
 Huggingface has played an important role in democratising NLP and making it more accessible, they provide really powerful language models such as BERT, GPT and RoBERTa that can either be used directly, or for transfer learning. They also provide a large range of datasets that can be used for model fine-tuning for various specific tasks.
 
@@ -450,13 +537,13 @@ Huggingface has played an important role in democratising NLP and making it more
 \subsubsection{Generative Pretrained Transformers}
 GPT models are Language models that have been trained on huge amounts of data such as books, web data and human conversations for the purpose of developping a general understanding of the language. 
 \paragraph{GPT-1}
-It all started with GPT the first release by OpenAI\cite{openai} in 2018. It had 117 million parameters. It was mainly trained to be able to correctly predict the next word in a sentence. It suffered from the lack of understanding when given a longer context which resulted in incoherent outputs.
+It all started with GPT the first release by OpenAI \cite{openai} in 2018. It had 117 million parameters. It was mainly trained to be able to correctly predict the next word in a sentence. It suffered from the lack of understanding when given a longer context which resulted in incoherent outputs.
 \paragraph{GPT-2}
 In 2019, OpenAI released GPT-2 with 1.5 billion parameter, about 10 times larger than its predecessor. It outperformed the first gen model in the ability of generating coherent text. Due to concerns for misuse, the use of this model was initially very limited. Which will lead OpenAI to perform different types of trainings for their future models.
 \paragraph{GPT-3}
-In their paper ``Language Models are Few Shot learners''\cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
+In their paper ``Language Models are Few Shot learners'' \cite{brown2020language}, it was demonstrated how a large model like GPT 3 with a 175 billion can easily learn and adapt to new tasks only using few examples (few-shot learning). Obviously, it also demonstrated better language understanding and impresive performance on multiple NLP tasks such as summarization, question answering and translation
 \section{LangChain}\label{langchainSec}
-With large language models emerging as a revolutionary technology, Langchain\cite{langchain}, an opensource framework, allows developpers to build applications that were near impossible to make before. Some good examples of those applications are Document Question Answering, Chatbots, Agents.
+With large language models emerging as a revolutionary technology, Langchain \cite{langchain}, an opensource framework, allows developpers to build applications that were near impossible to make before. Some good examples of those applications are Document Question Answering, Chatbots, Agents.
 \section{Ensemble Learning}
 Ensemble learning is a Machine Learning technique that combines multiple base models in order to produce a more powerful model that can achieve higher accuracies. By combining the predictions of each base model, we can capture the diverse knowledge and expertise of these models which leads to an improved overall performance. In order to achieve the most optimal results, many aspects need to be considered:
 \subsection{Diversity of Base models}
@@ -476,6 +563,9 @@ A Known Gradient boosting machine learning model for his performance and versati
 \item The gradients and hessian values are used to determine the best splits when constructing the trees. Each branch is added based on the evalution of these splits.
 \item Regularization penalties are added in order to prevent overfitting and control the complexity of the model to keep it simple. Prunning is also added at the end to further improve the performance and generalization of the model.
 \item XGBoost uses early stopping by monitoring the performance of the model on the validation set and stops the learning process when the performance starts to degrade.
+
+\section{Summary}
+Chapter 2 of this report delves into the tools and methodologies employed in the projects discussed in Chapter 3. The projects involved the utilization of various AI technologies to enhance operations in the chemical regulations industry. These technologies encompassed a wide array of methods, including Transformers, word embeddings, attention mechanisms, and encoder-decoder architectures. Additionally, the use of well-known libraries and frameworks like Hugging Face, OpenAI's GPT, and Langchain played a significant role in the successful implementation of these projects. Furthermore, the adoption of ensemble learning and gradient boosting techniques for Challenge Test predictions showcased the versatility of AI methodologies in addressing different tasks. Chapter 3 will further elaborate on the practical applications of these methodologies in the specific projects carried out, illustrating their impact on optimizing cosmetic product formulations, improving Safety Data Sheets extraction, and enhancing customer support through the implementation of an AI-powered chatbot.
 \end{enumerate}
 \chapter{Projects}
 \thispagestyle{empty}
@@ -484,7 +574,7 @@ A Known Gradient boosting machine learning model for his performance and versati
 All creams, foundations, and shampoos that become tomorrow's BEST SELLER are the result of a long Research \& Development (R\&D) process. Before being launched into the market, they undergo microbiology tests, which can make or break their success. If they pass the microbiology tests, it will be a great achievement. If they fail, it will be a nightmare for the formulators who must adjust their formulations to turn their aspirations into reality.
 
 Help has arrived from Cosmetic Factory, a PLM cosmetic software that assists R\&D laboratories in speeding up the launch of new cosmetic products. In partnership with the Occitane Group, Ecomundo has developed an Artificial Intelligence (AI)-powered solution to anticipate the outcomes of the Challenge Test (CT). It serves as an intelligent formulation aid for cosmeticians, and was unveiled during the Cosmetic 360 Conference in October 2022. 
-What is a Challenge Test? The Challenge Test is a mandatory pre-market test required by regulations, based on the ISO 11930 method. It involves inoculating a particular concentration of bacteria, such as Escherichia coli, Candida albicans, Staphylococcus aureus, etc. As show in \ref{challengetest}, in order for a product to pass the test, a specific log reduction in the number of microorganisms recovered must be achieved at designated intervals, typically after 2, 7, 14, and 28 days.
+What is a Challenge Test? The Challenge Test is a mandatory pre-market test required by regulations, based on the ISO 11930 method. It involves inoculating a particular concentration of bacteria, such as Escherichia coli, Candida albicans, Staphylococcus aureus, etc. As show in figure \ref{challengetest}, in order for a product to pass the test, a specific log reduction in the number of microorganisms recovered must be achieved at designated intervals, typically after 2, 7, 14, and 28 days.
 \begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/CT}
 	\caption[Challenge Test]{Challenge Test}
@@ -494,7 +584,7 @@ What is a Challenge Test? The Challenge Test is a mandatory pre-market test requ
 If the specified criteria are not met, as was the case with PRODUCT 1, cosmeticians are required to reformulate and test again until they develop a product that passes the CT, like PRODUCT 2. As a result, one can imagine the laborious nature of the process, as well as the waste of time and resources involved. This is where artificial intelligence comes to the rescue, with its predictive capabilities.
 
 \subsection{How it is currently done}
-EcoMundo has developed a hybrid AI solution, which combines an expert system (ES) and machine learning (ML) that predicts the result of the CT as shown in \ref{cfinterface}, in other words the efficiency of the conservation system. 
+EcoMundo has developed a hybrid AI solution, which combines an expert system (ES) and machine learning (ML) that predicts the result of the CT as shown in figure \ref{cfinterface}, in other words the efficiency of the conservation system. 
 At the moment the solution has been implemented in Cosmetic Factory in the Formulas module, in the Prediction wizard (kyoto server).
 \begin{figure}[H]
 		\includegraphics[width=\textwidth]{images/kyoto}
@@ -502,10 +592,13 @@ At the moment the solution has been implemented in Cosmetic Factory in the Formu
 	\label{cfinterface}
 \end{figure}
 
-To develop the hybrid AI solution we started to study the criteria influencing the risk of microbial contamination. The pH, which measures the acid or basic character of a solution, the water activity that quantifies the free water available to assure growth of microorganisms. Moreover, some raw materials are known to create a hostile environment for the survival of microorganisms like alcohols, inorganic solvents, humectants, inorganic salts, acid and bases. The formulation processes may have an influence on the microbial protection like temperature, incorporation order of ingredients, time of homogenization. And eventually the physical state, if our cosmetic product is a solid, powder, foam etc..
+To develop this hybrid AI solution, Ecomundo started to study the criteria influencing the risk of microbial contamination. The pH, which measures the acid or basic character of a solution, the water activity that quantifies the free water available to assure growth of microorganisms. Moreover, some raw materials are known to create a hostile environment for the survival of microorganisms like alcohols, inorganic solvents, humectants, inorganic salts, acid and bases. The formulation processes may have an influence on the microbial protection like temperature, incorporation order of ingredients, time of homogenization. And eventually the physical state, if our cosmetic product is a solid, powder, foam etc..
+
 A hybrid system benefits from the reasoning and explanation of the ES, as well as the learning and generalization potential of ML algorithms, which determines an effective and efficient model. 
 This allows users (cosmeticians, formulators, etc..) to understand the prediction, along with the scientific and regulatory reasons behind it. Indeed, the system provides suggestions for improvement, making this solution a useful and reliable formulation support and optimization tool to achieve the success of the challenge test immediately. 
+
 How is the pipeline structured? The data are feeded to the ES which starts to assign success rate of the CT according to the rules codified in regulation, namely the ISO29621 and based on experimental results published in literature. These rules concern the empiric criteria influencing the risk of contamination based on certain values of pH, water activity, temperature etc. 
+
 Thereafter, the ES calls the ML to have its success rate. We trained different ML algorithms, but the one that gave the best results is the decision tree applied on the set of ingredients present in the formulas. The result coming from the ML is eventually weighted by the expert system together with the other results, to give finally to the user the success rate of the challenge test. Figure \ref{ctflow} visually explains this process.
 
 \begin{figure}
@@ -520,14 +613,14 @@ Thereafter, the ES calls the ML to have its success rate. We trained different M
 	\caption[Current Decision Tree for CT prediction]{Decision tree}
 \label{Decision tree}
 \end{figure}
-The ML algorithm chosen is the supervised binary classification, see the decision tree \ref{Decision tree} , trained on the ensemble of ingredients and their concentration. 3000 formulas furnished by the Group Occitane have been selected and have been divided into 2 sets: a training set which represents 75\% and the rest has been used as a testing set.
+The ML algorithm chosen is the supervised binary classification, see the decision tree in figure \ref{Decision tree} , trained on the ensemble of ingredients and their concentration. 3000 formulas furnished by the Group Occitane have been selected and have been divided into 2 sets: a training set which represents 75\% and the rest has been used as a testing set.
 The decision tree at the end gives as answer Yes/No, in other words it is able to say if each formula passes or fails the CT, with a precision of around 80\%.
 
 The learning database is composed of formulas, descriptors like pH, water activity and temperature, etc.., which somehow affect the CT results, and of course the CT results. Here, you can find the data conceptual model (DCM) to have a complete vision of the information necessary to train the models.
 \subsection{New solution}
 The new solution is based on ensemble learning. By utilizing multiple models instead of just the decision tree, we will be using XGBoost, Random Forest and a Neural Network (Not implemented yet). In the next subsection, I am presenting the datasets that have been used, the problems with it and how we managed to overcome them.
 \subsubsection{Datasets}
-These datasets have been provided by L'Occitane \ref{MCD Challenge Test}:
+These datasets have been provided by L'Occitane (see figure \ref{MCD Challenge Test}):
 \begin{itemize}
 \item \textbf{ECO\_liste des formules avec désignation:} contains list of codes of chemical formulas as well as the type, for example a cream, oil, scrub etc..
 \item \textbf{ECO\_formule avec element tech:} Contains the formula code and its corresponding challenge test result.
@@ -637,7 +730,7 @@ We notice as well the workload of refreshing and updating the database frequentl
 \subsubsection{Usage of Large Language Models}
 The usage of large language models was first proposed as it will allow us to read the pdf and understand it then extract data from it. This method as demonstrated first by using ChatGPT and giving him texts in different languages from an SDS and providing him the keys to extract. Two major problems have arised from the proposition of using this method:
 \paragraph{Security}
-Sending PDF files of clients to OpenAI servers in North America for processing is not a straightforward procedure. The Technical directors were worried about data privacy of the clients even if SDS are not considered confidential in most cases. But as we will be using GPT models using the OpenAI api, and as a company, I suggested we contact sales and request to not store our sent data after the processing is done. It is a right that anyone can ask for when purchasing the api key\cite{openaiUP}.
+Sending PDF files of clients to OpenAI servers in North America for processing is not a straightforward procedure. The Technical directors were worried about data privacy of the clients even if SDS are not considered confidential in most cases. But as we will be using GPT models using the OpenAI api, and as a company, I suggested we contact sales and request to not store our sent data after the processing is done. It is a right that anyone can ask for when purchasing the api key \cite{openaiUP}.
 \paragraph{Cost}
 At the time of the first meeting 13th March 2023, the pricing for gpt-3.5-turbo model was 0.002 USD/1000 Tokens. The commercial team were not convinced of how cheap it is until I presented a proof of concept later on.
 \subsubsection{Open-Source Large Language Models}
@@ -645,7 +738,7 @@ To tackle these two problems, I proposed to postpone the GPT api purchase while 
 \paragraph{BERT and its derivatives}
 The BERT model \cite{devlin2019bert} (Bidirectional Encoder Representations from Transformers) was introduced in 2018 by researchers at google. It achieved state-of-the-art performance on many NLP benchmarks. 
 
-In my proposition to use open source models, BERT models came in as top results. BERT model was optimized when RoBERTa\cite{liu2019roberta} (Robustly optimized BERT) was introduced in 2019 which was optimized even more with the introduction of DeBERTa \cite{he2021deberta} (Decoding-enhanced BERT with disentangled Attention).
+In my proposition to use open source models, BERT models came in as top results. BERT model was optimized when RoBERTa \cite{liu2019roberta} (Robustly optimized BERT) was introduced in 2019 which was optimized even more with the introduction of DeBERTa \cite{he2021deberta} (Decoding-enhanced BERT with disentangled Attention).
 
 I started initially by using these models for question answering. The PDF file would be converted into a raw text fille, then fed to the model as context. Then I gave it the keys that I wanted to extract. DeBERTa Model was the best obviously, but still lacked in many areas:
 \paragraph{Bad extraction}
@@ -655,13 +748,13 @@ Finetuning is always an option with these models, for the lack of time that I ha
 OpenAI has made the model gpt-3.5-turbo available from their api for as cheap as 0.0015 USD/1K tokens (June 2023). To demonstrate the power of the model and how cheap it can be, I did a demo doing extraction of all key value pairs of an SDS page by page. It costs around 0.01 Euros per pdf of 13 pages. This has captured the attention of Christian FRENEUIL, the Software and Cloud services Sales Director, and pushed this project. 
 
 \paragraph{First Version of the stable code: Non-Hybrid}
-This code works as follows \ref{Non-Hybrid}: 
+This code works as follows (see figure \ref{Non-Hybrid}): 
 \begin{enumerate}
 \item Extract all key value pairs from each page. Keep a record of what sections are in that exact page, and save the latest one. For example if a page has Section 1 and Section 2, we save them both in an array, then we save the fact that section 2 was the latest. 
 \item When we move to the next page, we check whether the page starts direclty with a section, then we assign the key values of that section to the corresponding key, if not we assume it's the Section 2 continued.
 \item Group by Sections then send it to another controller in the application that will then match the key value paris from each section into the keys that we have.
 \end{enumerate}
-\begin{figure}[H]
+\begin{figure}
 		\includegraphics[width=\textwidth, height=\textheight/2, keepaspectratio ]{images/Non-Hybrid}
 	\caption[How the Non-Hybrid code works]{Non-Hybrid}
 \label{Non-Hybrid}
@@ -669,32 +762,32 @@ This code works as follows \ref{Non-Hybrid}:
 
 
 \paragraph{Hybrid Version of the code}
-As it is obvious in \ref{Non-Hybrid}, we are using OpenAI's api twice. The first extraction is taking an overhead task of detecting sections, that in some cases fail. To overcome this problem, we thought about using the existing PDFReader controller that splits the SDS into sections, and then use them directly for extraction and matching \ref{Hybrid}. This will give us Two benefits:
+As it is obvious in figure \ref{Non-Hybrid}, we are using OpenAI's api twice. The first extraction is taking an overhead task of detecting sections, that in some cases fail. To overcome this problem, we thought about using the existing PDFReader controller that splits the SDS into sections, and then use them directly for extraction and matching (see figure \ref{Hybrid}). This will give us Two benefits:
 \begin{enumerate}
 \item \textbf{Parallel extraction:} We will be able to parallelize the extraction for each section, and the extraction by Ecomundo's template for each section. Which means the complexity of this extraction will be the complexity of the longest Section. 
 \item \textbf{Better Extraction:} Since we are focusing on only one task, the gpt model will work better with a one-goal instruction rather than multiple ones.
 \end{enumerate}
-\begin{figure}[H]
+\begin{figure}
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/hybrid}
 	\caption[How the Hybrid code works]{Hybrid}
 \label{Hybrid}
 \end{figure}
 
 \paragraph{Even More improvements}
-To tackle problems relating to either: Size of the context (in our case the raw pdf text) and/or the quality of section extraction, I proposed a further architecture improvement. \ref{Hybrid++}
+To tackle problems relating to either: Size of the context (in our case the raw pdf text) and/or the quality of section extraction, I proposed a further architecture improvement (see figure \ref{Hybrid++}).
 \begin{enumerate}
 \item The pdf is loaded into the SDSReader interface, we first extract the text, if the text is empty, this means it's not a digital PDF. We then use PyTesseract OCR to extract the text.
-\item Check for the quality of section extraction. If the length of the sections' list is not 16, we assume we did not correclty extract and we use the previous stable code. If it's till not 16 sections, we move to the langchain solution for the entire pdf proposed in \ref{chatbot}.
+\item Check for the quality of section extraction. If the length of the sections' list is not 16, we assume we did not correclty extract and we use the previous stable code. If it's till not 16 sections, we move to the langchain solution for the entire pdf proposed in section \ref{chatbot}.
 \item Assuming we had 16 sections, before the extraction, we need to check for the context limit of the prompt+the raw text. If we are in the context window of gpt-3.5-turbo, which is 4097 tokens, we are good. If not, we check if it's less than 16K tokens, then we use gpt-3.5-turbo-16k, which costs about 0.003 for input tokens and 0.004 for output tokens. If we are still outside this range, then we use LangChain solution but for only that exact section.
 \end{enumerate}
-\begin{figure}[H]
+\begin{figure}
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/bigCode}
 	\caption[Improvements on Hybrid code]{Hybrid++}
 \label{Hybrid++}
 \end{figure}
 \subsubsection{Deployment, CI pipeline}
 \paragraph{Continious Integration}
-As in the section on the CT prediction project, Ecomundo uses GitLab-CI, the YAML file is in \ref{appendix}. It consists of Three Stages:
+As in the section on the CT prediction project, Ecomundo uses GitLab-CI, the YAML file is in appendix \ref{appendix}. It consists of Three Stages:
 \begin{enumerate}
 \item \textbf{lint:} Linting is basically the automated checking of the source code for programmatic and stylistic erros. It starts by installing pyflakes since we are working with python, then runs it on the container.
 \item \textbf{test:} This part of the pipeline checks whether an api or any other secret key have been left out in the code when developping or testing. Then it runs the SemGrep-SAST which stands for Semantic grep(global regex print) static application security testing. It helps by analyzing the code, finding bugs and detecting security issues.
@@ -706,21 +799,21 @@ The deployment comes after the docker image push into the repository.We use HELM
 \subsection{Results and Comments}
 \subsubsection{Difference between old solution and new one:}
 
-\begin{figure}[H]
+\begin{figure}
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/oldSDSReader}
 	\caption[Old SDSReader]{Old SDSReader Output in the application}
 \label{oldSDSReader}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/newSDSReader}
 	\caption[Old SDSReader]{New SDSReader Output in JSON format}
 \label{newSDSReader}
 \end{figure}
 
-As we see in \ref{oldSDSReader}, the first column is where we should extract all the key value pairs from the pdf, the second one is the matching key value pairs. Chapter 2 is one of the most important sections in any sds since it contains all the precautionary and hazard statements. As we can see, the old code has failed to match any of them.
-Contrary while using the new code with GPT, \ref{newSDSReader} shows the JSON Output direclty from the console that sould be send to the backend and then display it on the front. The extraction was perfect and all the data are there. \ref{chaps1}, \ref{chaps2}, \ref{chaps3} are the page of the pdf from where we did the extraction.
-The execution time is also very fast when calling the api, as we can see in \ref{sdsTimeResponse} clocking at a less than 32 seconds time , thanks to the parallel requests for both raw extraction and matched extraction. This test has been done using Postman.
+As we see in figure \ref{oldSDSReader}, the first column is where we should extract all the key value pairs from the pdf, the second one is the matching key value pairs. Chapter 2 is one of the most important sections in any sds since it contains all the precautionary and hazard statements. As we can see, the old code has failed to match any of them.
+Contrary while using the new code with GPT, figure \ref{newSDSReader} shows the JSON Output direclty from the console that sould be send to the backend and then display it on the front. The extraction was perfect and all the data are there. In appendices \ref{chaps1}, \ref{chaps2}, \ref{chaps3} are the page of the pdf from where we did the extraction.
+The execution time is also very fast when calling the api, as we can see in figure \ref{sdsTimeResponse} clocking at a less than 32 seconds time , thanks to the parallel requests for both raw extraction and matched extraction. This test has been done using Postman.
 \begin{figure}[H]
 		\includegraphics[width=\textwidth, keepaspectratio ]{images/sdsTimeResponse}
 	\caption[Extraction Time for new SDSReader]{Extraction Time for new SDSReader}
@@ -737,7 +830,7 @@ With a chatbot powered by gpt-3.5-turbo (or whatever latest and high quality per
 The problem with using a gpt model directly, is that it has zero knowledge about our software (Obviously it was never intended to be used directly), has little to zero knowledge about the updated regulations since its training database dates to april 2021. 
 The first solution that comes to mind is to fine tune it with our database of questions already answered by the commercial team as well as the latest regulations and documentation about our software. But this will be a finnacial hit since the model fine-tuned costs 0.12 USD/1K tokens (6 times more expensive than normal DAVINCI model) + 0.0300 / 1K tokens for training it. We need another solution:
 \subsubsection{Langchain: Context Injection}
-Langchain as I briefly described in \ref{langchainSec} is an opensource framework that allows the users to create agents, chatbots and question documents using Large Language Models. It mainly works using a method called \textbf{Context Injection}. This method involves using vectorstores in order to calculate similarity searches between the embedding of the user's question and our context documents. If there is already a chat history with the chatbot, we will create a standalone question that reformulate the questions taking into consideration that history.
+Langchain as I briefly described in section \ref{langchainSec} is an opensource framework that allows the users to create agents, chatbots and question documents using Large Language Models. It mainly works using a method called \textbf{Context Injection}. This method involves using vectorstores in order to calculate similarity searches between the embedding of the user's question and our context documents. If there is already a chat history with the chatbot, we will create a standalone question that reformulate the questions taking into consideration that history.
 
 The context documents will be splitted into chunks, so the search will actually be between the query and the chunks. The figure \ref{chatbotArch} explains exaclty how this method works:
 \begin{figure}[H]
@@ -760,10 +853,13 @@ The context documents will be splitted into chunks, so the search will actually 
 \subsubsection{Future work}
 This project was only introduced as a concept, we managed to make a proof of concept when we used it in PDFReader in the case of a very long section or when a document that we was not splitted correctly into sections. We still need to test it again with its main purpose which is a chatbot, figure out how to integrate it into our softwares and obviously how impactful it will be for the clients.
 
+\chapter*{Conclusion}
+This internship report demonstrates the transformative impact of artificial intelligence (AI) on the chemical regulations industry through the execution of three distinct AI-powered projects. The projects include predicting Challenge Test outcomes in cosmetic products, reading Safety Data Sheets, and creating a chatbot using the Langchain framework. These AI applications have significantly improved product development processes, information extraction accuracy, and customer support, leading to better decision-making, resource optimization, and enhanced customer satisfaction. The report emphasizes the importance of responsible AI usage, including data privacy, transparency, and ongoing model monitoring, to ensure the integrity and reliability of AI-powered systems. The successful adoption of AI methodologies lays the groundwork for continued exploration of AI's role in shaping a more efficient, safer, and customer-centric chemical regulations industry in the future.
 
 \bibliographystyle{plain}
 \bibliography{biblio}
 \addcontentsline{toc}{chapter}{Bibliography}
+
 
 \appendix
 \appendixpage
@@ -792,13 +888,14 @@ This project was only introduced as a concept, we managed to make a proof of con
 
 \newpage
 
+\selectlanguage{french}
 \begin{abstract}
-This report presents the findings and outcomes of three projects that utilized artificial intelligence (AI) to enhance operations in the chemical regulations industry.
+Ce rapport présente les résultats et les retombées de trois projets qui ont utilisé l'intelligence artificielle (IA) pour améliorer les opérations dans l'industrie des réglementations chimiques.
 
-The first project aimed to develop an AI-powered solution for predicting the outcomes of Challenge Tests, which evaluate the effectiveness of cosmetic products in inhibiting the growth of microorganisms. By analyzing the formulation of cosmetic products using machine learning algorithms, the solution provided accurate predictions of Challenge Test outcomes. This optimization allowed formulators to improve their formulations and increase the likelihood of passing the tests, thereby reducing the time and resources needed for product development. This projects was conducted in collaboration with the L'Occitane Group and integrated into the Cosmetic Factory software, a Product Lifecycle Management (PLM) solution.
+Le premier projet visait à développer une solution alimentée par l'IA pour prédire les résultats des Challenge Tests, qui évaluent l'efficacité des produits cosmétiques pour inhiber la croissance des microorganismes. En analysant la formulation des produits cosmétiques à l'aide d'algorithmes d'apprentissage automatique, la solution fournissait des prédictions précises des résultats des tests. Cette optimisation a permis aux formulateurs d'améliorer leurs formulations et d'augmenter les chances de réussite des tests, réduisant ainsi le temps et les ressources nécessaires pour le développement de produits. Ce projet a été mené en collaboration avec le groupe L'Occitane et intégré dans le logiciel Cosmetic Factory, une solution de gestion du cycle de vie des produits (PLM).
 
-The second project focused on developing an AI solution for reading Safety Data Sheets (SDS). The existing solution used a static code to search for keywords in PDFs and match them with a database. However, this approach had limitations in handling different languages and variations in key-value pairs. The new solution proposed the use of large language models and context injection to improve extraction accuracy and efficiency. This enhanced the ability to extract key information from SDS, improving safety and compliance in the cosmetics industry.
+Le deuxième projet était axé sur le développement d'une solution d'IA pour la lecture des fiches de données de sécurité (FDS). La solution existante utilisait un code statique pour rechercher des mots clés dans des fichiers PDF et les faire correspondre avec une base de données. Cependant, cette approche présentait des limites pour traiter différentes langues et variations dans les paires clé-valeur. La nouvelle solution proposait l'utilisation de grands modèles de langage et l'injection de contexte pour améliorer la précision et l'efficacité de l'extraction. Cela a renforcé la capacité à extraire des informations clés des FDS, améliorant la sécurité et la conformité dans l'industrie des réglementations chimiques.
 
-The third project aimed to develop a chatbot powered by a large language model to provide support and answer frequently asked questions. However, the cost of fine-tuning the model with the company's database was prohibitive. As an alternative, the Langchain framework was proposed, which utilized context injection to provide relevant answers based on the user's question and available context documents. This chatbot solution improved customer support and efficiency in addressing client inquiries.
+Le troisième projet visait à développer un chatbot alimenté par un grand modèle de langage pour fournir un support et répondre aux questions fréquemment posées. Cependant, le coût de l'adaptation fine du modèle avec la base de données de l'entreprise était prohibitif. En guise d'alternative, le cadre Langchain a été proposé, utilisant l'injection de contexte pour fournir des réponses pertinentes en fonction de la question de l'utilisateur et des documents de contexte disponibles. Cette solution de chatbot a amélioré le support client et l'efficacité pour répondre aux demandes des clients.
 \end{abstract}
 \end{document}
